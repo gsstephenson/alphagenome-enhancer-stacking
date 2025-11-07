@@ -1,0 +1,14 @@
+Construct: NoEnhancer
+Cell type: K562 (EFO:0002067)
+Prediction timestamp: 2025-11-07T14:33:46.052633
+
+Prediction array shape: (1048576, 1)
+Flattened shape: (1048576,)
+Data type: float32
+
+Statistics:
+  Min:    0.000062
+  Max:    0.214844
+  Mean:   0.003859
+  Median: 0.002258
+  Std:    0.004970

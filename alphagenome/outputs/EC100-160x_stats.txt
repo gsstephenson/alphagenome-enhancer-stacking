@@ -1,0 +1,14 @@
+Construct: EC100-160x
+Cell type: K562 (EFO:0002067)
+Prediction timestamp: 2025-11-07T14:33:57.073335
+
+Prediction array shape: (1048576, 1)
+Flattened shape: (1048576,)
+Data type: float32
+
+Statistics:
+  Min:    0.000085
+  Max:    0.312500
+  Mean:   0.006238
+  Median: 0.003387
+  Std:    0.008765

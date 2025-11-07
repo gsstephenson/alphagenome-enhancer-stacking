@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE DASDNA SYSTEM "http://www.biodas.org/dtd/dasdna.dtd">
+<DASDNA>
+<SEQUENCE id="chr11" start="5290000" stop="5291000" version="1.00">
+<DNA length="1001">
+tataacctaggaattgattacttaagtgaaggcaaggtactttggtctgg
+acaggaacattttgaacaaggtagggagacagctatgaaggcaagcattt
+attctatctatcatctatctgtctatctatctatctattctttcatccac
+ttatttatacatttaaacaaaaagtatagagcgtagtataatttgtaagt
+gctcagggctgtgtgtgtatggattgtttgaaatgaaactaaagtgggag
+tataattctactgcccccttaaccctgtggtccctacactaccctgcaag
+actcttagctgcttagcttaattgtgaggctgatttggggcatagcaccc
+catcctctctgtctttcaacatcctcataataacttgagaataattttat
+aaaatatcacaatagggtcatgttcagtagggtgatatataaaattagac
+aagccatagtttgagtttacccttttgaataaatatatgacaaaaggcaa
+tttaattatctttatgagtttggaggtatccagtatgaaatttagataat
+acctgccttctagtgttgaaattagaacttaatgatataatgcatcaatg
+aacttattatagttcctagcacaaagtaagaatcctttcaatgtgtgtgt
+gtgtgtatgtatttatctgttattaataggaatcttatgggcattatctc
+acttaatccttattaataactatgaagcaggtatttatttgagttttcca
+agtgagttaagtatagcttgtaatacttaaggaaatatccacaggttaca
+tagctagtatataactgagaaataattttatttatattataaaacattct
+aacaatacagatgtatataaactaaaaaactgaaagggctcatgcaaccc
+taccttctcaatatcacttcttcacttagaaaaaaccagccttagctgtc
+tgctatgaatcctttcaaaatatacttctgagaaatgagagagagaaatg
+g
+</DNA>
+</SEQUENCE>
+</DASDNA>
