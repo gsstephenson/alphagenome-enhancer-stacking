@@ -113,7 +113,104 @@
 
 ---
 
-## 💡 Biological Interpretation
+## � Visualizations
+
+### Figure 1: Genome-Wide DNase Accessibility Tracks
+
+![Genome-Wide Tracks](analysis/results/genome_wide_tracks.png)
+
+**Full 1 MiB view of all 9 constructs.** This plot shows DNase predictions across the entire sequence length for each construct, revealing:
+
+- **Filler baseline** (FillerOnly, NoEnhancer): Low uniform signal (~0.001) across the entire sequence
+- **Enhancer peaks**: Sharp, localized accessibility peaks at enhancer positions
+- **Position-dependent signal**: E100 shows stronger, more defined peaks than E0
+- **Dose-response scaling**: Peak intensity increases with copy number (1× → 10×)
+- **Saturation plateau**: 160× and 320× show similar peak heights despite 2× difference in copy number
+- **Promoter region**: No visible activation at ~500 kb position across any construct
+
+**Key Insight:** The genome-wide view demonstrates that enhancer effects are highly localized, with no detectable long-range chromatin remodeling extending to the promoter 100 kb away.
+
+---
+
+### Figure 2: Enhancer Region Zoom (350–550 kb)
+
+![Enhancer Region Zoom](analysis/results/enhancer_region_zoom.png)
+
+**Focused view on the enhancer and promoter regions.** This zoom reveals fine-scale structure:
+
+- **Peak architecture**: Individual enhancer peaks are ~1 kb wide (matching HS2 size)
+- **Stacking pattern**: Multiple copies create compound peaks with defined substructure
+- **E0 vs E100 comparison**: 
+  - E0: Single broad peak immediately upstream of promoter
+  - E100: Sharper, higher peak with better spatial separation
+- **Promoter signal**: Remains flat across all constructs (no trans-activation)
+- **Peak broadening**: At extreme copy numbers (160×, 320×), individual peaks merge into a plateau
+
+**Key Insight:** Spatial organization matters—100 kb separation creates better-defined chromatin domains than immediate adjacency, but doesn't enable long-range promoter activation.
+
+---
+
+### Figure 3: Dose-Response Curves
+
+![Dose-Response Curves](analysis/results/dose_response_curves.png)
+
+**Quantitative analysis of enhancer copy number effects.** This multi-panel plot shows:
+
+**Panel A - Max DNase Signal:**
+- Linear increase from 1× to 10× (R² > 0.98)
+- Plateau at 160–320× (~0.333–0.336)
+- Biological ceiling or model saturation
+
+**Panel B - Mean DNase Signal:**
+- Proportional scaling with copy number
+- Less saturation than max signal
+- Reflects cumulative accessibility across all enhancers
+
+**Panel C - Area Under Curve (AUC):**
+- Linear through 10× (2.5× increase)
+- Continued growth at 160–320× but diminishing returns
+- Total chromatin accessibility scales with enhancer mass
+
+**Key Insight:** The model exhibits biphasic behavior—linear additivity at physiological doses (1–10×) followed by saturation at extreme doses (160–320×), consistent with either biological capacity limits or model compression.
+
+---
+
+### Figure 4: Bar Chart Comparison
+
+![Bar Chart Comparison](analysis/results/bar_chart_comparison.png)
+
+**Side-by-side comparison of all metrics across constructs.** Grouped bars show:
+
+- **Controls** (FillerOnly, NoEnhancer): Uniformly low across all metrics
+- **Position effect** (E0 vs E100): E100 shows 36% lower max but is more effective overall
+- **Linear regime** (E100, 2×, 5×, 10×): Consistent proportional increases
+- **Saturation regime** (10×, 160×, 320×): Max signal plateaus while AUC continues to grow slowly
+
+**Key Insight:** The bar chart format makes the saturation dynamics immediately visible—max signal hits a ceiling while integrated signal continues to accumulate, suggesting chromatin remodeling spreads spatially rather than intensifying locally.
+
+---
+
+### Figure 5: Saturation Analysis
+
+![Saturation Analysis](analysis/results/saturation_analysis.png)
+
+**Detailed comparison of 10×, 160×, and 320× constructs.** This plot isolates the extreme stacking regime:
+
+**Observations:**
+- **10× → 160×**: +17% max signal, +18% AUC (16× increase in enhancer copies)
+- **160× → 320×**: +1% max signal, +1% AUC (2× increase in enhancer copies)
+- **Efficiency drop**: Returns diminish exponentially beyond 10 copies
+
+**Mechanistic Hypotheses:**
+1. **Biological interpretation**: Transcription factor availability limits, chromatin remodeling capacity exhausted
+2. **Computational interpretation**: Model normalization, attention mechanism saturation, softmax compression
+3. **Hybrid**: Real biology reflected accurately by model until both hit physical/computational limits
+
+**Key Insight:** The sharp diminishing returns suggest AlphaGenome has learned biologically plausible saturation behavior, though experimental validation is needed to distinguish biological limits from model artifacts.
+
+---
+
+## �💡 Biological Interpretation
 
 ### What This Tells Us About AlphaGenome
 
