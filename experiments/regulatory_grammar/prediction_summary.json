@@ -1,0 +1,912 @@
+[
+  {
+    "construct": "CellType_HBG1_GATA1_K562",
+    "cell_type": "K562",
+    "experiment": "cell_type_specificity",
+    "stats": {
+      "max": 1.6171875,
+      "mean": 0.004894400015473366,
+      "std": 0.008870870806276798,
+      "median": 0.002716064453125,
+      "global_max": 1.6171875,
+      "global_mean": 0.004894400015473366
+    },
+    "timestamp": "2025-11-11T11:48:14.767314"
+  },
+  {
+    "construct": "CellType_HBG1_KLF1_K562",
+    "cell_type": "K562",
+    "experiment": "cell_type_specificity",
+    "stats": {
+      "max": 4.75,
+      "mean": 0.0042417412623763084,
+      "std": 0.010683388449251652,
+      "median": 0.002410888671875,
+      "global_max": 4.75,
+      "global_mean": 0.0042417412623763084
+    },
+    "timestamp": "2025-11-11T11:48:17.372529"
+  },
+  {
+    "construct": "CellType_HBG1_TAL1_K562",
+    "cell_type": "K562",
+    "experiment": "cell_type_specificity",
+    "stats": {
+      "max": 0.96875,
+      "mean": 0.004357509780675173,
+      "std": 0.007273715455085039,
+      "median": 0.0024871826171875,
+      "global_max": 0.96875,
+      "global_mean": 0.004357509780675173
+    },
+    "timestamp": "2025-11-11T11:48:19.933908"
+  },
+  {
+    "construct": "CellType_HBG1_HNF4A_K562",
+    "cell_type": "K562",
+    "experiment": "cell_type_specificity",
+    "stats": {
+      "max": 0.625,
+      "mean": 0.004316479898989201,
+      "std": 0.005896215792745352,
+      "median": 0.0024871826171875,
+      "global_max": 0.625,
+      "global_mean": 0.004316479898989201
+    },
+    "timestamp": "2025-11-11T11:48:22.577149"
+  },
+  {
+    "construct": "CellType_HBG1_HS2_HepG2",
+    "cell_type": "HepG2",
+    "experiment": "cell_type_specificity",
+    "stats": {
+      "max": 0.232421875,
+      "mean": 0.010987549088895321,
+      "std": 0.009426552802324295,
+      "median": 0.008056640625,
+      "global_max": 0.232421875,
+      "global_mean": 0.010987549088895321
+    },
+    "timestamp": "2025-11-11T11:48:25.234332"
+  },
+  {
+    "construct": "CellType_HBG1_HNF4A_HepG2",
+    "cell_type": "HepG2",
+    "experiment": "cell_type_specificity",
+    "stats": {
+      "max": 0.333984375,
+      "mean": 0.01133396290242672,
+      "std": 0.009776090271770954,
+      "median": 0.00830078125,
+      "global_max": 0.333984375,
+      "global_mean": 0.01133396290242672
+    },
+    "timestamp": "2025-11-11T11:48:27.845826"
+  },
+  {
+    "construct": "CellType_HBG1_HS2_GM12878",
+    "cell_type": "GM12878",
+    "experiment": "cell_type_specificity",
+    "stats": {
+      "max": 0.1943359375,
+      "mean": 0.0048387134447693825,
+      "std": 0.005890922620892525,
+      "median": 0.0028533935546875,
+      "global_max": 0.1943359375,
+      "global_mean": 0.0048387134447693825
+    },
+    "timestamp": "2025-11-11T11:48:30.473574"
+  },
+  {
+    "construct": "CellType_HBG1_HNF4A_GM12878",
+    "cell_type": "GM12878",
+    "experiment": "cell_type_specificity",
+    "stats": {
+      "max": 0.251953125,
+      "mean": 0.0048297615721821785,
+      "std": 0.005925707519054413,
+      "median": 0.0028533935546875,
+      "global_max": 0.251953125,
+      "global_mean": 0.0048297615721821785
+    },
+    "timestamp": "2025-11-11T11:48:33.124499"
+  },
+  {
+    "construct": "CellType_ALB_HNF4A_HepG2",
+    "cell_type": "HepG2",
+    "experiment": "cell_type_specificity",
+    "stats": {
+      "max": 0.333984375,
+      "mean": 0.011333576403558254,
+      "std": 0.009780442342162132,
+      "median": 0.00830078125,
+      "global_max": 0.333984375,
+      "global_mean": 0.011333576403558254
+    },
+    "timestamp": "2025-11-11T11:48:35.729843"
+  },
+  {
+    "construct": "CellType_ALB_HS2_HepG2",
+    "cell_type": "HepG2",
+    "experiment": "cell_type_specificity",
+    "stats": {
+      "max": 0.232421875,
+      "mean": 0.01103239692747593,
+      "std": 0.009465595707297325,
+      "median": 0.00830078125,
+      "global_max": 0.232421875,
+      "global_mean": 0.01103239692747593
+    },
+    "timestamp": "2025-11-11T11:48:38.357775"
+  },
+  {
+    "construct": "CellType_ALB_GATA1_HepG2",
+    "cell_type": "HepG2",
+    "experiment": "cell_type_specificity",
+    "stats": {
+      "max": 0.376953125,
+      "mean": 0.011007331311702728,
+      "std": 0.00955503061413765,
+      "median": 0.008056640625,
+      "global_max": 0.376953125,
+      "global_mean": 0.011007331311702728
+    },
+    "timestamp": "2025-11-11T11:48:41.028305"
+  },
+  {
+    "construct": "CellType_ALB_HNF4A_K562",
+    "cell_type": "K562",
+    "experiment": "cell_type_specificity",
+    "stats": {
+      "max": 0.6171875,
+      "mean": 0.004288902040570974,
+      "std": 0.005861903075128794,
+      "median": 0.0024871826171875,
+      "global_max": 0.6171875,
+      "global_mean": 0.004288902040570974
+    },
+    "timestamp": "2025-11-11T11:48:43.650129"
+  },
+  {
+    "construct": "CellType_ALB_HS2_K562",
+    "cell_type": "K562",
+    "experiment": "cell_type_specificity",
+    "stats": {
+      "max": 0.2734375,
+      "mean": 0.003895204048603773,
+      "std": 0.005030685104429722,
+      "median": 0.00225830078125,
+      "global_max": 0.2734375,
+      "global_mean": 0.003895204048603773
+    },
+    "timestamp": "2025-11-11T11:48:46.301408"
+  },
+  {
+    "construct": "CellType_ALB_HNF4A_GM12878",
+    "cell_type": "GM12878",
+    "experiment": "cell_type_specificity",
+    "stats": {
+      "max": 0.251953125,
+      "mean": 0.004858461674302816,
+      "std": 0.005971110891550779,
+      "median": 0.0028533935546875,
+      "global_max": 0.251953125,
+      "global_mean": 0.004858461674302816
+    },
+    "timestamp": "2025-11-11T11:48:48.934634"
+  },
+  {
+    "construct": "CellType_ALB_HS2_GM12878",
+    "cell_type": "GM12878",
+    "experiment": "cell_type_specificity",
+    "stats": {
+      "max": 0.1923828125,
+      "mean": 0.00487092137336731,
+      "std": 0.0059365504421293736,
+      "median": 0.0028533935546875,
+      "global_max": 0.1923828125,
+      "global_mean": 0.00487092137336731
+    },
+    "timestamp": "2025-11-11T11:48:51.553467"
+  },
+  {
+    "construct": "CellType_CD19_HS2_GM12878",
+    "cell_type": "GM12878",
+    "experiment": "cell_type_specificity",
+    "stats": {
+      "max": 0.1923828125,
+      "mean": 0.00487092137336731,
+      "std": 0.0059365504421293736,
+      "median": 0.0028533935546875,
+      "global_max": 0.1923828125,
+      "global_mean": 0.00487092137336731
+    },
+    "timestamp": "2025-11-11T11:48:54.156920"
+  },
+  {
+    "construct": "CellType_CD19_HNF4A_GM12878",
+    "cell_type": "GM12878",
+    "experiment": "cell_type_specificity",
+    "stats": {
+      "max": 0.251953125,
+      "mean": 0.004858461674302816,
+      "std": 0.005971110891550779,
+      "median": 0.0028533935546875,
+      "global_max": 0.251953125,
+      "global_mean": 0.004858461674302816
+    },
+    "timestamp": "2025-11-11T11:48:56.795343"
+  },
+  {
+    "construct": "CellType_CD19_GATA1_GM12878",
+    "cell_type": "GM12878",
+    "experiment": "cell_type_specificity",
+    "stats": {
+      "max": 0.201171875,
+      "mean": 0.004913240671157837,
+      "std": 0.006063577253371477,
+      "median": 0.0028533935546875,
+      "global_max": 0.201171875,
+      "global_mean": 0.004913240671157837
+    },
+    "timestamp": "2025-11-11T11:48:59.342666"
+  },
+  {
+    "construct": "CellType_CD19_HS2_K562",
+    "cell_type": "K562",
+    "experiment": "cell_type_specificity",
+    "stats": {
+      "max": 0.2734375,
+      "mean": 0.003895204048603773,
+      "std": 0.005030685104429722,
+      "median": 0.00225830078125,
+      "global_max": 0.2734375,
+      "global_mean": 0.003895204048603773
+    },
+    "timestamp": "2025-11-11T11:49:01.984637"
+  },
+  {
+    "construct": "CellType_CD19_HNF4A_K562",
+    "cell_type": "K562",
+    "experiment": "cell_type_specificity",
+    "stats": {
+      "max": 0.6171875,
+      "mean": 0.004288902040570974,
+      "std": 0.005861903075128794,
+      "median": 0.0024871826171875,
+      "global_max": 0.6171875,
+      "global_mean": 0.004288902040570974
+    },
+    "timestamp": "2025-11-11T11:49:04.660079"
+  },
+  {
+    "construct": "CellType_CD19_HS2_HepG2",
+    "cell_type": "HepG2",
+    "experiment": "cell_type_specificity",
+    "stats": {
+      "max": 0.232421875,
+      "mean": 0.01103239692747593,
+      "std": 0.009465595707297325,
+      "median": 0.00830078125,
+      "global_max": 0.232421875,
+      "global_mean": 0.01103239692747593
+    },
+    "timestamp": "2025-11-11T11:49:07.283383"
+  },
+  {
+    "construct": "CellType_CD19_HNF4A_HepG2",
+    "cell_type": "HepG2",
+    "experiment": "cell_type_specificity",
+    "stats": {
+      "max": 0.333984375,
+      "mean": 0.011333576403558254,
+      "std": 0.009780442342162132,
+      "median": 0.00830078125,
+      "global_max": 0.333984375,
+      "global_mean": 0.011333576403558254
+    },
+    "timestamp": "2025-11-11T11:49:09.830571"
+  },
+  {
+    "construct": "Single_HS2",
+    "cell_type": "K562",
+    "experiment": "pairwise_cooperativity",
+    "stats": {
+      "max": 0.28125,
+      "mean": 0.003915200009942055,
+      "std": 0.005053788423538208,
+      "median": 0.00225830078125,
+      "global_max": 0.28125,
+      "global_mean": 0.003915200009942055
+    },
+    "timestamp": "2025-11-11T11:49:12.508737"
+  },
+  {
+    "construct": "Single_GATA1",
+    "cell_type": "K562",
+    "experiment": "pairwise_cooperativity",
+    "stats": {
+      "max": 1.6171875,
+      "mean": 0.004893715959042311,
+      "std": 0.008869608864188194,
+      "median": 0.002716064453125,
+      "global_max": 1.6171875,
+      "global_mean": 0.004893715959042311
+    },
+    "timestamp": "2025-11-11T11:49:15.086934"
+  },
+  {
+    "construct": "Single_KLF1",
+    "cell_type": "K562",
+    "experiment": "pairwise_cooperativity",
+    "stats": {
+      "max": 4.78125,
+      "mean": 0.004238212015479803,
+      "std": 0.010696991346776485,
+      "median": 0.002410888671875,
+      "global_max": 4.78125,
+      "global_mean": 0.004238212015479803
+    },
+    "timestamp": "2025-11-11T11:49:17.675132"
+  },
+  {
+    "construct": "Single_TAL1",
+    "cell_type": "K562",
+    "experiment": "pairwise_cooperativity",
+    "stats": {
+      "max": 0.97265625,
+      "mean": 0.0043571386486291885,
+      "std": 0.00726480083540082,
+      "median": 0.0024871826171875,
+      "global_max": 0.97265625,
+      "global_mean": 0.0043571386486291885
+    },
+    "timestamp": "2025-11-11T11:49:20.342264"
+  },
+  {
+    "construct": "Single_HNF4A",
+    "cell_type": "K562",
+    "experiment": "pairwise_cooperativity",
+    "stats": {
+      "max": 0.625,
+      "mean": 0.004319962114095688,
+      "std": 0.0058995564468204975,
+      "median": 0.0024871826171875,
+      "global_max": 0.625,
+      "global_mean": 0.004319962114095688
+    },
+    "timestamp": "2025-11-11T11:49:22.924832"
+  },
+  {
+    "construct": "Pair_HS2_GATA1",
+    "cell_type": "K562",
+    "experiment": "pairwise_cooperativity",
+    "stats": {
+      "max": 1.6875,
+      "mean": 0.004997921176254749,
+      "std": 0.008997107855975628,
+      "median": 0.0028076171875,
+      "global_max": 1.6875,
+      "global_mean": 0.004997921176254749
+    },
+    "timestamp": "2025-11-11T11:49:25.592383"
+  },
+  {
+    "construct": "Pair_HS2_KLF1",
+    "cell_type": "K562",
+    "experiment": "pairwise_cooperativity",
+    "stats": {
+      "max": 5.6875,
+      "mean": 0.004260743968188763,
+      "std": 0.01304018497467041,
+      "median": 0.002410888671875,
+      "global_max": 5.6875,
+      "global_mean": 0.004260743968188763
+    },
+    "timestamp": "2025-11-11T11:49:28.181334"
+  },
+  {
+    "construct": "Pair_HS2_TAL1",
+    "cell_type": "K562",
+    "experiment": "pairwise_cooperativity",
+    "stats": {
+      "max": 1.203125,
+      "mean": 0.0043895049020648,
+      "std": 0.007698495872318745,
+      "median": 0.0024871826171875,
+      "global_max": 1.203125,
+      "global_mean": 0.0043895049020648
+    },
+    "timestamp": "2025-11-11T11:49:30.811610"
+  },
+  {
+    "construct": "Pair_GATA1_KLF1",
+    "cell_type": "K562",
+    "experiment": "pairwise_cooperativity",
+    "stats": {
+      "max": 8.0625,
+      "mean": 0.005081336013972759,
+      "std": 0.021955663338303566,
+      "median": 0.002716064453125,
+      "global_max": 8.0625,
+      "global_mean": 0.005081336013972759
+    },
+    "timestamp": "2025-11-11T11:49:33.460692"
+  },
+  {
+    "construct": "Pair_GATA1_TAL1",
+    "cell_type": "K562",
+    "experiment": "pairwise_cooperativity",
+    "stats": {
+      "max": 1.875,
+      "mean": 0.005104260053485632,
+      "std": 0.012541871517896652,
+      "median": 0.002716064453125,
+      "global_max": 1.875,
+      "global_mean": 0.005104260053485632
+    },
+    "timestamp": "2025-11-11T11:49:35.974122"
+  },
+  {
+    "construct": "Pair_KLF1_TAL1",
+    "cell_type": "K562",
+    "experiment": "pairwise_cooperativity",
+    "stats": {
+      "max": 5.5,
+      "mean": 0.0045976052060723305,
+      "std": 0.013840335421264172,
+      "median": 0.0024871826171875,
+      "global_max": 5.5,
+      "global_mean": 0.0045976052060723305
+    },
+    "timestamp": "2025-11-11T11:49:38.559724"
+  },
+  {
+    "construct": "Pair_HS2_HNF4A",
+    "cell_type": "K562",
+    "experiment": "pairwise_cooperativity",
+    "stats": {
+      "max": 0.6484375,
+      "mean": 0.004362510517239571,
+      "std": 0.0060534607619047165,
+      "median": 0.0024871826171875,
+      "global_max": 0.6484375,
+      "global_mean": 0.004362510517239571
+    },
+    "timestamp": "2025-11-11T11:49:41.146141"
+  },
+  {
+    "construct": "Pair_GATA1_HNF4A",
+    "cell_type": "K562",
+    "experiment": "pairwise_cooperativity",
+    "stats": {
+      "max": 1.703125,
+      "mean": 0.005096799694001675,
+      "std": 0.009799345396459103,
+      "median": 0.0028076171875,
+      "global_max": 1.703125,
+      "global_mean": 0.005096799694001675
+    },
+    "timestamp": "2025-11-11T11:49:43.798169"
+  },
+  {
+    "construct": "Pair_KLF1_HNF4A",
+    "cell_type": "K562",
+    "experiment": "pairwise_cooperativity",
+    "stats": {
+      "max": 5.1875,
+      "mean": 0.004522710107266903,
+      "std": 0.011965833604335785,
+      "median": 0.0025634765625,
+      "global_max": 5.1875,
+      "global_mean": 0.004522710107266903
+    },
+    "timestamp": "2025-11-11T11:49:46.393075"
+  },
+  {
+    "construct": "Pair_TAL1_HNF4A",
+    "cell_type": "K562",
+    "experiment": "pairwise_cooperativity",
+    "stats": {
+      "max": 1.046875,
+      "mean": 0.004600279964506626,
+      "std": 0.008113338612020016,
+      "median": 0.0025634765625,
+      "global_max": 1.046875,
+      "global_mean": 0.004600279964506626
+    },
+    "timestamp": "2025-11-11T11:49:49.013669"
+  },
+  {
+    "construct": "CTCF_Sep_HS2_GATA1",
+    "cell_type": "K562",
+    "experiment": "ctcf_separation",
+    "stats": {
+      "max": 6.09375,
+      "mean": 0.00627798680216074,
+      "std": 0.03914449363946915,
+      "median": 0.0029754638671875,
+      "global_max": 6.09375,
+      "global_mean": 0.00627798680216074
+    },
+    "timestamp": "2025-11-11T11:49:51.662384"
+  },
+  {
+    "construct": "CTCF_Sep_HS2_HNF4A",
+    "cell_type": "K562",
+    "experiment": "ctcf_separation",
+    "stats": {
+      "max": 5.03125,
+      "mean": 0.005393275059759617,
+      "std": 0.029627829790115356,
+      "median": 0.002716064453125,
+      "global_max": 5.03125,
+      "global_mean": 0.005393275059759617
+    },
+    "timestamp": "2025-11-11T11:49:54.275228"
+  },
+  {
+    "construct": "Spacing_0bp_HS2_GATA1",
+    "cell_type": "K562",
+    "experiment": "short_range_spacing",
+    "stats": {
+      "max": 1.78125,
+      "mean": 0.0050554159097373486,
+      "std": 0.009094644337892532,
+      "median": 0.0028076171875,
+      "global_max": 1.78125,
+      "global_mean": 0.0050554159097373486
+    },
+    "timestamp": "2025-11-11T11:49:56.858351"
+  },
+  {
+    "construct": "Spacing_100bp_HS2_GATA1",
+    "cell_type": "K562",
+    "experiment": "short_range_spacing",
+    "stats": {
+      "max": 1.734375,
+      "mean": 0.005001328885555267,
+      "std": 0.008550718426704407,
+      "median": 0.0028076171875,
+      "global_max": 1.734375,
+      "global_mean": 0.005001328885555267
+    },
+    "timestamp": "2025-11-11T11:49:59.488639"
+  },
+  {
+    "construct": "Spacing_250bp_HS2_GATA1",
+    "cell_type": "K562",
+    "experiment": "short_range_spacing",
+    "stats": {
+      "max": 1.4140625,
+      "mean": 0.004940694198012352,
+      "std": 0.008330989629030228,
+      "median": 0.0028076171875,
+      "global_max": 1.4140625,
+      "global_mean": 0.004940694198012352
+    },
+    "timestamp": "2025-11-11T11:50:02.042325"
+  },
+  {
+    "construct": "Spacing_500bp_HS2_GATA1",
+    "cell_type": "K562",
+    "experiment": "short_range_spacing",
+    "stats": {
+      "max": 1.6640625,
+      "mean": 0.0049503459595143795,
+      "std": 0.00852095615118742,
+      "median": 0.0028076171875,
+      "global_max": 1.6640625,
+      "global_mean": 0.0049503459595143795
+    },
+    "timestamp": "2025-11-11T11:50:04.673534"
+  },
+  {
+    "construct": "Spacing_750bp_HS2_GATA1",
+    "cell_type": "K562",
+    "experiment": "short_range_spacing",
+    "stats": {
+      "max": 1.796875,
+      "mean": 0.004989157896488905,
+      "std": 0.009035736322402954,
+      "median": 0.0028076171875,
+      "global_max": 1.796875,
+      "global_mean": 0.004989157896488905
+    },
+    "timestamp": "2025-11-11T11:50:07.231085"
+  },
+  {
+    "construct": "Spacing_1000bp_HS2_GATA1",
+    "cell_type": "K562",
+    "experiment": "short_range_spacing",
+    "stats": {
+      "max": 1.8046875,
+      "mean": 0.004976023454219103,
+      "std": 0.008991580456495285,
+      "median": 0.0028076171875,
+      "global_max": 1.8046875,
+      "global_mean": 0.004976023454219103
+    },
+    "timestamp": "2025-11-11T11:50:09.657999"
+  },
+  {
+    "construct": "Spacing_2000bp_HS2_GATA1",
+    "cell_type": "K562",
+    "experiment": "short_range_spacing",
+    "stats": {
+      "max": 1.625,
+      "mean": 0.005037246271967888,
+      "std": 0.008994188159704208,
+      "median": 0.0028076171875,
+      "global_max": 1.625,
+      "global_mean": 0.005037246271967888
+    },
+    "timestamp": "2025-11-11T11:50:12.208376"
+  },
+  {
+    "construct": "Spacing_3000bp_HS2_GATA1",
+    "cell_type": "K562",
+    "experiment": "short_range_spacing",
+    "stats": {
+      "max": 1.546875,
+      "mean": 0.004924488719552755,
+      "std": 0.008702956140041351,
+      "median": 0.002716064453125,
+      "global_max": 1.546875,
+      "global_mean": 0.004924488719552755
+    },
+    "timestamp": "2025-11-11T11:50:14.759814"
+  },
+  {
+    "construct": "Spacing_5000bp_HS2_GATA1",
+    "cell_type": "K562",
+    "experiment": "short_range_spacing",
+    "stats": {
+      "max": 1.6875,
+      "mean": 0.004997921176254749,
+      "std": 0.008997107855975628,
+      "median": 0.0028076171875,
+      "global_max": 1.6875,
+      "global_mean": 0.004997921176254749
+    },
+    "timestamp": "2025-11-11T11:50:17.273005"
+  },
+  {
+    "construct": "Spacing_10000bp_HS2_GATA1",
+    "cell_type": "K562",
+    "experiment": "short_range_spacing",
+    "stats": {
+      "max": 1.3671875,
+      "mean": 0.004948470741510391,
+      "std": 0.00837431475520134,
+      "median": 0.0028076171875,
+      "global_max": 1.3671875,
+      "global_mean": 0.004948470741510391
+    },
+    "timestamp": "2025-11-11T11:50:19.817819"
+  },
+  {
+    "construct": "Orient_HS2+_GATA1+",
+    "cell_type": "K562",
+    "experiment": "orientation_effects",
+    "stats": {
+      "max": 1.6875,
+      "mean": 0.004997921176254749,
+      "std": 0.008997107855975628,
+      "median": 0.0028076171875,
+      "global_max": 1.6875,
+      "global_mean": 0.004997921176254749
+    },
+    "timestamp": "2025-11-11T11:50:22.369633"
+  },
+  {
+    "construct": "Orient_HS2+_GATA1-",
+    "cell_type": "K562",
+    "experiment": "orientation_effects",
+    "stats": {
+      "max": 1.953125,
+      "mean": 0.004971934948116541,
+      "std": 0.009411392733454704,
+      "median": 0.0028076171875,
+      "global_max": 1.953125,
+      "global_mean": 0.004971934948116541
+    },
+    "timestamp": "2025-11-11T11:50:24.896506"
+  },
+  {
+    "construct": "Orient_HS2-_GATA1+",
+    "cell_type": "K562",
+    "experiment": "orientation_effects",
+    "stats": {
+      "max": 1.71875,
+      "mean": 0.004994560033082962,
+      "std": 0.00902943778783083,
+      "median": 0.0028076171875,
+      "global_max": 1.71875,
+      "global_mean": 0.004994560033082962
+    },
+    "timestamp": "2025-11-11T11:50:27.421158"
+  },
+  {
+    "construct": "Orient_HS2-_GATA1-",
+    "cell_type": "K562",
+    "experiment": "orientation_effects",
+    "stats": {
+      "max": 1.96875,
+      "mean": 0.004969567991793156,
+      "std": 0.009444564580917358,
+      "median": 0.0028076171875,
+      "global_max": 1.96875,
+      "global_mean": 0.004969567991793156
+    },
+    "timestamp": "2025-11-11T11:50:29.932474"
+  },
+  {
+    "construct": "Orient_HS2+_HNF4A+",
+    "cell_type": "K562",
+    "experiment": "orientation_effects",
+    "stats": {
+      "max": 0.6484375,
+      "mean": 0.004362510517239571,
+      "std": 0.0060534607619047165,
+      "median": 0.0024871826171875,
+      "global_max": 0.6484375,
+      "global_mean": 0.004362510517239571
+    },
+    "timestamp": "2025-11-11T11:50:32.436232"
+  },
+  {
+    "construct": "Orient_HS2+_HNF4A-",
+    "cell_type": "K562",
+    "experiment": "orientation_effects",
+    "stats": {
+      "max": 0.64453125,
+      "mean": 0.004389465786516666,
+      "std": 0.006080398801714182,
+      "median": 0.0025634765625,
+      "global_max": 0.64453125,
+      "global_mean": 0.004389465786516666
+    },
+    "timestamp": "2025-11-11T11:50:34.971812"
+  },
+  {
+    "construct": "Orient_HS2-_HNF4A+",
+    "cell_type": "K562",
+    "experiment": "orientation_effects",
+    "stats": {
+      "max": 0.6484375,
+      "mean": 0.004354516044259071,
+      "std": 0.006042849272489548,
+      "median": 0.0024871826171875,
+      "global_max": 0.6484375,
+      "global_mean": 0.004354516044259071
+    },
+    "timestamp": "2025-11-11T11:50:37.492673"
+  },
+  {
+    "construct": "Orient_HS2-_HNF4A-",
+    "cell_type": "K562",
+    "experiment": "orientation_effects",
+    "stats": {
+      "max": 0.6484375,
+      "mean": 0.004380626138299704,
+      "std": 0.006070887669920921,
+      "median": 0.0025634765625,
+      "global_max": 0.6484375,
+      "global_mean": 0.004380626138299704
+    },
+    "timestamp": "2025-11-11T11:50:40.009457"
+  },
+  {
+    "construct": "Orient_GATA1+_KLF1+",
+    "cell_type": "K562",
+    "experiment": "orientation_effects",
+    "stats": {
+      "max": 8.0625,
+      "mean": 0.005081336013972759,
+      "std": 0.021955663338303566,
+      "median": 0.002716064453125,
+      "global_max": 8.0625,
+      "global_mean": 0.005081336013972759
+    },
+    "timestamp": "2025-11-11T11:50:42.565039"
+  },
+  {
+    "construct": "Orient_GATA1+_KLF1-",
+    "cell_type": "K562",
+    "experiment": "orientation_effects",
+    "stats": {
+      "max": 7.0625,
+      "mean": 0.00517988670617342,
+      "std": 0.01937444880604744,
+      "median": 0.0028076171875,
+      "global_max": 7.0625,
+      "global_mean": 0.00517988670617342
+    },
+    "timestamp": "2025-11-11T11:50:45.065666"
+  },
+  {
+    "construct": "Orient_GATA1-_KLF1+",
+    "cell_type": "K562",
+    "experiment": "orientation_effects",
+    "stats": {
+      "max": 8.0,
+      "mean": 0.00507303886115551,
+      "std": 0.021382592618465424,
+      "median": 0.002716064453125,
+      "global_max": 8.0,
+      "global_mean": 0.00507303886115551
+    },
+    "timestamp": "2025-11-11T11:50:47.577382"
+  },
+  {
+    "construct": "Orient_GATA1-_KLF1-",
+    "cell_type": "K562",
+    "experiment": "orientation_effects",
+    "stats": {
+      "max": 6.9375,
+      "mean": 0.005184881389141083,
+      "std": 0.01888308674097061,
+      "median": 0.0028076171875,
+      "global_max": 6.9375,
+      "global_mean": 0.005184881389141083
+    },
+    "timestamp": "2025-11-11T11:50:50.124172"
+  },
+  {
+    "construct": "Orient_HS2+_CTCF+",
+    "cell_type": "K562",
+    "experiment": "orientation_effects",
+    "stats": {
+      "max": 5.3125,
+      "mean": 0.005167042836546898,
+      "std": 0.031215915456414223,
+      "median": 0.0026397705078125,
+      "global_max": 5.3125,
+      "global_mean": 0.005167042836546898
+    },
+    "timestamp": "2025-11-11T11:50:52.654584"
+  },
+  {
+    "construct": "Orient_HS2+_CTCF-",
+    "cell_type": "K562",
+    "experiment": "orientation_effects",
+    "stats": {
+      "max": 4.71875,
+      "mean": 0.005017426330596209,
+      "std": 0.02731671929359436,
+      "median": 0.0025634765625,
+      "global_max": 4.71875,
+      "global_mean": 0.005017426330596209
+    },
+    "timestamp": "2025-11-11T11:50:55.100193"
+  },
+  {
+    "construct": "Orient_HS2-_CTCF+",
+    "cell_type": "K562",
+    "experiment": "orientation_effects",
+    "stats": {
+      "max": 5.34375,
+      "mean": 0.005167936906218529,
+      "std": 0.03149198368191719,
+      "median": 0.0026397705078125,
+      "global_max": 5.34375,
+      "global_mean": 0.005167936906218529
+    },
+    "timestamp": "2025-11-11T11:50:57.631074"
+  },
+  {
+    "construct": "Orient_HS2-_CTCF-",
+    "cell_type": "K562",
+    "experiment": "orientation_effects",
+    "stats": {
+      "max": 4.71875,
+      "mean": 0.005011591129004955,
+      "std": 0.027434684336185455,
+      "median": 0.0025634765625,
+      "global_max": 4.71875,
+      "global_mean": 0.005011591129004955
+    },
+    "timestamp": "2025-11-11T11:51:00.153522"
+  }
+]

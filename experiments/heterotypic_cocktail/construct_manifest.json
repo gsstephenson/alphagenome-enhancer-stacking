@@ -1,0 +1,1920 @@
+[
+  {
+    "construct": "Cocktail_1kbForward",
+    "description": "HS2\u2192GATA1\u2192HNF4A repeated 12x with 1 kb intra-module and 2 kb inter-repeat spacing; CTCF brackets.",
+    "length": 1048576,
+    "fasta": "sequences/Cocktail_1kbForward_construct.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "ctcf_bracket",
+        "start": 250000,
+        "end": 250072,
+        "anchor": "left",
+        "module": "CTCF",
+        "orientation": "+"
+      },
+      {
+        "label": "enhancer_module",
+        "start": 250072,
+        "end": 251073,
+        "repeat_index": 0,
+        "order_index": 0,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 251073,
+        "end": 252073
+      },
+      {
+        "label": "enhancer_module",
+        "start": 252073,
+        "end": 252295,
+        "repeat_index": 0,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 252295,
+        "end": 253295
+      },
+      {
+        "label": "enhancer_module",
+        "start": 253295,
+        "end": 253554,
+        "repeat_index": 0,
+        "order_index": 2,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_spacing",
+        "start": 253554,
+        "end": 255554
+      },
+      {
+        "label": "enhancer_module",
+        "start": 255554,
+        "end": 256555,
+        "repeat_index": 1,
+        "order_index": 0,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 256555,
+        "end": 257555
+      },
+      {
+        "label": "enhancer_module",
+        "start": 257555,
+        "end": 257777,
+        "repeat_index": 1,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 257777,
+        "end": 258777
+      },
+      {
+        "label": "enhancer_module",
+        "start": 258777,
+        "end": 259036,
+        "repeat_index": 1,
+        "order_index": 2,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_spacing",
+        "start": 259036,
+        "end": 261036
+      },
+      {
+        "label": "enhancer_module",
+        "start": 261036,
+        "end": 262037,
+        "repeat_index": 2,
+        "order_index": 0,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 262037,
+        "end": 263037
+      },
+      {
+        "label": "enhancer_module",
+        "start": 263037,
+        "end": 263259,
+        "repeat_index": 2,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 263259,
+        "end": 264259
+      },
+      {
+        "label": "enhancer_module",
+        "start": 264259,
+        "end": 264518,
+        "repeat_index": 2,
+        "order_index": 2,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_spacing",
+        "start": 264518,
+        "end": 266518
+      },
+      {
+        "label": "enhancer_module",
+        "start": 266518,
+        "end": 267519,
+        "repeat_index": 3,
+        "order_index": 0,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 267519,
+        "end": 268519
+      },
+      {
+        "label": "enhancer_module",
+        "start": 268519,
+        "end": 268741,
+        "repeat_index": 3,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 268741,
+        "end": 269741
+      },
+      {
+        "label": "enhancer_module",
+        "start": 269741,
+        "end": 270000,
+        "repeat_index": 3,
+        "order_index": 2,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_spacing",
+        "start": 270000,
+        "end": 272000
+      },
+      {
+        "label": "enhancer_module",
+        "start": 272000,
+        "end": 273001,
+        "repeat_index": 4,
+        "order_index": 0,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 273001,
+        "end": 274001
+      },
+      {
+        "label": "enhancer_module",
+        "start": 274001,
+        "end": 274223,
+        "repeat_index": 4,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 274223,
+        "end": 275223
+      },
+      {
+        "label": "enhancer_module",
+        "start": 275223,
+        "end": 275482,
+        "repeat_index": 4,
+        "order_index": 2,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_spacing",
+        "start": 275482,
+        "end": 277482
+      },
+      {
+        "label": "enhancer_module",
+        "start": 277482,
+        "end": 278483,
+        "repeat_index": 5,
+        "order_index": 0,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 278483,
+        "end": 279483
+      },
+      {
+        "label": "enhancer_module",
+        "start": 279483,
+        "end": 279705,
+        "repeat_index": 5,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 279705,
+        "end": 280705
+      },
+      {
+        "label": "enhancer_module",
+        "start": 280705,
+        "end": 280964,
+        "repeat_index": 5,
+        "order_index": 2,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_spacing",
+        "start": 280964,
+        "end": 282964
+      },
+      {
+        "label": "enhancer_module",
+        "start": 282964,
+        "end": 283965,
+        "repeat_index": 6,
+        "order_index": 0,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 283965,
+        "end": 284965
+      },
+      {
+        "label": "enhancer_module",
+        "start": 284965,
+        "end": 285187,
+        "repeat_index": 6,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 285187,
+        "end": 286187
+      },
+      {
+        "label": "enhancer_module",
+        "start": 286187,
+        "end": 286446,
+        "repeat_index": 6,
+        "order_index": 2,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_spacing",
+        "start": 286446,
+        "end": 288446
+      },
+      {
+        "label": "enhancer_module",
+        "start": 288446,
+        "end": 289447,
+        "repeat_index": 7,
+        "order_index": 0,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 289447,
+        "end": 290447
+      },
+      {
+        "label": "enhancer_module",
+        "start": 290447,
+        "end": 290669,
+        "repeat_index": 7,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 290669,
+        "end": 291669
+      },
+      {
+        "label": "enhancer_module",
+        "start": 291669,
+        "end": 291928,
+        "repeat_index": 7,
+        "order_index": 2,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_spacing",
+        "start": 291928,
+        "end": 293928
+      },
+      {
+        "label": "enhancer_module",
+        "start": 293928,
+        "end": 294929,
+        "repeat_index": 8,
+        "order_index": 0,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 294929,
+        "end": 295929
+      },
+      {
+        "label": "enhancer_module",
+        "start": 295929,
+        "end": 296151,
+        "repeat_index": 8,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 296151,
+        "end": 297151
+      },
+      {
+        "label": "enhancer_module",
+        "start": 297151,
+        "end": 297410,
+        "repeat_index": 8,
+        "order_index": 2,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_spacing",
+        "start": 297410,
+        "end": 299410
+      },
+      {
+        "label": "enhancer_module",
+        "start": 299410,
+        "end": 300411,
+        "repeat_index": 9,
+        "order_index": 0,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 300411,
+        "end": 301411
+      },
+      {
+        "label": "enhancer_module",
+        "start": 301411,
+        "end": 301633,
+        "repeat_index": 9,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 301633,
+        "end": 302633
+      },
+      {
+        "label": "enhancer_module",
+        "start": 302633,
+        "end": 302892,
+        "repeat_index": 9,
+        "order_index": 2,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_spacing",
+        "start": 302892,
+        "end": 304892
+      },
+      {
+        "label": "enhancer_module",
+        "start": 304892,
+        "end": 305893,
+        "repeat_index": 10,
+        "order_index": 0,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 305893,
+        "end": 306893
+      },
+      {
+        "label": "enhancer_module",
+        "start": 306893,
+        "end": 307115,
+        "repeat_index": 10,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 307115,
+        "end": 308115
+      },
+      {
+        "label": "enhancer_module",
+        "start": 308115,
+        "end": 308374,
+        "repeat_index": 10,
+        "order_index": 2,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_spacing",
+        "start": 308374,
+        "end": 310374
+      },
+      {
+        "label": "enhancer_module",
+        "start": 310374,
+        "end": 311375,
+        "repeat_index": 11,
+        "order_index": 0,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 311375,
+        "end": 312375
+      },
+      {
+        "label": "enhancer_module",
+        "start": 312375,
+        "end": 312597,
+        "repeat_index": 11,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 312597,
+        "end": 313597
+      },
+      {
+        "label": "enhancer_module",
+        "start": 313597,
+        "end": 313856,
+        "repeat_index": 11,
+        "order_index": 2,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "ctcf_bracket",
+        "start": 313856,
+        "end": 313928,
+        "anchor": "right",
+        "module": "CTCF",
+        "orientation": "-"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 313928,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "length": 301
+      }
+    ],
+    "events": [
+      {
+        "event": "ctcf_bracket_added",
+        "position": 250072,
+        "anchor": "left"
+      },
+      {
+        "event": "ctcf_bracket_added",
+        "position": 313928,
+        "anchor": "right"
+      }
+    ]
+  },
+  {
+    "construct": "Cocktail_5kbForward",
+    "description": "HS2\u2192GATA1\u2192HNF4A repeated 6x with 5 kb spacing; CTCF brackets.",
+    "length": 1048576,
+    "fasta": "sequences/Cocktail_5kbForward_construct.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "ctcf_bracket",
+        "start": 250000,
+        "end": 250072,
+        "anchor": "left",
+        "module": "CTCF",
+        "orientation": "+"
+      },
+      {
+        "label": "enhancer_module",
+        "start": 250072,
+        "end": 251073,
+        "repeat_index": 0,
+        "order_index": 0,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 251073,
+        "end": 256073
+      },
+      {
+        "label": "enhancer_module",
+        "start": 256073,
+        "end": 256295,
+        "repeat_index": 0,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 256295,
+        "end": 261295
+      },
+      {
+        "label": "enhancer_module",
+        "start": 261295,
+        "end": 261554,
+        "repeat_index": 0,
+        "order_index": 2,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_spacing",
+        "start": 261554,
+        "end": 266554
+      },
+      {
+        "label": "enhancer_module",
+        "start": 266554,
+        "end": 267555,
+        "repeat_index": 1,
+        "order_index": 0,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 267555,
+        "end": 272555
+      },
+      {
+        "label": "enhancer_module",
+        "start": 272555,
+        "end": 272777,
+        "repeat_index": 1,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 272777,
+        "end": 277777
+      },
+      {
+        "label": "enhancer_module",
+        "start": 277777,
+        "end": 278036,
+        "repeat_index": 1,
+        "order_index": 2,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_spacing",
+        "start": 278036,
+        "end": 283036
+      },
+      {
+        "label": "enhancer_module",
+        "start": 283036,
+        "end": 284037,
+        "repeat_index": 2,
+        "order_index": 0,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 284037,
+        "end": 289037
+      },
+      {
+        "label": "enhancer_module",
+        "start": 289037,
+        "end": 289259,
+        "repeat_index": 2,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 289259,
+        "end": 294259
+      },
+      {
+        "label": "enhancer_module",
+        "start": 294259,
+        "end": 294518,
+        "repeat_index": 2,
+        "order_index": 2,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_spacing",
+        "start": 294518,
+        "end": 299518
+      },
+      {
+        "label": "enhancer_module",
+        "start": 299518,
+        "end": 300519,
+        "repeat_index": 3,
+        "order_index": 0,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 300519,
+        "end": 305519
+      },
+      {
+        "label": "enhancer_module",
+        "start": 305519,
+        "end": 305741,
+        "repeat_index": 3,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 305741,
+        "end": 310741
+      },
+      {
+        "label": "enhancer_module",
+        "start": 310741,
+        "end": 311000,
+        "repeat_index": 3,
+        "order_index": 2,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_spacing",
+        "start": 311000,
+        "end": 316000
+      },
+      {
+        "label": "enhancer_module",
+        "start": 316000,
+        "end": 317001,
+        "repeat_index": 4,
+        "order_index": 0,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 317001,
+        "end": 322001
+      },
+      {
+        "label": "enhancer_module",
+        "start": 322001,
+        "end": 322223,
+        "repeat_index": 4,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 322223,
+        "end": 327223
+      },
+      {
+        "label": "enhancer_module",
+        "start": 327223,
+        "end": 327482,
+        "repeat_index": 4,
+        "order_index": 2,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_spacing",
+        "start": 327482,
+        "end": 332482
+      },
+      {
+        "label": "enhancer_module",
+        "start": 332482,
+        "end": 333483,
+        "repeat_index": 5,
+        "order_index": 0,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 333483,
+        "end": 338483
+      },
+      {
+        "label": "enhancer_module",
+        "start": 338483,
+        "end": 338705,
+        "repeat_index": 5,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 338705,
+        "end": 343705
+      },
+      {
+        "label": "enhancer_module",
+        "start": 343705,
+        "end": 343964,
+        "repeat_index": 5,
+        "order_index": 2,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "ctcf_bracket",
+        "start": 343964,
+        "end": 344036,
+        "anchor": "right",
+        "module": "CTCF",
+        "orientation": "-"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 344036,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "length": 301
+      }
+    ],
+    "events": [
+      {
+        "event": "ctcf_bracket_added",
+        "position": 250072,
+        "anchor": "left"
+      },
+      {
+        "event": "ctcf_bracket_added",
+        "position": 344036,
+        "anchor": "right"
+      }
+    ]
+  },
+  {
+    "construct": "Cocktail_20kbForward",
+    "description": "HS2\u2192GATA1\u2192HNF4A repeated 3x with 20 kb spacing; CTCF brackets.",
+    "length": 1048576,
+    "fasta": "sequences/Cocktail_20kbForward_construct.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "ctcf_bracket",
+        "start": 250000,
+        "end": 250072,
+        "anchor": "left",
+        "module": "CTCF",
+        "orientation": "+"
+      },
+      {
+        "label": "enhancer_module",
+        "start": 250072,
+        "end": 251073,
+        "repeat_index": 0,
+        "order_index": 0,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 251073,
+        "end": 271073
+      },
+      {
+        "label": "enhancer_module",
+        "start": 271073,
+        "end": 271295,
+        "repeat_index": 0,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 271295,
+        "end": 291295
+      },
+      {
+        "label": "enhancer_module",
+        "start": 291295,
+        "end": 291554,
+        "repeat_index": 0,
+        "order_index": 2,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_spacing",
+        "start": 291554,
+        "end": 311554
+      },
+      {
+        "label": "enhancer_module",
+        "start": 311554,
+        "end": 312555,
+        "repeat_index": 1,
+        "order_index": 0,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 312555,
+        "end": 332555
+      },
+      {
+        "label": "enhancer_module",
+        "start": 332555,
+        "end": 332777,
+        "repeat_index": 1,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 332777,
+        "end": 352777
+      },
+      {
+        "label": "enhancer_module",
+        "start": 352777,
+        "end": 353036,
+        "repeat_index": 1,
+        "order_index": 2,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_spacing",
+        "start": 353036,
+        "end": 373036
+      },
+      {
+        "label": "enhancer_module",
+        "start": 373036,
+        "end": 374037,
+        "repeat_index": 2,
+        "order_index": 0,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 374037,
+        "end": 394037
+      },
+      {
+        "label": "enhancer_module",
+        "start": 394037,
+        "end": 394259,
+        "repeat_index": 2,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 394259,
+        "end": 414259
+      },
+      {
+        "label": "enhancer_module",
+        "start": 414259,
+        "end": 414518,
+        "repeat_index": 2,
+        "order_index": 2,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "ctcf_bracket",
+        "start": 414518,
+        "end": 414590,
+        "anchor": "right",
+        "module": "CTCF",
+        "orientation": "-"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 414590,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "length": 301
+      }
+    ],
+    "events": [
+      {
+        "event": "ctcf_bracket_added",
+        "position": 250072,
+        "anchor": "left"
+      },
+      {
+        "event": "ctcf_bracket_added",
+        "position": 414590,
+        "anchor": "right"
+      }
+    ]
+  },
+  {
+    "construct": "Cocktail_5kbReverseOrder",
+    "description": "HNF4A\u2192GATA1\u2192HS2 reversed order repeated 6x with 5 kb spacing.",
+    "length": 1048576,
+    "fasta": "sequences/Cocktail_5kbReverseOrder_construct.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "ctcf_bracket",
+        "start": 250000,
+        "end": 250072,
+        "anchor": "left",
+        "module": "CTCF",
+        "orientation": "+"
+      },
+      {
+        "label": "enhancer_module",
+        "start": 250072,
+        "end": 250331,
+        "repeat_index": 0,
+        "order_index": 0,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 250331,
+        "end": 255331
+      },
+      {
+        "label": "enhancer_module",
+        "start": 255331,
+        "end": 255553,
+        "repeat_index": 0,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 255553,
+        "end": 260553
+      },
+      {
+        "label": "enhancer_module",
+        "start": 260553,
+        "end": 261554,
+        "repeat_index": 0,
+        "order_index": 2,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_spacing",
+        "start": 261554,
+        "end": 266554
+      },
+      {
+        "label": "enhancer_module",
+        "start": 266554,
+        "end": 266813,
+        "repeat_index": 1,
+        "order_index": 0,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 266813,
+        "end": 271813
+      },
+      {
+        "label": "enhancer_module",
+        "start": 271813,
+        "end": 272035,
+        "repeat_index": 1,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 272035,
+        "end": 277035
+      },
+      {
+        "label": "enhancer_module",
+        "start": 277035,
+        "end": 278036,
+        "repeat_index": 1,
+        "order_index": 2,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_spacing",
+        "start": 278036,
+        "end": 283036
+      },
+      {
+        "label": "enhancer_module",
+        "start": 283036,
+        "end": 283295,
+        "repeat_index": 2,
+        "order_index": 0,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 283295,
+        "end": 288295
+      },
+      {
+        "label": "enhancer_module",
+        "start": 288295,
+        "end": 288517,
+        "repeat_index": 2,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 288517,
+        "end": 293517
+      },
+      {
+        "label": "enhancer_module",
+        "start": 293517,
+        "end": 294518,
+        "repeat_index": 2,
+        "order_index": 2,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_spacing",
+        "start": 294518,
+        "end": 299518
+      },
+      {
+        "label": "enhancer_module",
+        "start": 299518,
+        "end": 299777,
+        "repeat_index": 3,
+        "order_index": 0,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 299777,
+        "end": 304777
+      },
+      {
+        "label": "enhancer_module",
+        "start": 304777,
+        "end": 304999,
+        "repeat_index": 3,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 304999,
+        "end": 309999
+      },
+      {
+        "label": "enhancer_module",
+        "start": 309999,
+        "end": 311000,
+        "repeat_index": 3,
+        "order_index": 2,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_spacing",
+        "start": 311000,
+        "end": 316000
+      },
+      {
+        "label": "enhancer_module",
+        "start": 316000,
+        "end": 316259,
+        "repeat_index": 4,
+        "order_index": 0,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 316259,
+        "end": 321259
+      },
+      {
+        "label": "enhancer_module",
+        "start": 321259,
+        "end": 321481,
+        "repeat_index": 4,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 321481,
+        "end": 326481
+      },
+      {
+        "label": "enhancer_module",
+        "start": 326481,
+        "end": 327482,
+        "repeat_index": 4,
+        "order_index": 2,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_spacing",
+        "start": 327482,
+        "end": 332482
+      },
+      {
+        "label": "enhancer_module",
+        "start": 332482,
+        "end": 332741,
+        "repeat_index": 5,
+        "order_index": 0,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 332741,
+        "end": 337741
+      },
+      {
+        "label": "enhancer_module",
+        "start": 337741,
+        "end": 337963,
+        "repeat_index": 5,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 337963,
+        "end": 342963
+      },
+      {
+        "label": "enhancer_module",
+        "start": 342963,
+        "end": 343964,
+        "repeat_index": 5,
+        "order_index": 2,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "ctcf_bracket",
+        "start": 343964,
+        "end": 344036,
+        "anchor": "right",
+        "module": "CTCF",
+        "orientation": "-"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 344036,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "length": 301
+      }
+    ],
+    "events": [
+      {
+        "event": "ctcf_bracket_added",
+        "position": 250072,
+        "anchor": "left"
+      },
+      {
+        "event": "ctcf_bracket_added",
+        "position": 344036,
+        "anchor": "right"
+      }
+    ]
+  },
+  {
+    "construct": "Cocktail_5kbAltOrientation",
+    "description": "HS2(+), GATA1(-), HNF4A(+) repeated 6x with 5 kb spacing to test polarity sensitivity.",
+    "length": 1048576,
+    "fasta": "sequences/Cocktail_5kbAltOrientation_construct.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "ctcf_bracket",
+        "start": 250000,
+        "end": 250072,
+        "anchor": "left",
+        "module": "CTCF",
+        "orientation": "+"
+      },
+      {
+        "label": "enhancer_module",
+        "start": 250072,
+        "end": 251073,
+        "repeat_index": 0,
+        "order_index": 0,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 251073,
+        "end": 256073
+      },
+      {
+        "label": "enhancer_module",
+        "start": 256073,
+        "end": 256295,
+        "repeat_index": 0,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "-"
+      },
+      {
+        "label": "module_spacing",
+        "start": 256295,
+        "end": 261295
+      },
+      {
+        "label": "enhancer_module",
+        "start": 261295,
+        "end": 261554,
+        "repeat_index": 0,
+        "order_index": 2,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_spacing",
+        "start": 261554,
+        "end": 266554
+      },
+      {
+        "label": "enhancer_module",
+        "start": 266554,
+        "end": 267555,
+        "repeat_index": 1,
+        "order_index": 0,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 267555,
+        "end": 272555
+      },
+      {
+        "label": "enhancer_module",
+        "start": 272555,
+        "end": 272777,
+        "repeat_index": 1,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "-"
+      },
+      {
+        "label": "module_spacing",
+        "start": 272777,
+        "end": 277777
+      },
+      {
+        "label": "enhancer_module",
+        "start": 277777,
+        "end": 278036,
+        "repeat_index": 1,
+        "order_index": 2,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_spacing",
+        "start": 278036,
+        "end": 283036
+      },
+      {
+        "label": "enhancer_module",
+        "start": 283036,
+        "end": 284037,
+        "repeat_index": 2,
+        "order_index": 0,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 284037,
+        "end": 289037
+      },
+      {
+        "label": "enhancer_module",
+        "start": 289037,
+        "end": 289259,
+        "repeat_index": 2,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "-"
+      },
+      {
+        "label": "module_spacing",
+        "start": 289259,
+        "end": 294259
+      },
+      {
+        "label": "enhancer_module",
+        "start": 294259,
+        "end": 294518,
+        "repeat_index": 2,
+        "order_index": 2,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_spacing",
+        "start": 294518,
+        "end": 299518
+      },
+      {
+        "label": "enhancer_module",
+        "start": 299518,
+        "end": 300519,
+        "repeat_index": 3,
+        "order_index": 0,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 300519,
+        "end": 305519
+      },
+      {
+        "label": "enhancer_module",
+        "start": 305519,
+        "end": 305741,
+        "repeat_index": 3,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "-"
+      },
+      {
+        "label": "module_spacing",
+        "start": 305741,
+        "end": 310741
+      },
+      {
+        "label": "enhancer_module",
+        "start": 310741,
+        "end": 311000,
+        "repeat_index": 3,
+        "order_index": 2,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_spacing",
+        "start": 311000,
+        "end": 316000
+      },
+      {
+        "label": "enhancer_module",
+        "start": 316000,
+        "end": 317001,
+        "repeat_index": 4,
+        "order_index": 0,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 317001,
+        "end": 322001
+      },
+      {
+        "label": "enhancer_module",
+        "start": 322001,
+        "end": 322223,
+        "repeat_index": 4,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "-"
+      },
+      {
+        "label": "module_spacing",
+        "start": 322223,
+        "end": 327223
+      },
+      {
+        "label": "enhancer_module",
+        "start": 327223,
+        "end": 327482,
+        "repeat_index": 4,
+        "order_index": 2,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_spacing",
+        "start": 327482,
+        "end": 332482
+      },
+      {
+        "label": "enhancer_module",
+        "start": 332482,
+        "end": 333483,
+        "repeat_index": 5,
+        "order_index": 0,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 333483,
+        "end": 338483
+      },
+      {
+        "label": "enhancer_module",
+        "start": 338483,
+        "end": 338705,
+        "repeat_index": 5,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "-"
+      },
+      {
+        "label": "module_spacing",
+        "start": 338705,
+        "end": 343705
+      },
+      {
+        "label": "enhancer_module",
+        "start": 343705,
+        "end": 343964,
+        "repeat_index": 5,
+        "order_index": 2,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "ctcf_bracket",
+        "start": 343964,
+        "end": 344036,
+        "anchor": "right",
+        "module": "CTCF",
+        "orientation": "-"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 344036,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "length": 301
+      }
+    ],
+    "events": [
+      {
+        "event": "ctcf_bracket_added",
+        "position": 250072,
+        "anchor": "left"
+      },
+      {
+        "event": "ctcf_bracket_added",
+        "position": 344036,
+        "anchor": "right"
+      }
+    ]
+  },
+  {
+    "construct": "Cocktail_CTCFSeparated",
+    "description": "HS2\u2192GATA1\u2192HNF4A repeated 5x with 2 kb spacing and CTCF separators between repeats.",
+    "length": 1048576,
+    "fasta": "sequences/Cocktail_CTCFSeparated_construct.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "ctcf_bracket",
+        "start": 250000,
+        "end": 250072,
+        "anchor": "left",
+        "module": "CTCF",
+        "orientation": "+"
+      },
+      {
+        "label": "enhancer_module",
+        "start": 250072,
+        "end": 251073,
+        "repeat_index": 0,
+        "order_index": 0,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 251073,
+        "end": 253073
+      },
+      {
+        "label": "enhancer_module",
+        "start": 253073,
+        "end": 253295,
+        "repeat_index": 0,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 253295,
+        "end": 255295
+      },
+      {
+        "label": "enhancer_module",
+        "start": 255295,
+        "end": 255554,
+        "repeat_index": 0,
+        "order_index": 2,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_separator",
+        "start": 255554,
+        "end": 255626,
+        "repeat_index": 0,
+        "module": "CTCF",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_spacing",
+        "start": 255626,
+        "end": 258626
+      },
+      {
+        "label": "enhancer_module",
+        "start": 258626,
+        "end": 259627,
+        "repeat_index": 1,
+        "order_index": 0,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 259627,
+        "end": 261627
+      },
+      {
+        "label": "enhancer_module",
+        "start": 261627,
+        "end": 261849,
+        "repeat_index": 1,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 261849,
+        "end": 263849
+      },
+      {
+        "label": "enhancer_module",
+        "start": 263849,
+        "end": 264108,
+        "repeat_index": 1,
+        "order_index": 2,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_separator",
+        "start": 264108,
+        "end": 264180,
+        "repeat_index": 1,
+        "module": "CTCF",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_spacing",
+        "start": 264180,
+        "end": 267180
+      },
+      {
+        "label": "enhancer_module",
+        "start": 267180,
+        "end": 268181,
+        "repeat_index": 2,
+        "order_index": 0,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 268181,
+        "end": 270181
+      },
+      {
+        "label": "enhancer_module",
+        "start": 270181,
+        "end": 270403,
+        "repeat_index": 2,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 270403,
+        "end": 272403
+      },
+      {
+        "label": "enhancer_module",
+        "start": 272403,
+        "end": 272662,
+        "repeat_index": 2,
+        "order_index": 2,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_separator",
+        "start": 272662,
+        "end": 272734,
+        "repeat_index": 2,
+        "module": "CTCF",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_spacing",
+        "start": 272734,
+        "end": 275734
+      },
+      {
+        "label": "enhancer_module",
+        "start": 275734,
+        "end": 276735,
+        "repeat_index": 3,
+        "order_index": 0,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 276735,
+        "end": 278735
+      },
+      {
+        "label": "enhancer_module",
+        "start": 278735,
+        "end": 278957,
+        "repeat_index": 3,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 278957,
+        "end": 280957
+      },
+      {
+        "label": "enhancer_module",
+        "start": 280957,
+        "end": 281216,
+        "repeat_index": 3,
+        "order_index": 2,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_separator",
+        "start": 281216,
+        "end": 281288,
+        "repeat_index": 3,
+        "module": "CTCF",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_spacing",
+        "start": 281288,
+        "end": 284288
+      },
+      {
+        "label": "enhancer_module",
+        "start": 284288,
+        "end": 285289,
+        "repeat_index": 4,
+        "order_index": 0,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 285289,
+        "end": 287289
+      },
+      {
+        "label": "enhancer_module",
+        "start": 287289,
+        "end": 287511,
+        "repeat_index": 4,
+        "order_index": 1,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "module_spacing",
+        "start": 287511,
+        "end": 289511
+      },
+      {
+        "label": "enhancer_module",
+        "start": 289511,
+        "end": 289770,
+        "repeat_index": 4,
+        "order_index": 2,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "repeat_separator",
+        "start": 289770,
+        "end": 289842,
+        "repeat_index": 4,
+        "module": "CTCF",
+        "orientation": "+"
+      },
+      {
+        "label": "ctcf_bracket",
+        "start": 289842,
+        "end": 289914,
+        "anchor": "right",
+        "module": "CTCF",
+        "orientation": "-"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 289914,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "length": 301
+      }
+    ],
+    "events": [
+      {
+        "event": "ctcf_bracket_added",
+        "position": 250072,
+        "anchor": "left"
+      },
+      {
+        "event": "ctcf_bracket_added",
+        "position": 289914,
+        "anchor": "right"
+      }
+    ]
+  }
+]

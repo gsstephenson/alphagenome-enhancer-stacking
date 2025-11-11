@@ -1,4 +1,10 @@
+# =============================================================================
+# AlphaGenome Enhancer Stacking - Git Ignore Configuration
+# =============================================================================
+
+# -----------------------------------------------------------------------------
 # Python
+# -----------------------------------------------------------------------------
 __pycache__/
 *.py[cod]
 *$py.class
@@ -16,52 +22,160 @@ parts/
 sdist/
 var/
 wheels/
+pip-wheel-metadata/
+share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
 
-# Virtual environments
+# -----------------------------------------------------------------------------
+# Virtual Environments
+# -----------------------------------------------------------------------------
 venv/
 ENV/
 env/
 .venv
+env.bak/
+venv.bak/
+pythonenv*
 
-# IDE
+# -----------------------------------------------------------------------------
+# IDE & Editors
+# -----------------------------------------------------------------------------
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
-.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
 
+# -----------------------------------------------------------------------------
 # Jupyter Notebook
+# -----------------------------------------------------------------------------
 .ipynb_checkpoints
 *.ipynb
+.jupyter/
 
-# Environment variables
+# -----------------------------------------------------------------------------
+# Environment Variables & Secrets
+# -----------------------------------------------------------------------------
 .env
 .env.local
+.env.*.local
+*.key
+secrets.yaml
+config.local.yaml
 
-# Large data files (keep structure but not all FASTAs)
+# -----------------------------------------------------------------------------
+# Large Data Files & Outputs
+# -----------------------------------------------------------------------------
+
+# Filler sequences (1 MB neutral DNA)
 filler/*.txt
+!filler/.gitkeep
+
+# Construct FASTAs (large synthetic sequences)
 sequences/constructs/*.fa
+!sequences/constructs/.gitkeep
 
-# AlphaGenome outputs (large prediction files)
-alphagenome/outputs/*.npy
-alphagenome/outputs/*_dnase.txt
-alphagenome/outputs/*.npz
-# Keep stats files (they're small)
-!alphagenome/outputs/*_stats.txt
+# AlphaGenome prediction outputs (binary files are large)
+**/alphagenome_outputs/*.npy
+**/alphagenome_outputs/*_dnase.txt
+**/alphagenome_outputs/*_dnase_mean.npy
+**/alphagenome_outputs/*.npz
 
+# Keep stats files (small and informative)
+!**/alphagenome_outputs/*_stats.txt
+
+# Keep structure directories
+!**/alphagenome_outputs/.gitkeep
+
+# Experiment outputs
+experiments/*/alphagenome_outputs/*.npy
+experiments/*/alphagenome_outputs/*.txt
+experiments/*/sequences/*.fa
+!experiments/*/sequences/.gitkeep
+
+# -----------------------------------------------------------------------------
 # Logs
+# -----------------------------------------------------------------------------
 logs/*.log
+*.log
+experiments/*/logs/*.log
+!logs/.gitkeep
+!experiments/*/logs/.gitkeep
 
-# Temporary files
+# -----------------------------------------------------------------------------
+# Temporary & Backup Files
+# -----------------------------------------------------------------------------
 *.tmp
 *.bak
 *.swp
+*.swo
 *~
+.~*
+*.orig
 
-# OS
+# -----------------------------------------------------------------------------
+# OS Files
+# -----------------------------------------------------------------------------
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+Desktop.ini
+
+# -----------------------------------------------------------------------------
+# Data & Results (optional - uncomment to exclude)
+# -----------------------------------------------------------------------------
+# Large result files if needed
+# data/raw/*.bed
+# data/raw/*.bam
+# data/raw/*.fastq
+
+# Keep processed data and visualizations
+!analysis/results/*.png
+!analysis/results/*.pdf
+!analysis/results/*.csv
+!analysis/results/*.md
+!experiments/*/results/*.png
+!experiments/*/results/*.pdf
+!experiments/*/results/*.csv
+!experiments/*/results/*.md
+
+# -----------------------------------------------------------------------------
+# Testing & Coverage
+# -----------------------------------------------------------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# -----------------------------------------------------------------------------
+# Documentation Build
+# -----------------------------------------------------------------------------
+docs/_build/
+site/
+_site/
+
+# -----------------------------------------------------------------------------
+# Package managers
+# -----------------------------------------------------------------------------
+Pipfile.lock
+poetry.lock
+
+# -----------------------------------------------------------------------------
+# Git
+# -----------------------------------------------------------------------------
+*.orig
+*.rej

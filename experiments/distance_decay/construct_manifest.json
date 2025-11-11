@@ -1,0 +1,280 @@
+{
+  "experiment": "distance_decay_replicates",
+  "date": "2025-11-11",
+  "construct_length": 1048576,
+  "promoter_center": 524288,
+  "num_replicates": 3,
+  "replicate_seeds": [
+    42,
+    123,
+    987
+  ],
+  "enhancer": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/distance_decay/clean_sequences/HS2_enhancer.fa",
+  "promoter": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/distance_decay/clean_sequences/HBG1_promoter.fa",
+  "constructs": {
+    "Distance_1kb_rep1": {
+      "enhancer_start": 522137,
+      "enhancer_end": 523138,
+      "promoter_start": 524138,
+      "promoter_end": 524439,
+      "distance_bp": 1000,
+      "enhancer_length": 1001,
+      "promoter_length": 301,
+      "replicate": 1,
+      "seed": 42
+    },
+    "Distance_1kb_rep2": {
+      "enhancer_start": 522137,
+      "enhancer_end": 523138,
+      "promoter_start": 524138,
+      "promoter_end": 524439,
+      "distance_bp": 1000,
+      "enhancer_length": 1001,
+      "promoter_length": 301,
+      "replicate": 2,
+      "seed": 123
+    },
+    "Distance_1kb_rep3": {
+      "enhancer_start": 522137,
+      "enhancer_end": 523138,
+      "promoter_start": 524138,
+      "promoter_end": 524439,
+      "distance_bp": 1000,
+      "enhancer_length": 1001,
+      "promoter_length": 301,
+      "replicate": 3,
+      "seed": 987
+    },
+    "Distance_5kb_rep1": {
+      "enhancer_start": 518137,
+      "enhancer_end": 519138,
+      "promoter_start": 524138,
+      "promoter_end": 524439,
+      "distance_bp": 5000,
+      "enhancer_length": 1001,
+      "promoter_length": 301,
+      "replicate": 1,
+      "seed": 42
+    },
+    "Distance_5kb_rep2": {
+      "enhancer_start": 518137,
+      "enhancer_end": 519138,
+      "promoter_start": 524138,
+      "promoter_end": 524439,
+      "distance_bp": 5000,
+      "enhancer_length": 1001,
+      "promoter_length": 301,
+      "replicate": 2,
+      "seed": 123
+    },
+    "Distance_5kb_rep3": {
+      "enhancer_start": 518137,
+      "enhancer_end": 519138,
+      "promoter_start": 524138,
+      "promoter_end": 524439,
+      "distance_bp": 5000,
+      "enhancer_length": 1001,
+      "promoter_length": 301,
+      "replicate": 3,
+      "seed": 987
+    },
+    "Distance_10kb_rep1": {
+      "enhancer_start": 513137,
+      "enhancer_end": 514138,
+      "promoter_start": 524138,
+      "promoter_end": 524439,
+      "distance_bp": 10000,
+      "enhancer_length": 1001,
+      "promoter_length": 301,
+      "replicate": 1,
+      "seed": 42
+    },
+    "Distance_10kb_rep2": {
+      "enhancer_start": 513137,
+      "enhancer_end": 514138,
+      "promoter_start": 524138,
+      "promoter_end": 524439,
+      "distance_bp": 10000,
+      "enhancer_length": 1001,
+      "promoter_length": 301,
+      "replicate": 2,
+      "seed": 123
+    },
+    "Distance_10kb_rep3": {
+      "enhancer_start": 513137,
+      "enhancer_end": 514138,
+      "promoter_start": 524138,
+      "promoter_end": 524439,
+      "distance_bp": 10000,
+      "enhancer_length": 1001,
+      "promoter_length": 301,
+      "replicate": 3,
+      "seed": 987
+    },
+    "Distance_25kb_rep1": {
+      "enhancer_start": 498137,
+      "enhancer_end": 499138,
+      "promoter_start": 524138,
+      "promoter_end": 524439,
+      "distance_bp": 25000,
+      "enhancer_length": 1001,
+      "promoter_length": 301,
+      "replicate": 1,
+      "seed": 42
+    },
+    "Distance_25kb_rep2": {
+      "enhancer_start": 498137,
+      "enhancer_end": 499138,
+      "promoter_start": 524138,
+      "promoter_end": 524439,
+      "distance_bp": 25000,
+      "enhancer_length": 1001,
+      "promoter_length": 301,
+      "replicate": 2,
+      "seed": 123
+    },
+    "Distance_25kb_rep3": {
+      "enhancer_start": 498137,
+      "enhancer_end": 499138,
+      "promoter_start": 524138,
+      "promoter_end": 524439,
+      "distance_bp": 25000,
+      "enhancer_length": 1001,
+      "promoter_length": 301,
+      "replicate": 3,
+      "seed": 987
+    },
+    "Distance_50kb_rep1": {
+      "enhancer_start": 473137,
+      "enhancer_end": 474138,
+      "promoter_start": 524138,
+      "promoter_end": 524439,
+      "distance_bp": 50000,
+      "enhancer_length": 1001,
+      "promoter_length": 301,
+      "replicate": 1,
+      "seed": 42
+    },
+    "Distance_50kb_rep2": {
+      "enhancer_start": 473137,
+      "enhancer_end": 474138,
+      "promoter_start": 524138,
+      "promoter_end": 524439,
+      "distance_bp": 50000,
+      "enhancer_length": 1001,
+      "promoter_length": 301,
+      "replicate": 2,
+      "seed": 123
+    },
+    "Distance_50kb_rep3": {
+      "enhancer_start": 473137,
+      "enhancer_end": 474138,
+      "promoter_start": 524138,
+      "promoter_end": 524439,
+      "distance_bp": 50000,
+      "enhancer_length": 1001,
+      "promoter_length": 301,
+      "replicate": 3,
+      "seed": 987
+    },
+    "Distance_100kb_rep1": {
+      "enhancer_start": 423137,
+      "enhancer_end": 424138,
+      "promoter_start": 524138,
+      "promoter_end": 524439,
+      "distance_bp": 100000,
+      "enhancer_length": 1001,
+      "promoter_length": 301,
+      "replicate": 1,
+      "seed": 42
+    },
+    "Distance_100kb_rep2": {
+      "enhancer_start": 423137,
+      "enhancer_end": 424138,
+      "promoter_start": 524138,
+      "promoter_end": 524439,
+      "distance_bp": 100000,
+      "enhancer_length": 1001,
+      "promoter_length": 301,
+      "replicate": 2,
+      "seed": 123
+    },
+    "Distance_100kb_rep3": {
+      "enhancer_start": 423137,
+      "enhancer_end": 424138,
+      "promoter_start": 524138,
+      "promoter_end": 524439,
+      "distance_bp": 100000,
+      "enhancer_length": 1001,
+      "promoter_length": 301,
+      "replicate": 3,
+      "seed": 987
+    },
+    "Distance_200kb_rep1": {
+      "enhancer_start": 323137,
+      "enhancer_end": 324138,
+      "promoter_start": 524138,
+      "promoter_end": 524439,
+      "distance_bp": 200000,
+      "enhancer_length": 1001,
+      "promoter_length": 301,
+      "replicate": 1,
+      "seed": 42
+    },
+    "Distance_200kb_rep2": {
+      "enhancer_start": 323137,
+      "enhancer_end": 324138,
+      "promoter_start": 524138,
+      "promoter_end": 524439,
+      "distance_bp": 200000,
+      "enhancer_length": 1001,
+      "promoter_length": 301,
+      "replicate": 2,
+      "seed": 123
+    },
+    "Distance_200kb_rep3": {
+      "enhancer_start": 323137,
+      "enhancer_end": 324138,
+      "promoter_start": 524138,
+      "promoter_end": 524439,
+      "distance_bp": 200000,
+      "enhancer_length": 1001,
+      "promoter_length": 301,
+      "replicate": 3,
+      "seed": 987
+    },
+    "Distance_500kb_rep1": {
+      "enhancer_start": 23137,
+      "enhancer_end": 24138,
+      "promoter_start": 524138,
+      "promoter_end": 524439,
+      "distance_bp": 500000,
+      "enhancer_length": 1001,
+      "promoter_length": 301,
+      "replicate": 1,
+      "seed": 42
+    },
+    "Distance_500kb_rep2": {
+      "enhancer_start": 23137,
+      "enhancer_end": 24138,
+      "promoter_start": 524138,
+      "promoter_end": 524439,
+      "distance_bp": 500000,
+      "enhancer_length": 1001,
+      "promoter_length": 301,
+      "replicate": 2,
+      "seed": 123
+    },
+    "Distance_500kb_rep3": {
+      "enhancer_start": 23137,
+      "enhancer_end": 24138,
+      "promoter_start": 524138,
+      "promoter_end": 524439,
+      "distance_bp": 500000,
+      "enhancer_length": 1001,
+      "promoter_length": 301,
+      "replicate": 3,
+      "seed": 987
+    }
+  }
+}

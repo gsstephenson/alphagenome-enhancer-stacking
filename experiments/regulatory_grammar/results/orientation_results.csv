@@ -1,0 +1,17 @@
+pair,orientation,max_dnase,mean_dnase,expected
+HS2+GATA1,"(+, +)",1.6875,0.004998,expect_cooperativity
+HS2+GATA1,"(+, -)",1.953125,0.004972,expect_cooperativity
+HS2+GATA1,"(-, +)",1.71875,0.004995,expect_cooperativity
+HS2+GATA1,"(-, -)",1.96875,0.00497,expect_cooperativity
+HS2+HNF4A,"(+, +)",0.648438,0.004363,expect_independence
+HS2+HNF4A,"(+, -)",0.644531,0.004389,expect_independence
+HS2+HNF4A,"(-, +)",0.648438,0.004355,expect_independence
+HS2+HNF4A,"(-, -)",0.648438,0.004381,expect_independence
+GATA1+KLF1,"(+, +)",8.0625,0.005081,expect_cooperativity
+GATA1+KLF1,"(+, -)",7.0625,0.00518,expect_cooperativity
+GATA1+KLF1,"(-, +)",8.0,0.005073,expect_cooperativity
+GATA1+KLF1,"(-, -)",6.9375,0.005185,expect_cooperativity
+HS2+CTCF,"(+, +)",5.3125,0.005167,CTCF_orientation_critical
+HS2+CTCF,"(+, -)",4.71875,0.005017,CTCF_orientation_critical
+HS2+CTCF,"(-, +)",5.34375,0.005168,CTCF_orientation_critical
+HS2+CTCF,"(-, -)",4.71875,0.005012,CTCF_orientation_critical

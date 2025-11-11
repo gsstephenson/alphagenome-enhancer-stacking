@@ -1,0 +1,2834 @@
+[
+  {
+    "construct": "CellType_HBG1_HS2_K562",
+    "experiment": "cell_type_specificity",
+    "promoter": "HBG1",
+    "enhancer": "HS2",
+    "cell_type": "K562",
+    "expected": "correct",
+    "length": 1048576,
+    "fasta": "sequences/CellType_HBG1_HS2_K562.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer",
+        "start": 251001,
+        "end": 350000
+      },
+      {
+        "label": "promoter",
+        "start": 350000,
+        "end": 350301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "CellType_HBG1_GATA1_K562",
+    "experiment": "cell_type_specificity",
+    "promoter": "HBG1",
+    "enhancer": "GATA1",
+    "cell_type": "K562",
+    "expected": "correct",
+    "length": 1048576,
+    "fasta": "sequences/CellType_HBG1_GATA1_K562.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer",
+        "start": 250000,
+        "end": 251121,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer",
+        "start": 251121,
+        "end": 350000
+      },
+      {
+        "label": "promoter",
+        "start": 350000,
+        "end": 350301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "CellType_HBG1_KLF1_K562",
+    "experiment": "cell_type_specificity",
+    "promoter": "HBG1",
+    "enhancer": "KLF1",
+    "cell_type": "K562",
+    "expected": "correct",
+    "length": 1048576,
+    "fasta": "sequences/CellType_HBG1_KLF1_K562.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer",
+        "start": 250000,
+        "end": 250552,
+        "module": "KLF1",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer",
+        "start": 250552,
+        "end": 350000
+      },
+      {
+        "label": "promoter",
+        "start": 350000,
+        "end": 350301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "CellType_HBG1_TAL1_K562",
+    "experiment": "cell_type_specificity",
+    "promoter": "HBG1",
+    "enhancer": "TAL1",
+    "cell_type": "K562",
+    "expected": "correct",
+    "length": 1048576,
+    "fasta": "sequences/CellType_HBG1_TAL1_K562.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer",
+        "start": 250000,
+        "end": 250974,
+        "module": "TAL1",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer",
+        "start": 250974,
+        "end": 350000
+      },
+      {
+        "label": "promoter",
+        "start": 350000,
+        "end": 350301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "CellType_HBG1_HNF4A_K562",
+    "experiment": "cell_type_specificity",
+    "promoter": "HBG1",
+    "enhancer": "HNF4A",
+    "cell_type": "K562",
+    "expected": "wrong_enhancer",
+    "length": 1048576,
+    "fasta": "sequences/CellType_HBG1_HNF4A_K562.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer",
+        "start": 250000,
+        "end": 250502,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer",
+        "start": 250502,
+        "end": 350000
+      },
+      {
+        "label": "promoter",
+        "start": 350000,
+        "end": 350301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "CellType_HBG1_HS2_HepG2",
+    "experiment": "cell_type_specificity",
+    "promoter": "HBG1",
+    "enhancer": "HS2",
+    "cell_type": "HepG2",
+    "expected": "wrong_cell",
+    "length": 1048576,
+    "fasta": "sequences/CellType_HBG1_HS2_HepG2.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer",
+        "start": 251001,
+        "end": 350000
+      },
+      {
+        "label": "promoter",
+        "start": 350000,
+        "end": 350301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "CellType_HBG1_HNF4A_HepG2",
+    "experiment": "cell_type_specificity",
+    "promoter": "HBG1",
+    "enhancer": "HNF4A",
+    "cell_type": "HepG2",
+    "expected": "mismatch",
+    "length": 1048576,
+    "fasta": "sequences/CellType_HBG1_HNF4A_HepG2.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer",
+        "start": 250000,
+        "end": 250502,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer",
+        "start": 250502,
+        "end": 350000
+      },
+      {
+        "label": "promoter",
+        "start": 350000,
+        "end": 350301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "CellType_HBG1_HS2_GM12878",
+    "experiment": "cell_type_specificity",
+    "promoter": "HBG1",
+    "enhancer": "HS2",
+    "cell_type": "GM12878",
+    "expected": "wrong_cell",
+    "length": 1048576,
+    "fasta": "sequences/CellType_HBG1_HS2_GM12878.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer",
+        "start": 251001,
+        "end": 350000
+      },
+      {
+        "label": "promoter",
+        "start": 350000,
+        "end": 350301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "CellType_HBG1_HNF4A_GM12878",
+    "experiment": "cell_type_specificity",
+    "promoter": "HBG1",
+    "enhancer": "HNF4A",
+    "cell_type": "GM12878",
+    "expected": "mismatch",
+    "length": 1048576,
+    "fasta": "sequences/CellType_HBG1_HNF4A_GM12878.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer",
+        "start": 250000,
+        "end": 250502,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer",
+        "start": 250502,
+        "end": 350000
+      },
+      {
+        "label": "promoter",
+        "start": 350000,
+        "end": 350301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "CellType_ALB_HNF4A_HepG2",
+    "experiment": "cell_type_specificity",
+    "promoter": "ALB",
+    "enhancer": "HNF4A",
+    "cell_type": "HepG2",
+    "expected": "correct",
+    "length": 1048576,
+    "fasta": "sequences/CellType_ALB_HNF4A_HepG2.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer",
+        "start": 250000,
+        "end": 250502,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer",
+        "start": 250502,
+        "end": 350000
+      },
+      {
+        "label": "promoter",
+        "start": 350000,
+        "end": 350700,
+        "module": "ALB",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "CellType_ALB_HS2_HepG2",
+    "experiment": "cell_type_specificity",
+    "promoter": "ALB",
+    "enhancer": "HS2",
+    "cell_type": "HepG2",
+    "expected": "wrong_enhancer",
+    "length": 1048576,
+    "fasta": "sequences/CellType_ALB_HS2_HepG2.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer",
+        "start": 251001,
+        "end": 350000
+      },
+      {
+        "label": "promoter",
+        "start": 350000,
+        "end": 350700,
+        "module": "ALB",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "CellType_ALB_GATA1_HepG2",
+    "experiment": "cell_type_specificity",
+    "promoter": "ALB",
+    "enhancer": "GATA1",
+    "cell_type": "HepG2",
+    "expected": "wrong_enhancer",
+    "length": 1048576,
+    "fasta": "sequences/CellType_ALB_GATA1_HepG2.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer",
+        "start": 250000,
+        "end": 251121,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer",
+        "start": 251121,
+        "end": 350000
+      },
+      {
+        "label": "promoter",
+        "start": 350000,
+        "end": 350700,
+        "module": "ALB",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "CellType_ALB_HNF4A_K562",
+    "experiment": "cell_type_specificity",
+    "promoter": "ALB",
+    "enhancer": "HNF4A",
+    "cell_type": "K562",
+    "expected": "wrong_cell",
+    "length": 1048576,
+    "fasta": "sequences/CellType_ALB_HNF4A_K562.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer",
+        "start": 250000,
+        "end": 250502,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer",
+        "start": 250502,
+        "end": 350000
+      },
+      {
+        "label": "promoter",
+        "start": 350000,
+        "end": 350700,
+        "module": "ALB",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "CellType_ALB_HS2_K562",
+    "experiment": "cell_type_specificity",
+    "promoter": "ALB",
+    "enhancer": "HS2",
+    "cell_type": "K562",
+    "expected": "mismatch",
+    "length": 1048576,
+    "fasta": "sequences/CellType_ALB_HS2_K562.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer",
+        "start": 251001,
+        "end": 350000
+      },
+      {
+        "label": "promoter",
+        "start": 350000,
+        "end": 350700,
+        "module": "ALB",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "CellType_ALB_HNF4A_GM12878",
+    "experiment": "cell_type_specificity",
+    "promoter": "ALB",
+    "enhancer": "HNF4A",
+    "cell_type": "GM12878",
+    "expected": "wrong_cell",
+    "length": 1048576,
+    "fasta": "sequences/CellType_ALB_HNF4A_GM12878.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer",
+        "start": 250000,
+        "end": 250502,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer",
+        "start": 250502,
+        "end": 350000
+      },
+      {
+        "label": "promoter",
+        "start": 350000,
+        "end": 350700,
+        "module": "ALB",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "CellType_ALB_HS2_GM12878",
+    "experiment": "cell_type_specificity",
+    "promoter": "ALB",
+    "enhancer": "HS2",
+    "cell_type": "GM12878",
+    "expected": "mismatch",
+    "length": 1048576,
+    "fasta": "sequences/CellType_ALB_HS2_GM12878.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer",
+        "start": 251001,
+        "end": 350000
+      },
+      {
+        "label": "promoter",
+        "start": 350000,
+        "end": 350700,
+        "module": "ALB",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "CellType_CD19_HS2_GM12878",
+    "experiment": "cell_type_specificity",
+    "promoter": "CD19",
+    "enhancer": "HS2",
+    "cell_type": "GM12878",
+    "expected": "wrong_enhancer",
+    "length": 1048576,
+    "fasta": "sequences/CellType_CD19_HS2_GM12878.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer",
+        "start": 251001,
+        "end": 350000
+      },
+      {
+        "label": "promoter",
+        "start": 350000,
+        "end": 350700,
+        "module": "CD19",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "CellType_CD19_HNF4A_GM12878",
+    "experiment": "cell_type_specificity",
+    "promoter": "CD19",
+    "enhancer": "HNF4A",
+    "cell_type": "GM12878",
+    "expected": "wrong_enhancer",
+    "length": 1048576,
+    "fasta": "sequences/CellType_CD19_HNF4A_GM12878.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer",
+        "start": 250000,
+        "end": 250502,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer",
+        "start": 250502,
+        "end": 350000
+      },
+      {
+        "label": "promoter",
+        "start": 350000,
+        "end": 350700,
+        "module": "CD19",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "CellType_CD19_GATA1_GM12878",
+    "experiment": "cell_type_specificity",
+    "promoter": "CD19",
+    "enhancer": "GATA1",
+    "cell_type": "GM12878",
+    "expected": "wrong_enhancer",
+    "length": 1048576,
+    "fasta": "sequences/CellType_CD19_GATA1_GM12878.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer",
+        "start": 250000,
+        "end": 251121,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer",
+        "start": 251121,
+        "end": 350000
+      },
+      {
+        "label": "promoter",
+        "start": 350000,
+        "end": 350700,
+        "module": "CD19",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "CellType_CD19_HS2_K562",
+    "experiment": "cell_type_specificity",
+    "promoter": "CD19",
+    "enhancer": "HS2",
+    "cell_type": "K562",
+    "expected": "mismatch",
+    "length": 1048576,
+    "fasta": "sequences/CellType_CD19_HS2_K562.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer",
+        "start": 251001,
+        "end": 350000
+      },
+      {
+        "label": "promoter",
+        "start": 350000,
+        "end": 350700,
+        "module": "CD19",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "CellType_CD19_HNF4A_K562",
+    "experiment": "cell_type_specificity",
+    "promoter": "CD19",
+    "enhancer": "HNF4A",
+    "cell_type": "K562",
+    "expected": "mismatch",
+    "length": 1048576,
+    "fasta": "sequences/CellType_CD19_HNF4A_K562.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer",
+        "start": 250000,
+        "end": 250502,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer",
+        "start": 250502,
+        "end": 350000
+      },
+      {
+        "label": "promoter",
+        "start": 350000,
+        "end": 350700,
+        "module": "CD19",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "CellType_CD19_HS2_HepG2",
+    "experiment": "cell_type_specificity",
+    "promoter": "CD19",
+    "enhancer": "HS2",
+    "cell_type": "HepG2",
+    "expected": "mismatch",
+    "length": 1048576,
+    "fasta": "sequences/CellType_CD19_HS2_HepG2.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer",
+        "start": 251001,
+        "end": 350000
+      },
+      {
+        "label": "promoter",
+        "start": 350000,
+        "end": 350700,
+        "module": "CD19",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "CellType_CD19_HNF4A_HepG2",
+    "experiment": "cell_type_specificity",
+    "promoter": "CD19",
+    "enhancer": "HNF4A",
+    "cell_type": "HepG2",
+    "expected": "mismatch",
+    "length": 1048576,
+    "fasta": "sequences/CellType_CD19_HNF4A_HepG2.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer",
+        "start": 250000,
+        "end": 250502,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer",
+        "start": 250502,
+        "end": 350000
+      },
+      {
+        "label": "promoter",
+        "start": 350000,
+        "end": 350700,
+        "module": "CD19",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Single_HS2",
+    "experiment": "pairwise_cooperativity",
+    "enhancer1": "HS2",
+    "enhancer2": null,
+    "expected": "control",
+    "length": 1048576,
+    "fasta": "sequences/Single_HS2.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 251001,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Single_GATA1",
+    "experiment": "pairwise_cooperativity",
+    "enhancer1": "GATA1",
+    "enhancer2": null,
+    "expected": "control",
+    "length": 1048576,
+    "fasta": "sequences/Single_GATA1.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251121,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 251121,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Single_KLF1",
+    "experiment": "pairwise_cooperativity",
+    "enhancer1": "KLF1",
+    "enhancer2": null,
+    "expected": "control",
+    "length": 1048576,
+    "fasta": "sequences/Single_KLF1.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 250552,
+        "module": "KLF1",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 250552,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Single_TAL1",
+    "experiment": "pairwise_cooperativity",
+    "enhancer1": "TAL1",
+    "enhancer2": null,
+    "expected": "control",
+    "length": 1048576,
+    "fasta": "sequences/Single_TAL1.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 250974,
+        "module": "TAL1",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 250974,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Single_HNF4A",
+    "experiment": "pairwise_cooperativity",
+    "enhancer1": "HNF4A",
+    "enhancer2": null,
+    "expected": "control",
+    "length": 1048576,
+    "fasta": "sequences/Single_HNF4A.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 250502,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 250502,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Pair_HS2_GATA1",
+    "experiment": "pairwise_cooperativity",
+    "enhancer1": "HS2",
+    "enhancer2": "GATA1",
+    "expected": "synergy",
+    "length": 1048576,
+    "fasta": "sequences/Pair_HS2_GATA1.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 251001,
+        "end": 256001
+      },
+      {
+        "label": "enhancer2",
+        "start": 256001,
+        "end": 257122,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 257122,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Pair_HS2_KLF1",
+    "experiment": "pairwise_cooperativity",
+    "enhancer1": "HS2",
+    "enhancer2": "KLF1",
+    "expected": "synergy",
+    "length": 1048576,
+    "fasta": "sequences/Pair_HS2_KLF1.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 251001,
+        "end": 256001
+      },
+      {
+        "label": "enhancer2",
+        "start": 256001,
+        "end": 256553,
+        "module": "KLF1",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 256553,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Pair_HS2_TAL1",
+    "experiment": "pairwise_cooperativity",
+    "enhancer1": "HS2",
+    "enhancer2": "TAL1",
+    "expected": "synergy",
+    "length": 1048576,
+    "fasta": "sequences/Pair_HS2_TAL1.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 251001,
+        "end": 256001
+      },
+      {
+        "label": "enhancer2",
+        "start": 256001,
+        "end": 256975,
+        "module": "TAL1",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 256975,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Pair_GATA1_KLF1",
+    "experiment": "pairwise_cooperativity",
+    "enhancer1": "GATA1",
+    "enhancer2": "KLF1",
+    "expected": "synergy",
+    "length": 1048576,
+    "fasta": "sequences/Pair_GATA1_KLF1.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251121,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 251121,
+        "end": 256121
+      },
+      {
+        "label": "enhancer2",
+        "start": 256121,
+        "end": 256673,
+        "module": "KLF1",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 256673,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Pair_GATA1_TAL1",
+    "experiment": "pairwise_cooperativity",
+    "enhancer1": "GATA1",
+    "enhancer2": "TAL1",
+    "expected": "synergy",
+    "length": 1048576,
+    "fasta": "sequences/Pair_GATA1_TAL1.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251121,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 251121,
+        "end": 256121
+      },
+      {
+        "label": "enhancer2",
+        "start": 256121,
+        "end": 257095,
+        "module": "TAL1",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 257095,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Pair_KLF1_TAL1",
+    "experiment": "pairwise_cooperativity",
+    "enhancer1": "KLF1",
+    "enhancer2": "TAL1",
+    "expected": "synergy",
+    "length": 1048576,
+    "fasta": "sequences/Pair_KLF1_TAL1.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 250552,
+        "module": "KLF1",
+        "orientation": "+"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 250552,
+        "end": 255552
+      },
+      {
+        "label": "enhancer2",
+        "start": 255552,
+        "end": 256526,
+        "module": "TAL1",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 256526,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Pair_HS2_HNF4A",
+    "experiment": "pairwise_cooperativity",
+    "enhancer1": "HS2",
+    "enhancer2": "HNF4A",
+    "expected": "interference",
+    "length": 1048576,
+    "fasta": "sequences/Pair_HS2_HNF4A.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 251001,
+        "end": 256001
+      },
+      {
+        "label": "enhancer2",
+        "start": 256001,
+        "end": 256503,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 256503,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Pair_GATA1_HNF4A",
+    "experiment": "pairwise_cooperativity",
+    "enhancer1": "GATA1",
+    "enhancer2": "HNF4A",
+    "expected": "interference",
+    "length": 1048576,
+    "fasta": "sequences/Pair_GATA1_HNF4A.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251121,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 251121,
+        "end": 256121
+      },
+      {
+        "label": "enhancer2",
+        "start": 256121,
+        "end": 256623,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 256623,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Pair_KLF1_HNF4A",
+    "experiment": "pairwise_cooperativity",
+    "enhancer1": "KLF1",
+    "enhancer2": "HNF4A",
+    "expected": "interference",
+    "length": 1048576,
+    "fasta": "sequences/Pair_KLF1_HNF4A.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 250552,
+        "module": "KLF1",
+        "orientation": "+"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 250552,
+        "end": 255552
+      },
+      {
+        "label": "enhancer2",
+        "start": 255552,
+        "end": 256054,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 256054,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Pair_TAL1_HNF4A",
+    "experiment": "pairwise_cooperativity",
+    "enhancer1": "TAL1",
+    "enhancer2": "HNF4A",
+    "expected": "interference",
+    "length": 1048576,
+    "fasta": "sequences/Pair_TAL1_HNF4A.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 250974,
+        "module": "TAL1",
+        "orientation": "+"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 250974,
+        "end": 255974
+      },
+      {
+        "label": "enhancer2",
+        "start": 255974,
+        "end": 256476,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 256476,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "CTCF_Sep_HS2_GATA1",
+    "experiment": "ctcf_separation",
+    "enhancer1": "HS2",
+    "enhancer2": "GATA1",
+    "separator": "CTCF",
+    "expected": "test_insulation",
+    "length": 1048576,
+    "fasta": "sequences/CTCF_Sep_HS2_GATA1.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "separator",
+        "start": 251001,
+        "end": 251864,
+        "module": "CTCF",
+        "orientation": "+"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 251864,
+        "end": 256864
+      },
+      {
+        "label": "enhancer2",
+        "start": 256864,
+        "end": 257985,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 257985,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "CTCF_Sep_HS2_HNF4A",
+    "experiment": "ctcf_separation",
+    "enhancer1": "HS2",
+    "enhancer2": "HNF4A",
+    "separator": "CTCF",
+    "expected": "control_already_independent",
+    "length": 1048576,
+    "fasta": "sequences/CTCF_Sep_HS2_HNF4A.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "separator",
+        "start": 251001,
+        "end": 251864,
+        "module": "CTCF",
+        "orientation": "+"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 251864,
+        "end": 256864
+      },
+      {
+        "label": "enhancer2",
+        "start": 256864,
+        "end": 257366,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 257366,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Spacing_0bp_HS2_GATA1",
+    "experiment": "short_range_spacing",
+    "enhancer1": "HS2",
+    "enhancer2": "GATA1",
+    "spacing": 0,
+    "length": 1048576,
+    "fasta": "sequences/Spacing_0bp_HS2_GATA1.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "enhancer2",
+        "start": 251001,
+        "end": 252122,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 252122,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Spacing_100bp_HS2_GATA1",
+    "experiment": "short_range_spacing",
+    "enhancer1": "HS2",
+    "enhancer2": "GATA1",
+    "spacing": 100,
+    "length": 1048576,
+    "fasta": "sequences/Spacing_100bp_HS2_GATA1.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 251001,
+        "end": 251101
+      },
+      {
+        "label": "enhancer2",
+        "start": 251101,
+        "end": 252222,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 252222,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Spacing_250bp_HS2_GATA1",
+    "experiment": "short_range_spacing",
+    "enhancer1": "HS2",
+    "enhancer2": "GATA1",
+    "spacing": 250,
+    "length": 1048576,
+    "fasta": "sequences/Spacing_250bp_HS2_GATA1.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 251001,
+        "end": 251251
+      },
+      {
+        "label": "enhancer2",
+        "start": 251251,
+        "end": 252372,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 252372,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Spacing_500bp_HS2_GATA1",
+    "experiment": "short_range_spacing",
+    "enhancer1": "HS2",
+    "enhancer2": "GATA1",
+    "spacing": 500,
+    "length": 1048576,
+    "fasta": "sequences/Spacing_500bp_HS2_GATA1.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 251001,
+        "end": 251501
+      },
+      {
+        "label": "enhancer2",
+        "start": 251501,
+        "end": 252622,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 252622,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Spacing_750bp_HS2_GATA1",
+    "experiment": "short_range_spacing",
+    "enhancer1": "HS2",
+    "enhancer2": "GATA1",
+    "spacing": 750,
+    "length": 1048576,
+    "fasta": "sequences/Spacing_750bp_HS2_GATA1.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 251001,
+        "end": 251751
+      },
+      {
+        "label": "enhancer2",
+        "start": 251751,
+        "end": 252872,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 252872,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Spacing_1000bp_HS2_GATA1",
+    "experiment": "short_range_spacing",
+    "enhancer1": "HS2",
+    "enhancer2": "GATA1",
+    "spacing": 1000,
+    "length": 1048576,
+    "fasta": "sequences/Spacing_1000bp_HS2_GATA1.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 251001,
+        "end": 252001
+      },
+      {
+        "label": "enhancer2",
+        "start": 252001,
+        "end": 253122,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 253122,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Spacing_2000bp_HS2_GATA1",
+    "experiment": "short_range_spacing",
+    "enhancer1": "HS2",
+    "enhancer2": "GATA1",
+    "spacing": 2000,
+    "length": 1048576,
+    "fasta": "sequences/Spacing_2000bp_HS2_GATA1.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 251001,
+        "end": 253001
+      },
+      {
+        "label": "enhancer2",
+        "start": 253001,
+        "end": 254122,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 254122,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Spacing_3000bp_HS2_GATA1",
+    "experiment": "short_range_spacing",
+    "enhancer1": "HS2",
+    "enhancer2": "GATA1",
+    "spacing": 3000,
+    "length": 1048576,
+    "fasta": "sequences/Spacing_3000bp_HS2_GATA1.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 251001,
+        "end": 254001
+      },
+      {
+        "label": "enhancer2",
+        "start": 254001,
+        "end": 255122,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 255122,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Spacing_5000bp_HS2_GATA1",
+    "experiment": "short_range_spacing",
+    "enhancer1": "HS2",
+    "enhancer2": "GATA1",
+    "spacing": 5000,
+    "length": 1048576,
+    "fasta": "sequences/Spacing_5000bp_HS2_GATA1.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 251001,
+        "end": 256001
+      },
+      {
+        "label": "enhancer2",
+        "start": 256001,
+        "end": 257122,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 257122,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Spacing_10000bp_HS2_GATA1",
+    "experiment": "short_range_spacing",
+    "enhancer1": "HS2",
+    "enhancer2": "GATA1",
+    "spacing": 10000,
+    "length": 1048576,
+    "fasta": "sequences/Spacing_10000bp_HS2_GATA1.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 251001,
+        "end": 261001
+      },
+      {
+        "label": "enhancer2",
+        "start": 261001,
+        "end": 262122,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 262122,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Orient_HS2+_GATA1+",
+    "experiment": "orientation_effects",
+    "enhancer1": "HS2",
+    "enhancer2": "GATA1",
+    "orientation1": "+",
+    "orientation2": "+",
+    "expected": "expect_cooperativity",
+    "length": 1048576,
+    "fasta": "sequences/Orient_HS2+_GATA1+.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 251001,
+        "end": 256001
+      },
+      {
+        "label": "enhancer2",
+        "start": 256001,
+        "end": 257122,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 257122,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Orient_HS2+_GATA1-",
+    "experiment": "orientation_effects",
+    "enhancer1": "HS2",
+    "enhancer2": "GATA1",
+    "orientation1": "+",
+    "orientation2": "-",
+    "expected": "expect_cooperativity",
+    "length": 1048576,
+    "fasta": "sequences/Orient_HS2+_GATA1-.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 251001,
+        "end": 256001
+      },
+      {
+        "label": "enhancer2",
+        "start": 256001,
+        "end": 257122,
+        "module": "GATA1",
+        "orientation": "-"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 257122,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Orient_HS2-_GATA1+",
+    "experiment": "orientation_effects",
+    "enhancer1": "HS2",
+    "enhancer2": "GATA1",
+    "orientation1": "-",
+    "orientation2": "+",
+    "expected": "expect_cooperativity",
+    "length": 1048576,
+    "fasta": "sequences/Orient_HS2-_GATA1+.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "-"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 251001,
+        "end": 256001
+      },
+      {
+        "label": "enhancer2",
+        "start": 256001,
+        "end": 257122,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 257122,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Orient_HS2-_GATA1-",
+    "experiment": "orientation_effects",
+    "enhancer1": "HS2",
+    "enhancer2": "GATA1",
+    "orientation1": "-",
+    "orientation2": "-",
+    "expected": "expect_cooperativity",
+    "length": 1048576,
+    "fasta": "sequences/Orient_HS2-_GATA1-.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "-"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 251001,
+        "end": 256001
+      },
+      {
+        "label": "enhancer2",
+        "start": 256001,
+        "end": 257122,
+        "module": "GATA1",
+        "orientation": "-"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 257122,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Orient_HS2+_HNF4A+",
+    "experiment": "orientation_effects",
+    "enhancer1": "HS2",
+    "enhancer2": "HNF4A",
+    "orientation1": "+",
+    "orientation2": "+",
+    "expected": "expect_independence",
+    "length": 1048576,
+    "fasta": "sequences/Orient_HS2+_HNF4A+.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 251001,
+        "end": 256001
+      },
+      {
+        "label": "enhancer2",
+        "start": 256001,
+        "end": 256503,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 256503,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Orient_HS2+_HNF4A-",
+    "experiment": "orientation_effects",
+    "enhancer1": "HS2",
+    "enhancer2": "HNF4A",
+    "orientation1": "+",
+    "orientation2": "-",
+    "expected": "expect_independence",
+    "length": 1048576,
+    "fasta": "sequences/Orient_HS2+_HNF4A-.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 251001,
+        "end": 256001
+      },
+      {
+        "label": "enhancer2",
+        "start": 256001,
+        "end": 256503,
+        "module": "HNF4A",
+        "orientation": "-"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 256503,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Orient_HS2-_HNF4A+",
+    "experiment": "orientation_effects",
+    "enhancer1": "HS2",
+    "enhancer2": "HNF4A",
+    "orientation1": "-",
+    "orientation2": "+",
+    "expected": "expect_independence",
+    "length": 1048576,
+    "fasta": "sequences/Orient_HS2-_HNF4A+.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "-"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 251001,
+        "end": 256001
+      },
+      {
+        "label": "enhancer2",
+        "start": 256001,
+        "end": 256503,
+        "module": "HNF4A",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 256503,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Orient_HS2-_HNF4A-",
+    "experiment": "orientation_effects",
+    "enhancer1": "HS2",
+    "enhancer2": "HNF4A",
+    "orientation1": "-",
+    "orientation2": "-",
+    "expected": "expect_independence",
+    "length": 1048576,
+    "fasta": "sequences/Orient_HS2-_HNF4A-.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "-"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 251001,
+        "end": 256001
+      },
+      {
+        "label": "enhancer2",
+        "start": 256001,
+        "end": 256503,
+        "module": "HNF4A",
+        "orientation": "-"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 256503,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Orient_GATA1+_KLF1+",
+    "experiment": "orientation_effects",
+    "enhancer1": "GATA1",
+    "enhancer2": "KLF1",
+    "orientation1": "+",
+    "orientation2": "+",
+    "expected": "expect_cooperativity",
+    "length": 1048576,
+    "fasta": "sequences/Orient_GATA1+_KLF1+.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251121,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 251121,
+        "end": 256121
+      },
+      {
+        "label": "enhancer2",
+        "start": 256121,
+        "end": 256673,
+        "module": "KLF1",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 256673,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Orient_GATA1+_KLF1-",
+    "experiment": "orientation_effects",
+    "enhancer1": "GATA1",
+    "enhancer2": "KLF1",
+    "orientation1": "+",
+    "orientation2": "-",
+    "expected": "expect_cooperativity",
+    "length": 1048576,
+    "fasta": "sequences/Orient_GATA1+_KLF1-.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251121,
+        "module": "GATA1",
+        "orientation": "+"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 251121,
+        "end": 256121
+      },
+      {
+        "label": "enhancer2",
+        "start": 256121,
+        "end": 256673,
+        "module": "KLF1",
+        "orientation": "-"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 256673,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Orient_GATA1-_KLF1+",
+    "experiment": "orientation_effects",
+    "enhancer1": "GATA1",
+    "enhancer2": "KLF1",
+    "orientation1": "-",
+    "orientation2": "+",
+    "expected": "expect_cooperativity",
+    "length": 1048576,
+    "fasta": "sequences/Orient_GATA1-_KLF1+.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251121,
+        "module": "GATA1",
+        "orientation": "-"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 251121,
+        "end": 256121
+      },
+      {
+        "label": "enhancer2",
+        "start": 256121,
+        "end": 256673,
+        "module": "KLF1",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 256673,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Orient_GATA1-_KLF1-",
+    "experiment": "orientation_effects",
+    "enhancer1": "GATA1",
+    "enhancer2": "KLF1",
+    "orientation1": "-",
+    "orientation2": "-",
+    "expected": "expect_cooperativity",
+    "length": 1048576,
+    "fasta": "sequences/Orient_GATA1-_KLF1-.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251121,
+        "module": "GATA1",
+        "orientation": "-"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 251121,
+        "end": 256121
+      },
+      {
+        "label": "enhancer2",
+        "start": 256121,
+        "end": 256673,
+        "module": "KLF1",
+        "orientation": "-"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 256673,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Orient_HS2+_CTCF+",
+    "experiment": "orientation_effects",
+    "enhancer1": "HS2",
+    "enhancer2": "CTCF",
+    "orientation1": "+",
+    "orientation2": "+",
+    "expected": "CTCF_orientation_critical",
+    "length": 1048576,
+    "fasta": "sequences/Orient_HS2+_CTCF+.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 251001,
+        "end": 256001
+      },
+      {
+        "label": "enhancer2",
+        "start": 256001,
+        "end": 256864,
+        "module": "CTCF",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 256864,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Orient_HS2+_CTCF-",
+    "experiment": "orientation_effects",
+    "enhancer1": "HS2",
+    "enhancer2": "CTCF",
+    "orientation1": "+",
+    "orientation2": "-",
+    "expected": "CTCF_orientation_critical",
+    "length": 1048576,
+    "fasta": "sequences/Orient_HS2+_CTCF-.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "+"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 251001,
+        "end": 256001
+      },
+      {
+        "label": "enhancer2",
+        "start": 256001,
+        "end": 256864,
+        "module": "CTCF",
+        "orientation": "-"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 256864,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Orient_HS2-_CTCF+",
+    "experiment": "orientation_effects",
+    "enhancer1": "HS2",
+    "enhancer2": "CTCF",
+    "orientation1": "-",
+    "orientation2": "+",
+    "expected": "CTCF_orientation_critical",
+    "length": 1048576,
+    "fasta": "sequences/Orient_HS2-_CTCF+.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "-"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 251001,
+        "end": 256001
+      },
+      {
+        "label": "enhancer2",
+        "start": 256001,
+        "end": 256864,
+        "module": "CTCF",
+        "orientation": "+"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 256864,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  },
+  {
+    "construct": "Orient_HS2-_CTCF-",
+    "experiment": "orientation_effects",
+    "enhancer1": "HS2",
+    "enhancer2": "CTCF",
+    "orientation1": "-",
+    "orientation2": "-",
+    "expected": "CTCF_orientation_critical",
+    "length": 1048576,
+    "fasta": "sequences/Orient_HS2-_CTCF-.fa",
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "enhancer1",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2",
+        "orientation": "-"
+      },
+      {
+        "label": "inter_enhancer_spacing",
+        "start": 251001,
+        "end": 256001
+      },
+      {
+        "label": "enhancer2",
+        "start": 256001,
+        "end": 256864,
+        "module": "CTCF",
+        "orientation": "-"
+      },
+      {
+        "label": "spacer_to_promoter",
+        "start": 256864,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1",
+        "orientation": "+"
+      }
+    ]
+  }
+]
