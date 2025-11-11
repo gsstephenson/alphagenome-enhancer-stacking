@@ -1,0 +1,3778 @@
+[
+  {
+    "construct": "LogicGate_AND_OCT4_SOX2_00_K562",
+    "gate_type": "AND",
+    "tf_a": "OCT4",
+    "tf_b": "SOX2",
+    "tf_a_present": false,
+    "tf_b_present": false,
+    "binary_code": "00",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 0,
+    "biological_rationale": "Oct4+Sox2 are THE canonical cooperative pair for pluripotency",
+    "description": "Neither TF present (baseline)",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_AND_OCT4_SOX2_00_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250000,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 500301,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_AND_OCT4_SOX2_01_K562",
+    "gate_type": "AND",
+    "tf_a": "OCT4",
+    "tf_b": "SOX2",
+    "tf_a_present": false,
+    "tf_b_present": false,
+    "binary_code": "01",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 0,
+    "biological_rationale": "Oct4+Sox2 are THE canonical cooperative pair for pluripotency",
+    "description": "Only SOX2",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_AND_OCT4_SOX2_01_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250000,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 500301,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_AND_OCT4_SOX2_10_K562",
+    "gate_type": "AND",
+    "tf_a": "OCT4",
+    "tf_b": "SOX2",
+    "tf_a_present": false,
+    "tf_b_present": false,
+    "binary_code": "10",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 0,
+    "biological_rationale": "Oct4+Sox2 are THE canonical cooperative pair for pluripotency",
+    "description": "Only OCT4",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_AND_OCT4_SOX2_10_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250000,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 500301,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_AND_OCT4_SOX2_11_K562",
+    "gate_type": "AND",
+    "tf_a": "OCT4",
+    "tf_b": "SOX2",
+    "tf_a_present": false,
+    "tf_b_present": false,
+    "binary_code": "11",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 1,
+    "biological_rationale": "Oct4+Sox2 are THE canonical cooperative pair for pluripotency",
+    "description": "Both TFs present",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_AND_OCT4_SOX2_11_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250000,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 500301,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_AND_GATA1_MODULE_KLF1_MODULE_00_K562",
+    "gate_type": "AND",
+    "tf_a": "GATA1_MODULE",
+    "tf_b": "KLF1_MODULE",
+    "tf_a_present": false,
+    "tf_b_present": false,
+    "binary_code": "00",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 0,
+    "biological_rationale": "Your finding: GATA1+KLF1 showed 1.26x synergy (strongest AND gate)",
+    "description": "Neither TF present (baseline)",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_AND_GATA1_MODULE_KLF1_MODULE_00_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250000,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 500301,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_AND_GATA1_MODULE_KLF1_MODULE_01_K562",
+    "gate_type": "AND",
+    "tf_a": "GATA1_MODULE",
+    "tf_b": "KLF1_MODULE",
+    "tf_a_present": false,
+    "tf_b_present": true,
+    "binary_code": "01",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 0,
+    "biological_rationale": "Your finding: GATA1+KLF1 showed 1.26x synergy (strongest AND gate)",
+    "description": "Only KLF1_MODULE",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_AND_GATA1_MODULE_KLF1_MODULE_01_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250000,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255552,
+        "module": "KLF1_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255552,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 500301,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_AND_GATA1_MODULE_KLF1_MODULE_10_K562",
+    "gate_type": "AND",
+    "tf_a": "GATA1_MODULE",
+    "tf_b": "KLF1_MODULE",
+    "tf_a_present": true,
+    "tf_b_present": false,
+    "binary_code": "10",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 0,
+    "biological_rationale": "Your finding: GATA1+KLF1 showed 1.26x synergy (strongest AND gate)",
+    "description": "Only GATA1_MODULE",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_AND_GATA1_MODULE_KLF1_MODULE_10_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 251121,
+        "module": "GATA1_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 251121,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 498879
+      },
+      {
+        "label": "promoter",
+        "start": 498879,
+        "end": 499180,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 499180,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_AND_GATA1_MODULE_KLF1_MODULE_11_K562",
+    "gate_type": "AND",
+    "tf_a": "GATA1_MODULE",
+    "tf_b": "KLF1_MODULE",
+    "tf_a_present": true,
+    "tf_b_present": true,
+    "binary_code": "11",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 1,
+    "biological_rationale": "Your finding: GATA1+KLF1 showed 1.26x synergy (strongest AND gate)",
+    "description": "Both TFs present",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_AND_GATA1_MODULE_KLF1_MODULE_11_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 251121,
+        "module": "GATA1_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 251121,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255552,
+        "module": "KLF1_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255552,
+        "end": 498879
+      },
+      {
+        "label": "promoter",
+        "start": 498879,
+        "end": 499180,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 499180,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_AND_GATA1_MODULE_TAL1_MODULE_00_K562",
+    "gate_type": "AND",
+    "tf_a": "GATA1_MODULE",
+    "tf_b": "TAL1_MODULE",
+    "tf_a_present": false,
+    "tf_b_present": false,
+    "binary_code": "00",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 0,
+    "biological_rationale": "Erythroid master regulators, expected cooperativity",
+    "description": "Neither TF present (baseline)",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_AND_GATA1_MODULE_TAL1_MODULE_00_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250000,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 500301,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_AND_GATA1_MODULE_TAL1_MODULE_01_K562",
+    "gate_type": "AND",
+    "tf_a": "GATA1_MODULE",
+    "tf_b": "TAL1_MODULE",
+    "tf_a_present": false,
+    "tf_b_present": true,
+    "binary_code": "01",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 0,
+    "biological_rationale": "Erythroid master regulators, expected cooperativity",
+    "description": "Only TAL1_MODULE",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_AND_GATA1_MODULE_TAL1_MODULE_01_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250000,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255974,
+        "module": "TAL1_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255974,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 500301,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_AND_GATA1_MODULE_TAL1_MODULE_10_K562",
+    "gate_type": "AND",
+    "tf_a": "GATA1_MODULE",
+    "tf_b": "TAL1_MODULE",
+    "tf_a_present": true,
+    "tf_b_present": false,
+    "binary_code": "10",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 0,
+    "biological_rationale": "Erythroid master regulators, expected cooperativity",
+    "description": "Only GATA1_MODULE",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_AND_GATA1_MODULE_TAL1_MODULE_10_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 251121,
+        "module": "GATA1_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 251121,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 498879
+      },
+      {
+        "label": "promoter",
+        "start": 498879,
+        "end": 499180,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 499180,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_AND_GATA1_MODULE_TAL1_MODULE_11_K562",
+    "gate_type": "AND",
+    "tf_a": "GATA1_MODULE",
+    "tf_b": "TAL1_MODULE",
+    "tf_a_present": true,
+    "tf_b_present": true,
+    "binary_code": "11",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 1,
+    "biological_rationale": "Erythroid master regulators, expected cooperativity",
+    "description": "Both TFs present",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_AND_GATA1_MODULE_TAL1_MODULE_11_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 251121,
+        "module": "GATA1_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 251121,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255974,
+        "module": "TAL1_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255974,
+        "end": 498879
+      },
+      {
+        "label": "promoter",
+        "start": 498879,
+        "end": 499180,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 499180,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_AND_HS2_ENHANCER_GATA1_MODULE_00_K562",
+    "gate_type": "AND",
+    "tf_a": "HS2_ENHANCER",
+    "tf_b": "GATA1_MODULE",
+    "tf_a_present": false,
+    "tf_b_present": false,
+    "binary_code": "00",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 0,
+    "biological_rationale": "Your surprising finding: showed interference (0.89x) - test if construct matters",
+    "description": "Neither TF present (baseline)",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_AND_HS2_ENHANCER_GATA1_MODULE_00_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250000,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 500301,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_AND_HS2_ENHANCER_GATA1_MODULE_01_K562",
+    "gate_type": "AND",
+    "tf_a": "HS2_ENHANCER",
+    "tf_b": "GATA1_MODULE",
+    "tf_a_present": false,
+    "tf_b_present": true,
+    "binary_code": "01",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 0,
+    "biological_rationale": "Your surprising finding: showed interference (0.89x) - test if construct matters",
+    "description": "Only GATA1_MODULE",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_AND_HS2_ENHANCER_GATA1_MODULE_01_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250000,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 256121,
+        "module": "GATA1_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 256121,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 500301,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_AND_HS2_ENHANCER_GATA1_MODULE_10_K562",
+    "gate_type": "AND",
+    "tf_a": "HS2_ENHANCER",
+    "tf_b": "GATA1_MODULE",
+    "tf_a_present": true,
+    "tf_b_present": false,
+    "binary_code": "10",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 0,
+    "biological_rationale": "Your surprising finding: showed interference (0.89x) - test if construct matters",
+    "description": "Only HS2_ENHANCER",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_AND_HS2_ENHANCER_GATA1_MODULE_10_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2_ENHANCER",
+        "orientation": "+"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 251001,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 498999
+      },
+      {
+        "label": "promoter",
+        "start": 498999,
+        "end": 499300,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 499300,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_AND_HS2_ENHANCER_GATA1_MODULE_11_K562",
+    "gate_type": "AND",
+    "tf_a": "HS2_ENHANCER",
+    "tf_b": "GATA1_MODULE",
+    "tf_a_present": true,
+    "tf_b_present": true,
+    "binary_code": "11",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 1,
+    "biological_rationale": "Your surprising finding: showed interference (0.89x) - test if construct matters",
+    "description": "Both TFs present",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_AND_HS2_ENHANCER_GATA1_MODULE_11_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2_ENHANCER",
+        "orientation": "+"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 251001,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 256121,
+        "module": "GATA1_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 256121,
+        "end": 498999
+      },
+      {
+        "label": "promoter",
+        "start": 498999,
+        "end": 499300,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 499300,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_AND_HS2_ENHANCER_KLF1_MODULE_00_K562",
+    "gate_type": "AND",
+    "tf_a": "HS2_ENHANCER",
+    "tf_b": "KLF1_MODULE",
+    "tf_a_present": false,
+    "tf_b_present": false,
+    "binary_code": "00",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 0,
+    "biological_rationale": "Your finding: showed 1.12x synergy - validate AND-like behavior",
+    "description": "Neither TF present (baseline)",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_AND_HS2_ENHANCER_KLF1_MODULE_00_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250000,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 500301,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_AND_HS2_ENHANCER_KLF1_MODULE_01_K562",
+    "gate_type": "AND",
+    "tf_a": "HS2_ENHANCER",
+    "tf_b": "KLF1_MODULE",
+    "tf_a_present": false,
+    "tf_b_present": true,
+    "binary_code": "01",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 0,
+    "biological_rationale": "Your finding: showed 1.12x synergy - validate AND-like behavior",
+    "description": "Only KLF1_MODULE",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_AND_HS2_ENHANCER_KLF1_MODULE_01_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250000,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255552,
+        "module": "KLF1_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255552,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 500301,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_AND_HS2_ENHANCER_KLF1_MODULE_10_K562",
+    "gate_type": "AND",
+    "tf_a": "HS2_ENHANCER",
+    "tf_b": "KLF1_MODULE",
+    "tf_a_present": true,
+    "tf_b_present": false,
+    "binary_code": "10",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 0,
+    "biological_rationale": "Your finding: showed 1.12x synergy - validate AND-like behavior",
+    "description": "Only HS2_ENHANCER",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_AND_HS2_ENHANCER_KLF1_MODULE_10_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2_ENHANCER",
+        "orientation": "+"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 251001,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 498999
+      },
+      {
+        "label": "promoter",
+        "start": 498999,
+        "end": 499300,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 499300,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_AND_HS2_ENHANCER_KLF1_MODULE_11_K562",
+    "gate_type": "AND",
+    "tf_a": "HS2_ENHANCER",
+    "tf_b": "KLF1_MODULE",
+    "tf_a_present": true,
+    "tf_b_present": true,
+    "binary_code": "11",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 1,
+    "biological_rationale": "Your finding: showed 1.12x synergy - validate AND-like behavior",
+    "description": "Both TFs present",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_AND_HS2_ENHANCER_KLF1_MODULE_11_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2_ENHANCER",
+        "orientation": "+"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 251001,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255552,
+        "module": "KLF1_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255552,
+        "end": 498999
+      },
+      {
+        "label": "promoter",
+        "start": 498999,
+        "end": 499300,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 499300,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_OR_GATA1_MODULE_GATA2_00_K562",
+    "gate_type": "OR",
+    "tf_a": "GATA1_MODULE",
+    "tf_b": "GATA2",
+    "tf_a_present": false,
+    "tf_b_present": false,
+    "binary_code": "00",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 0,
+    "biological_rationale": "GATA1/2 are redundant in erythroid specification",
+    "description": "Neither TF present (baseline)",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_OR_GATA1_MODULE_GATA2_00_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250000,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 500301,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_OR_GATA1_MODULE_GATA2_01_K562",
+    "gate_type": "OR",
+    "tf_a": "GATA1_MODULE",
+    "tf_b": "GATA2",
+    "tf_a_present": false,
+    "tf_b_present": false,
+    "binary_code": "01",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 1,
+    "biological_rationale": "GATA1/2 are redundant in erythroid specification",
+    "description": "Only GATA2",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_OR_GATA1_MODULE_GATA2_01_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250000,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 500301,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_OR_GATA1_MODULE_GATA2_10_K562",
+    "gate_type": "OR",
+    "tf_a": "GATA1_MODULE",
+    "tf_b": "GATA2",
+    "tf_a_present": true,
+    "tf_b_present": false,
+    "binary_code": "10",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 1,
+    "biological_rationale": "GATA1/2 are redundant in erythroid specification",
+    "description": "Only GATA1_MODULE",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_OR_GATA1_MODULE_GATA2_10_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 251121,
+        "module": "GATA1_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 251121,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 498879
+      },
+      {
+        "label": "promoter",
+        "start": 498879,
+        "end": 499180,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 499180,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_OR_GATA1_MODULE_GATA2_11_K562",
+    "gate_type": "OR",
+    "tf_a": "GATA1_MODULE",
+    "tf_b": "GATA2",
+    "tf_a_present": true,
+    "tf_b_present": false,
+    "binary_code": "11",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 1,
+    "biological_rationale": "GATA1/2 are redundant in erythroid specification",
+    "description": "Both TFs present",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_OR_GATA1_MODULE_GATA2_11_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 251121,
+        "module": "GATA1_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 251121,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 498879
+      },
+      {
+        "label": "promoter",
+        "start": 498879,
+        "end": 499180,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 499180,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_OR_KLF1_MODULE_TAL1_MODULE_00_K562",
+    "gate_type": "OR",
+    "tf_a": "KLF1_MODULE",
+    "tf_b": "TAL1_MODULE",
+    "tf_a_present": false,
+    "tf_b_present": false,
+    "binary_code": "00",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 0,
+    "biological_rationale": "Both activate erythroid genes - test redundancy",
+    "description": "Neither TF present (baseline)",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_OR_KLF1_MODULE_TAL1_MODULE_00_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250000,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 500301,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_OR_KLF1_MODULE_TAL1_MODULE_01_K562",
+    "gate_type": "OR",
+    "tf_a": "KLF1_MODULE",
+    "tf_b": "TAL1_MODULE",
+    "tf_a_present": false,
+    "tf_b_present": true,
+    "binary_code": "01",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 1,
+    "biological_rationale": "Both activate erythroid genes - test redundancy",
+    "description": "Only TAL1_MODULE",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_OR_KLF1_MODULE_TAL1_MODULE_01_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250000,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255974,
+        "module": "TAL1_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255974,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 500301,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_OR_KLF1_MODULE_TAL1_MODULE_10_K562",
+    "gate_type": "OR",
+    "tf_a": "KLF1_MODULE",
+    "tf_b": "TAL1_MODULE",
+    "tf_a_present": true,
+    "tf_b_present": false,
+    "binary_code": "10",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 1,
+    "biological_rationale": "Both activate erythroid genes - test redundancy",
+    "description": "Only KLF1_MODULE",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_OR_KLF1_MODULE_TAL1_MODULE_10_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250552,
+        "module": "KLF1_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250552,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 499448
+      },
+      {
+        "label": "promoter",
+        "start": 499448,
+        "end": 499749,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 499749,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_OR_KLF1_MODULE_TAL1_MODULE_11_K562",
+    "gate_type": "OR",
+    "tf_a": "KLF1_MODULE",
+    "tf_b": "TAL1_MODULE",
+    "tf_a_present": true,
+    "tf_b_present": true,
+    "binary_code": "11",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 1,
+    "biological_rationale": "Both activate erythroid genes - test redundancy",
+    "description": "Both TFs present",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_OR_KLF1_MODULE_TAL1_MODULE_11_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250552,
+        "module": "KLF1_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250552,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255974,
+        "module": "TAL1_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255974,
+        "end": 499448
+      },
+      {
+        "label": "promoter",
+        "start": 499448,
+        "end": 499749,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 499749,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_OR_GATA1_MODULE_KLF1_MODULE_00_K562",
+    "gate_type": "OR",
+    "tf_a": "GATA1_MODULE",
+    "tf_b": "KLF1_MODULE",
+    "tf_a_present": false,
+    "tf_b_present": false,
+    "binary_code": "00",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 0,
+    "biological_rationale": "Compare OR vs AND behavior for same pair",
+    "description": "Neither TF present (baseline)",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_OR_GATA1_MODULE_KLF1_MODULE_00_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250000,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 500301,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_OR_GATA1_MODULE_KLF1_MODULE_01_K562",
+    "gate_type": "OR",
+    "tf_a": "GATA1_MODULE",
+    "tf_b": "KLF1_MODULE",
+    "tf_a_present": false,
+    "tf_b_present": true,
+    "binary_code": "01",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 1,
+    "biological_rationale": "Compare OR vs AND behavior for same pair",
+    "description": "Only KLF1_MODULE",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_OR_GATA1_MODULE_KLF1_MODULE_01_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250000,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255552,
+        "module": "KLF1_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255552,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 500301,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_OR_GATA1_MODULE_KLF1_MODULE_10_K562",
+    "gate_type": "OR",
+    "tf_a": "GATA1_MODULE",
+    "tf_b": "KLF1_MODULE",
+    "tf_a_present": true,
+    "tf_b_present": false,
+    "binary_code": "10",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 1,
+    "biological_rationale": "Compare OR vs AND behavior for same pair",
+    "description": "Only GATA1_MODULE",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_OR_GATA1_MODULE_KLF1_MODULE_10_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 251121,
+        "module": "GATA1_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 251121,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 498879
+      },
+      {
+        "label": "promoter",
+        "start": 498879,
+        "end": 499180,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 499180,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_OR_GATA1_MODULE_KLF1_MODULE_11_K562",
+    "gate_type": "OR",
+    "tf_a": "GATA1_MODULE",
+    "tf_b": "KLF1_MODULE",
+    "tf_a_present": true,
+    "tf_b_present": true,
+    "binary_code": "11",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 1,
+    "biological_rationale": "Compare OR vs AND behavior for same pair",
+    "description": "Both TFs present",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_OR_GATA1_MODULE_KLF1_MODULE_11_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 251121,
+        "module": "GATA1_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 251121,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255552,
+        "module": "KLF1_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255552,
+        "end": 498879
+      },
+      {
+        "label": "promoter",
+        "start": 498879,
+        "end": 499180,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 499180,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_OR_HS2_ENHANCER_TAL1_MODULE_00_K562",
+    "gate_type": "OR",
+    "tf_a": "HS2_ENHANCER",
+    "tf_b": "TAL1_MODULE",
+    "tf_a_present": false,
+    "tf_b_present": false,
+    "binary_code": "00",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 0,
+    "biological_rationale": "Your finding: 0.96x (independent) - should show OR-like saturation",
+    "description": "Neither TF present (baseline)",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_OR_HS2_ENHANCER_TAL1_MODULE_00_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250000,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 500301,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_OR_HS2_ENHANCER_TAL1_MODULE_01_K562",
+    "gate_type": "OR",
+    "tf_a": "HS2_ENHANCER",
+    "tf_b": "TAL1_MODULE",
+    "tf_a_present": false,
+    "tf_b_present": true,
+    "binary_code": "01",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 1,
+    "biological_rationale": "Your finding: 0.96x (independent) - should show OR-like saturation",
+    "description": "Only TAL1_MODULE",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_OR_HS2_ENHANCER_TAL1_MODULE_01_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250000,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255974,
+        "module": "TAL1_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255974,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 500301,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_OR_HS2_ENHANCER_TAL1_MODULE_10_K562",
+    "gate_type": "OR",
+    "tf_a": "HS2_ENHANCER",
+    "tf_b": "TAL1_MODULE",
+    "tf_a_present": true,
+    "tf_b_present": false,
+    "binary_code": "10",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 1,
+    "biological_rationale": "Your finding: 0.96x (independent) - should show OR-like saturation",
+    "description": "Only HS2_ENHANCER",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_OR_HS2_ENHANCER_TAL1_MODULE_10_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2_ENHANCER",
+        "orientation": "+"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 251001,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 498999
+      },
+      {
+        "label": "promoter",
+        "start": 498999,
+        "end": 499300,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 499300,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_OR_HS2_ENHANCER_TAL1_MODULE_11_K562",
+    "gate_type": "OR",
+    "tf_a": "HS2_ENHANCER",
+    "tf_b": "TAL1_MODULE",
+    "tf_a_present": true,
+    "tf_b_present": true,
+    "binary_code": "11",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 1,
+    "biological_rationale": "Your finding: 0.96x (independent) - should show OR-like saturation",
+    "description": "Both TFs present",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_OR_HS2_ENHANCER_TAL1_MODULE_11_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2_ENHANCER",
+        "orientation": "+"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 251001,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255974,
+        "module": "TAL1_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255974,
+        "end": 498999
+      },
+      {
+        "label": "promoter",
+        "start": 498999,
+        "end": 499300,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 499300,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_XOR_GATA1_MODULE_PU1_00_K562",
+    "gate_type": "XOR",
+    "tf_a": "GATA1_MODULE",
+    "tf_b": "PU1",
+    "tf_a_present": false,
+    "tf_b_present": false,
+    "binary_code": "00",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 0,
+    "biological_rationale": "THE canonical mutually exclusive pair (erythroid vs myeloid)",
+    "description": "Neither TF present (baseline)",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_XOR_GATA1_MODULE_PU1_00_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250000,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 500301,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_XOR_GATA1_MODULE_PU1_01_K562",
+    "gate_type": "XOR",
+    "tf_a": "GATA1_MODULE",
+    "tf_b": "PU1",
+    "tf_a_present": false,
+    "tf_b_present": false,
+    "binary_code": "01",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 1,
+    "biological_rationale": "THE canonical mutually exclusive pair (erythroid vs myeloid)",
+    "description": "Only PU1",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_XOR_GATA1_MODULE_PU1_01_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250000,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 500301,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_XOR_GATA1_MODULE_PU1_10_K562",
+    "gate_type": "XOR",
+    "tf_a": "GATA1_MODULE",
+    "tf_b": "PU1",
+    "tf_a_present": true,
+    "tf_b_present": false,
+    "binary_code": "10",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 1,
+    "biological_rationale": "THE canonical mutually exclusive pair (erythroid vs myeloid)",
+    "description": "Only GATA1_MODULE",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_XOR_GATA1_MODULE_PU1_10_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 251121,
+        "module": "GATA1_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 251121,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 498879
+      },
+      {
+        "label": "promoter",
+        "start": 498879,
+        "end": 499180,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 499180,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_XOR_GATA1_MODULE_PU1_11_K562",
+    "gate_type": "XOR",
+    "tf_a": "GATA1_MODULE",
+    "tf_b": "PU1",
+    "tf_a_present": true,
+    "tf_b_present": false,
+    "binary_code": "11",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 0,
+    "biological_rationale": "THE canonical mutually exclusive pair (erythroid vs myeloid)",
+    "description": "Both TFs present",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_XOR_GATA1_MODULE_PU1_11_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 251121,
+        "module": "GATA1_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 251121,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 498879
+      },
+      {
+        "label": "promoter",
+        "start": 498879,
+        "end": 499180,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 499180,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_XOR_GATA1_MODULE_HNF4A_MODULE_00_K562",
+    "gate_type": "XOR",
+    "tf_a": "GATA1_MODULE",
+    "tf_b": "HNF4A_MODULE",
+    "tf_a_present": false,
+    "tf_b_present": false,
+    "binary_code": "00",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 0,
+    "biological_rationale": "Your finding: 0.76x interference - test XOR hypothesis",
+    "description": "Neither TF present (baseline)",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_XOR_GATA1_MODULE_HNF4A_MODULE_00_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250000,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 500301,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_XOR_GATA1_MODULE_HNF4A_MODULE_01_K562",
+    "gate_type": "XOR",
+    "tf_a": "GATA1_MODULE",
+    "tf_b": "HNF4A_MODULE",
+    "tf_a_present": false,
+    "tf_b_present": true,
+    "binary_code": "01",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 1,
+    "biological_rationale": "Your finding: 0.76x interference - test XOR hypothesis",
+    "description": "Only HNF4A_MODULE",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_XOR_GATA1_MODULE_HNF4A_MODULE_01_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250000,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255502,
+        "module": "HNF4A_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255502,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 500301,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_XOR_GATA1_MODULE_HNF4A_MODULE_10_K562",
+    "gate_type": "XOR",
+    "tf_a": "GATA1_MODULE",
+    "tf_b": "HNF4A_MODULE",
+    "tf_a_present": true,
+    "tf_b_present": false,
+    "binary_code": "10",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 1,
+    "biological_rationale": "Your finding: 0.76x interference - test XOR hypothesis",
+    "description": "Only GATA1_MODULE",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_XOR_GATA1_MODULE_HNF4A_MODULE_10_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 251121,
+        "module": "GATA1_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 251121,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 498879
+      },
+      {
+        "label": "promoter",
+        "start": 498879,
+        "end": 499180,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 499180,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_XOR_GATA1_MODULE_HNF4A_MODULE_11_K562",
+    "gate_type": "XOR",
+    "tf_a": "GATA1_MODULE",
+    "tf_b": "HNF4A_MODULE",
+    "tf_a_present": true,
+    "tf_b_present": true,
+    "binary_code": "11",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 0,
+    "biological_rationale": "Your finding: 0.76x interference - test XOR hypothesis",
+    "description": "Both TFs present",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_XOR_GATA1_MODULE_HNF4A_MODULE_11_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 251121,
+        "module": "GATA1_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 251121,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255502,
+        "module": "HNF4A_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255502,
+        "end": 498879
+      },
+      {
+        "label": "promoter",
+        "start": 498879,
+        "end": 499180,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 499180,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_XOR_GATA1_MODULE_HNF4A_MODULE_00_HepG2",
+    "gate_type": "XOR",
+    "tf_a": "GATA1_MODULE",
+    "tf_b": "HNF4A_MODULE",
+    "tf_a_present": false,
+    "tf_b_present": false,
+    "binary_code": "00",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "HepG2",
+    "expected_output": 0,
+    "biological_rationale": "Your finding: 0.76x interference - test XOR hypothesis",
+    "description": "Neither TF present (baseline)",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_XOR_GATA1_MODULE_HNF4A_MODULE_00_HepG2.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250000,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 500301,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_XOR_GATA1_MODULE_HNF4A_MODULE_01_HepG2",
+    "gate_type": "XOR",
+    "tf_a": "GATA1_MODULE",
+    "tf_b": "HNF4A_MODULE",
+    "tf_a_present": false,
+    "tf_b_present": true,
+    "binary_code": "01",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "HepG2",
+    "expected_output": 1,
+    "biological_rationale": "Your finding: 0.76x interference - test XOR hypothesis",
+    "description": "Only HNF4A_MODULE",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_XOR_GATA1_MODULE_HNF4A_MODULE_01_HepG2.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250000,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255502,
+        "module": "HNF4A_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255502,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 500301,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_XOR_GATA1_MODULE_HNF4A_MODULE_10_HepG2",
+    "gate_type": "XOR",
+    "tf_a": "GATA1_MODULE",
+    "tf_b": "HNF4A_MODULE",
+    "tf_a_present": true,
+    "tf_b_present": false,
+    "binary_code": "10",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "HepG2",
+    "expected_output": 1,
+    "biological_rationale": "Your finding: 0.76x interference - test XOR hypothesis",
+    "description": "Only GATA1_MODULE",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_XOR_GATA1_MODULE_HNF4A_MODULE_10_HepG2.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 251121,
+        "module": "GATA1_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 251121,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 498879
+      },
+      {
+        "label": "promoter",
+        "start": 498879,
+        "end": 499180,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 499180,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_XOR_GATA1_MODULE_HNF4A_MODULE_11_HepG2",
+    "gate_type": "XOR",
+    "tf_a": "GATA1_MODULE",
+    "tf_b": "HNF4A_MODULE",
+    "tf_a_present": true,
+    "tf_b_present": true,
+    "binary_code": "11",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "HepG2",
+    "expected_output": 0,
+    "biological_rationale": "Your finding: 0.76x interference - test XOR hypothesis",
+    "description": "Both TFs present",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_XOR_GATA1_MODULE_HNF4A_MODULE_11_HepG2.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 251121,
+        "module": "GATA1_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 251121,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255502,
+        "module": "HNF4A_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255502,
+        "end": 498879
+      },
+      {
+        "label": "promoter",
+        "start": 498879,
+        "end": 499180,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 499180,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_XOR_TAL1_MODULE_HNF4A_MODULE_00_K562",
+    "gate_type": "XOR",
+    "tf_a": "TAL1_MODULE",
+    "tf_b": "HNF4A_MODULE",
+    "tf_a_present": false,
+    "tf_b_present": false,
+    "binary_code": "00",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 0,
+    "biological_rationale": "Your finding: 0.66x (strongest interference) - prime XOR candidate",
+    "description": "Neither TF present (baseline)",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_XOR_TAL1_MODULE_HNF4A_MODULE_00_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250000,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 500301,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_XOR_TAL1_MODULE_HNF4A_MODULE_01_K562",
+    "gate_type": "XOR",
+    "tf_a": "TAL1_MODULE",
+    "tf_b": "HNF4A_MODULE",
+    "tf_a_present": false,
+    "tf_b_present": true,
+    "binary_code": "01",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 1,
+    "biological_rationale": "Your finding: 0.66x (strongest interference) - prime XOR candidate",
+    "description": "Only HNF4A_MODULE",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_XOR_TAL1_MODULE_HNF4A_MODULE_01_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250000,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255502,
+        "module": "HNF4A_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255502,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 500301,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_XOR_TAL1_MODULE_HNF4A_MODULE_10_K562",
+    "gate_type": "XOR",
+    "tf_a": "TAL1_MODULE",
+    "tf_b": "HNF4A_MODULE",
+    "tf_a_present": true,
+    "tf_b_present": false,
+    "binary_code": "10",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 1,
+    "biological_rationale": "Your finding: 0.66x (strongest interference) - prime XOR candidate",
+    "description": "Only TAL1_MODULE",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_XOR_TAL1_MODULE_HNF4A_MODULE_10_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250974,
+        "module": "TAL1_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250974,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 499026
+      },
+      {
+        "label": "promoter",
+        "start": 499026,
+        "end": 499327,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 499327,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_XOR_TAL1_MODULE_HNF4A_MODULE_11_K562",
+    "gate_type": "XOR",
+    "tf_a": "TAL1_MODULE",
+    "tf_b": "HNF4A_MODULE",
+    "tf_a_present": true,
+    "tf_b_present": true,
+    "binary_code": "11",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 0,
+    "biological_rationale": "Your finding: 0.66x (strongest interference) - prime XOR candidate",
+    "description": "Both TFs present",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_XOR_TAL1_MODULE_HNF4A_MODULE_11_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250974,
+        "module": "TAL1_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250974,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255502,
+        "module": "HNF4A_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255502,
+        "end": 499026
+      },
+      {
+        "label": "promoter",
+        "start": 499026,
+        "end": 499327,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 499327,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_XOR_TAL1_MODULE_HNF4A_MODULE_00_HepG2",
+    "gate_type": "XOR",
+    "tf_a": "TAL1_MODULE",
+    "tf_b": "HNF4A_MODULE",
+    "tf_a_present": false,
+    "tf_b_present": false,
+    "binary_code": "00",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "HepG2",
+    "expected_output": 0,
+    "biological_rationale": "Your finding: 0.66x (strongest interference) - prime XOR candidate",
+    "description": "Neither TF present (baseline)",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_XOR_TAL1_MODULE_HNF4A_MODULE_00_HepG2.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250000,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 500301,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_XOR_TAL1_MODULE_HNF4A_MODULE_01_HepG2",
+    "gate_type": "XOR",
+    "tf_a": "TAL1_MODULE",
+    "tf_b": "HNF4A_MODULE",
+    "tf_a_present": false,
+    "tf_b_present": true,
+    "binary_code": "01",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "HepG2",
+    "expected_output": 1,
+    "biological_rationale": "Your finding: 0.66x (strongest interference) - prime XOR candidate",
+    "description": "Only HNF4A_MODULE",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_XOR_TAL1_MODULE_HNF4A_MODULE_01_HepG2.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250000,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255502,
+        "module": "HNF4A_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255502,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 500301,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_XOR_TAL1_MODULE_HNF4A_MODULE_10_HepG2",
+    "gate_type": "XOR",
+    "tf_a": "TAL1_MODULE",
+    "tf_b": "HNF4A_MODULE",
+    "tf_a_present": true,
+    "tf_b_present": false,
+    "binary_code": "10",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "HepG2",
+    "expected_output": 1,
+    "biological_rationale": "Your finding: 0.66x (strongest interference) - prime XOR candidate",
+    "description": "Only TAL1_MODULE",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_XOR_TAL1_MODULE_HNF4A_MODULE_10_HepG2.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250974,
+        "module": "TAL1_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250974,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 499026
+      },
+      {
+        "label": "promoter",
+        "start": 499026,
+        "end": 499327,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 499327,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_XOR_TAL1_MODULE_HNF4A_MODULE_11_HepG2",
+    "gate_type": "XOR",
+    "tf_a": "TAL1_MODULE",
+    "tf_b": "HNF4A_MODULE",
+    "tf_a_present": true,
+    "tf_b_present": true,
+    "binary_code": "11",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "HepG2",
+    "expected_output": 0,
+    "biological_rationale": "Your finding: 0.66x (strongest interference) - prime XOR candidate",
+    "description": "Both TFs present",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_XOR_TAL1_MODULE_HNF4A_MODULE_11_HepG2.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250974,
+        "module": "TAL1_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250974,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255502,
+        "module": "HNF4A_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255502,
+        "end": 499026
+      },
+      {
+        "label": "promoter",
+        "start": 499026,
+        "end": 499327,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 499327,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_XOR_HS2_ENHANCER_HNF4A_MODULE_00_K562",
+    "gate_type": "XOR",
+    "tf_a": "HS2_ENHANCER",
+    "tf_b": "HNF4A_MODULE",
+    "tf_a_present": false,
+    "tf_b_present": false,
+    "binary_code": "00",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 0,
+    "biological_rationale": "Cross-lineage antagonism (erythroid vs hepatic)",
+    "description": "Neither TF present (baseline)",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_XOR_HS2_ENHANCER_HNF4A_MODULE_00_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250000,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 500301,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_XOR_HS2_ENHANCER_HNF4A_MODULE_01_K562",
+    "gate_type": "XOR",
+    "tf_a": "HS2_ENHANCER",
+    "tf_b": "HNF4A_MODULE",
+    "tf_a_present": false,
+    "tf_b_present": true,
+    "binary_code": "01",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 1,
+    "biological_rationale": "Cross-lineage antagonism (erythroid vs hepatic)",
+    "description": "Only HNF4A_MODULE",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_XOR_HS2_ENHANCER_HNF4A_MODULE_01_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250000,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255502,
+        "module": "HNF4A_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255502,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 500301,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_XOR_HS2_ENHANCER_HNF4A_MODULE_10_K562",
+    "gate_type": "XOR",
+    "tf_a": "HS2_ENHANCER",
+    "tf_b": "HNF4A_MODULE",
+    "tf_a_present": true,
+    "tf_b_present": false,
+    "binary_code": "10",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 1,
+    "biological_rationale": "Cross-lineage antagonism (erythroid vs hepatic)",
+    "description": "Only HS2_ENHANCER",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_XOR_HS2_ENHANCER_HNF4A_MODULE_10_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2_ENHANCER",
+        "orientation": "+"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 251001,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 498999
+      },
+      {
+        "label": "promoter",
+        "start": 498999,
+        "end": 499300,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 499300,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_XOR_HS2_ENHANCER_HNF4A_MODULE_11_K562",
+    "gate_type": "XOR",
+    "tf_a": "HS2_ENHANCER",
+    "tf_b": "HNF4A_MODULE",
+    "tf_a_present": true,
+    "tf_b_present": true,
+    "binary_code": "11",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "K562",
+    "expected_output": 0,
+    "biological_rationale": "Cross-lineage antagonism (erythroid vs hepatic)",
+    "description": "Both TFs present",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_XOR_HS2_ENHANCER_HNF4A_MODULE_11_K562.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2_ENHANCER",
+        "orientation": "+"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 251001,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255502,
+        "module": "HNF4A_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255502,
+        "end": 498999
+      },
+      {
+        "label": "promoter",
+        "start": 498999,
+        "end": 499300,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 499300,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_XOR_HS2_ENHANCER_HNF4A_MODULE_00_HepG2",
+    "gate_type": "XOR",
+    "tf_a": "HS2_ENHANCER",
+    "tf_b": "HNF4A_MODULE",
+    "tf_a_present": false,
+    "tf_b_present": false,
+    "binary_code": "00",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "HepG2",
+    "expected_output": 0,
+    "biological_rationale": "Cross-lineage antagonism (erythroid vs hepatic)",
+    "description": "Neither TF present (baseline)",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_XOR_HS2_ENHANCER_HNF4A_MODULE_00_HepG2.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250000,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 500301,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_XOR_HS2_ENHANCER_HNF4A_MODULE_01_HepG2",
+    "gate_type": "XOR",
+    "tf_a": "HS2_ENHANCER",
+    "tf_b": "HNF4A_MODULE",
+    "tf_a_present": false,
+    "tf_b_present": true,
+    "binary_code": "01",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "HepG2",
+    "expected_output": 1,
+    "biological_rationale": "Cross-lineage antagonism (erythroid vs hepatic)",
+    "description": "Only HNF4A_MODULE",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_XOR_HS2_ENHANCER_HNF4A_MODULE_01_HepG2.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 250000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 250000,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255502,
+        "module": "HNF4A_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255502,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 500301,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_XOR_HS2_ENHANCER_HNF4A_MODULE_10_HepG2",
+    "gate_type": "XOR",
+    "tf_a": "HS2_ENHANCER",
+    "tf_b": "HNF4A_MODULE",
+    "tf_a_present": true,
+    "tf_b_present": false,
+    "binary_code": "10",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "HepG2",
+    "expected_output": 1,
+    "biological_rationale": "Cross-lineage antagonism (erythroid vs hepatic)",
+    "description": "Only HS2_ENHANCER",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_XOR_HS2_ENHANCER_HNF4A_MODULE_10_HepG2.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2_ENHANCER",
+        "orientation": "+"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 251001,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255000,
+        "module": "EMPTY",
+        "orientation": "n/a"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255000,
+        "end": 498999
+      },
+      {
+        "label": "promoter",
+        "start": 498999,
+        "end": 499300,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 499300,
+        "end": 1048576
+      }
+    ]
+  },
+  {
+    "construct": "LogicGate_XOR_HS2_ENHANCER_HNF4A_MODULE_11_HepG2",
+    "gate_type": "XOR",
+    "tf_a": "HS2_ENHANCER",
+    "tf_b": "HNF4A_MODULE",
+    "tf_a_present": true,
+    "tf_b_present": true,
+    "binary_code": "11",
+    "promoter": "HBG1_PROMOTER",
+    "cell_type": "HepG2",
+    "expected_output": 0,
+    "biological_rationale": "Cross-lineage antagonism (erythroid vs hepatic)",
+    "description": "Both TFs present",
+    "fasta_path": "/mnt/work_1/gest9386/CU_Boulder/rotations/LAYER/AlphaGenome_EnhancerStacking/experiments/logic_gates/sequences/LogicGate_XOR_HS2_ENHANCER_HNF4A_MODULE_11_HepG2.fasta",
+    "length": 1048576,
+    "features": [
+      {
+        "label": "upstream_filler",
+        "start": 0,
+        "end": 250000
+      },
+      {
+        "label": "TF_A_site",
+        "start": 250000,
+        "end": 251001,
+        "module": "HS2_ENHANCER",
+        "orientation": "+"
+      },
+      {
+        "label": "tf_spacer",
+        "start": 251001,
+        "end": 255000
+      },
+      {
+        "label": "TF_B_site",
+        "start": 255000,
+        "end": 255502,
+        "module": "HNF4A_MODULE",
+        "orientation": "+"
+      },
+      {
+        "label": "promoter_spacer",
+        "start": 255502,
+        "end": 498999
+      },
+      {
+        "label": "promoter",
+        "start": 498999,
+        "end": 499300,
+        "module": "HBG1_PROMOTER",
+        "orientation": "+"
+      },
+      {
+        "label": "downstream_filler",
+        "start": 499300,
+        "end": 1048576
+      }
+    ]
+  }
+]

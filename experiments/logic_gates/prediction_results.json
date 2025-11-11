@@ -1,0 +1,960 @@
+[
+  {
+    "construct": "LogicGate_AND_OCT4_SOX2_00_K562",
+    "cell_type": "K562",
+    "success": true,
+    "skipped": true,
+    "stats": {
+      "max": 0.208984375,
+      "mean": 0.0038237455300986767,
+      "std": 0.004892178811132908,
+      "median": 0.00225830078125,
+      "global_max": 0.208984375,
+      "global_mean": 0.0038237455300986767
+    }
+  },
+  {
+    "construct": "LogicGate_AND_OCT4_SOX2_01_K562",
+    "cell_type": "K562",
+    "success": true,
+    "skipped": true,
+    "stats": {
+      "max": 0.208984375,
+      "mean": 0.0038237455300986767,
+      "std": 0.004892178811132908,
+      "median": 0.00225830078125,
+      "global_max": 0.208984375,
+      "global_mean": 0.0038237455300986767
+    }
+  },
+  {
+    "construct": "LogicGate_AND_OCT4_SOX2_10_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 0.208984375,
+      "mean": 0.0038237455300986767,
+      "std": 0.004892178811132908,
+      "median": 0.00225830078125,
+      "global_max": 0.208984375,
+      "global_mean": 0.0038237455300986767
+    },
+    "elapsed_seconds": 1.6036732196807861,
+    "timestamp": "2025-11-11T14:36:56.108013"
+  },
+  {
+    "construct": "LogicGate_AND_OCT4_SOX2_11_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 0.208984375,
+      "mean": 0.0038237455300986767,
+      "std": 0.004892178811132908,
+      "median": 0.00225830078125,
+      "global_max": 0.208984375,
+      "global_mean": 0.0038237455300986767
+    },
+    "elapsed_seconds": 1.4663076400756836,
+    "timestamp": "2025-11-11T14:36:58.078291"
+  },
+  {
+    "construct": "LogicGate_AND_GATA1_MODULE_KLF1_MODULE_00_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 0.208984375,
+      "mean": 0.0038237455300986767,
+      "std": 0.004892178811132908,
+      "median": 0.00225830078125,
+      "global_max": 0.208984375,
+      "global_mean": 0.0038237455300986767
+    },
+    "elapsed_seconds": 1.4423096179962158,
+    "timestamp": "2025-11-11T14:37:00.035494"
+  },
+  {
+    "construct": "LogicGate_AND_GATA1_MODULE_KLF1_MODULE_01_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 6.5625,
+      "mean": 0.004239541478455067,
+      "std": 0.015324171632528305,
+      "median": 0.0023345947265625,
+      "global_max": 6.5625,
+      "global_mean": 0.004239541478455067
+    },
+    "elapsed_seconds": 1.3240282535552979,
+    "timestamp": "2025-11-11T14:37:01.863734"
+  },
+  {
+    "construct": "LogicGate_AND_GATA1_MODULE_KLF1_MODULE_10_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 1.609375,
+      "mean": 0.0048941378481686115,
+      "std": 0.008870209567248821,
+      "median": 0.002716064453125,
+      "global_max": 1.609375,
+      "global_mean": 0.0048941378481686115
+    },
+    "elapsed_seconds": 1.3986783027648926,
+    "timestamp": "2025-11-11T14:37:03.766402"
+  },
+  {
+    "construct": "LogicGate_AND_GATA1_MODULE_KLF1_MODULE_11_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 7.0625,
+      "mean": 0.0049838712438941,
+      "std": 0.017008041962981224,
+      "median": 0.002716064453125,
+      "global_max": 7.0625,
+      "global_mean": 0.0049838712438941
+    },
+    "elapsed_seconds": 1.4171953201293945,
+    "timestamp": "2025-11-11T14:37:05.698261"
+  },
+  {
+    "construct": "LogicGate_AND_GATA1_MODULE_TAL1_MODULE_00_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 0.208984375,
+      "mean": 0.0038237455300986767,
+      "std": 0.004892178811132908,
+      "median": 0.00225830078125,
+      "global_max": 0.208984375,
+      "global_mean": 0.0038237455300986767
+    },
+    "elapsed_seconds": 1.3767454624176025,
+    "timestamp": "2025-11-11T14:37:07.579252"
+  },
+  {
+    "construct": "LogicGate_AND_GATA1_MODULE_TAL1_MODULE_01_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 1.1875,
+      "mean": 0.004378550220280886,
+      "std": 0.007806200999766588,
+      "median": 0.0024871826171875,
+      "global_max": 1.1875,
+      "global_mean": 0.004378550220280886
+    },
+    "elapsed_seconds": 1.3414397239685059,
+    "timestamp": "2025-11-11T14:37:09.425050"
+  },
+  {
+    "construct": "LogicGate_AND_GATA1_MODULE_TAL1_MODULE_10_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 1.609375,
+      "mean": 0.0048941378481686115,
+      "std": 0.008870209567248821,
+      "median": 0.002716064453125,
+      "global_max": 1.609375,
+      "global_mean": 0.0048941378481686115
+    },
+    "elapsed_seconds": 1.3324949741363525,
+    "timestamp": "2025-11-11T14:37:11.261518"
+  },
+  {
+    "construct": "LogicGate_AND_GATA1_MODULE_TAL1_MODULE_11_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 1.6640625,
+      "mean": 0.005046621896326542,
+      "std": 0.011419112794101238,
+      "median": 0.002716064453125,
+      "global_max": 1.6640625,
+      "global_mean": 0.005046621896326542
+    },
+    "elapsed_seconds": 1.4108967781066895,
+    "timestamp": "2025-11-11T14:37:13.176409"
+  },
+  {
+    "construct": "LogicGate_AND_HS2_ENHANCER_GATA1_MODULE_00_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 0.208984375,
+      "mean": 0.0038237455300986767,
+      "std": 0.004892178811132908,
+      "median": 0.00225830078125,
+      "global_max": 0.208984375,
+      "global_mean": 0.0038237455300986767
+    },
+    "elapsed_seconds": 1.378408432006836,
+    "timestamp": "2025-11-11T14:37:15.059216"
+  },
+  {
+    "construct": "LogicGate_AND_HS2_ENHANCER_GATA1_MODULE_01_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 1.921875,
+      "mean": 0.0050126248970627785,
+      "std": 0.009711004793643951,
+      "median": 0.0028076171875,
+      "global_max": 1.921875,
+      "global_mean": 0.0050126248970627785
+    },
+    "elapsed_seconds": 1.4015007019042969,
+    "timestamp": "2025-11-11T14:37:16.965472"
+  },
+  {
+    "construct": "LogicGate_AND_HS2_ENHANCER_GATA1_MODULE_10_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 0.28125,
+      "mean": 0.003914985340088606,
+      "std": 0.005053747445344925,
+      "median": 0.00225830078125,
+      "global_max": 0.28125,
+      "global_mean": 0.003914985340088606
+    },
+    "elapsed_seconds": 1.3538031578063965,
+    "timestamp": "2025-11-11T14:37:18.823304"
+  },
+  {
+    "construct": "LogicGate_AND_HS2_ENHANCER_GATA1_MODULE_11_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 1.5625,
+      "mean": 0.004953144118189812,
+      "std": 0.008802496828138828,
+      "median": 0.0028076171875,
+      "global_max": 1.5625,
+      "global_mean": 0.004953144118189812
+    },
+    "elapsed_seconds": 1.373997449874878,
+    "timestamp": "2025-11-11T14:37:20.701915"
+  },
+  {
+    "construct": "LogicGate_AND_HS2_ENHANCER_KLF1_MODULE_00_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 0.208984375,
+      "mean": 0.0038237455300986767,
+      "std": 0.004892178811132908,
+      "median": 0.00225830078125,
+      "global_max": 0.208984375,
+      "global_mean": 0.0038237455300986767
+    },
+    "elapsed_seconds": 1.3176088333129883,
+    "timestamp": "2025-11-11T14:37:22.523949"
+  },
+  {
+    "construct": "LogicGate_AND_HS2_ENHANCER_KLF1_MODULE_01_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 6.5625,
+      "mean": 0.004239541478455067,
+      "std": 0.015324171632528305,
+      "median": 0.0023345947265625,
+      "global_max": 6.5625,
+      "global_mean": 0.004239541478455067
+    },
+    "elapsed_seconds": 1.330826759338379,
+    "timestamp": "2025-11-11T14:37:24.359142"
+  },
+  {
+    "construct": "LogicGate_AND_HS2_ENHANCER_KLF1_MODULE_10_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 0.28125,
+      "mean": 0.003914985340088606,
+      "std": 0.005053747445344925,
+      "median": 0.00225830078125,
+      "global_max": 0.28125,
+      "global_mean": 0.003914985340088606
+    },
+    "elapsed_seconds": 1.321873664855957,
+    "timestamp": "2025-11-11T14:37:26.185131"
+  },
+  {
+    "construct": "LogicGate_AND_HS2_ENHANCER_KLF1_MODULE_11_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 5.21875,
+      "mean": 0.0042228009551763535,
+      "std": 0.011121174320578575,
+      "median": 0.002410888671875,
+      "global_max": 5.21875,
+      "global_mean": 0.0042228009551763535
+    },
+    "elapsed_seconds": 1.3741459846496582,
+    "timestamp": "2025-11-11T14:37:28.063436"
+  },
+  {
+    "construct": "LogicGate_OR_GATA1_MODULE_GATA2_00_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 0.208984375,
+      "mean": 0.0038237455300986767,
+      "std": 0.004892178811132908,
+      "median": 0.00225830078125,
+      "global_max": 0.208984375,
+      "global_mean": 0.0038237455300986767
+    },
+    "elapsed_seconds": 1.3395941257476807,
+    "timestamp": "2025-11-11T14:37:29.906811"
+  },
+  {
+    "construct": "LogicGate_OR_GATA1_MODULE_GATA2_01_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 0.208984375,
+      "mean": 0.0038237455300986767,
+      "std": 0.004892178811132908,
+      "median": 0.00225830078125,
+      "global_max": 0.208984375,
+      "global_mean": 0.0038237455300986767
+    },
+    "elapsed_seconds": 1.3442823886871338,
+    "timestamp": "2025-11-11T14:37:31.755143"
+  },
+  {
+    "construct": "LogicGate_OR_GATA1_MODULE_GATA2_10_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 1.609375,
+      "mean": 0.0048941378481686115,
+      "std": 0.008870209567248821,
+      "median": 0.002716064453125,
+      "global_max": 1.609375,
+      "global_mean": 0.0048941378481686115
+    },
+    "elapsed_seconds": 1.353691816329956,
+    "timestamp": "2025-11-11T14:37:33.613786"
+  },
+  {
+    "construct": "LogicGate_OR_GATA1_MODULE_GATA2_11_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 1.609375,
+      "mean": 0.0048941378481686115,
+      "std": 0.008870209567248821,
+      "median": 0.002716064453125,
+      "global_max": 1.609375,
+      "global_mean": 0.0048941378481686115
+    },
+    "elapsed_seconds": 1.3335022926330566,
+    "timestamp": "2025-11-11T14:37:35.451383"
+  },
+  {
+    "construct": "LogicGate_OR_KLF1_MODULE_TAL1_MODULE_00_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 0.208984375,
+      "mean": 0.0038237455300986767,
+      "std": 0.004892178811132908,
+      "median": 0.00225830078125,
+      "global_max": 0.208984375,
+      "global_mean": 0.0038237455300986767
+    },
+    "elapsed_seconds": 1.3811264038085938,
+    "timestamp": "2025-11-11T14:37:37.337426"
+  },
+  {
+    "construct": "LogicGate_OR_KLF1_MODULE_TAL1_MODULE_01_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 1.1875,
+      "mean": 0.004378550220280886,
+      "std": 0.007806200999766588,
+      "median": 0.0024871826171875,
+      "global_max": 1.1875,
+      "global_mean": 0.004378550220280886
+    },
+    "elapsed_seconds": 1.326359748840332,
+    "timestamp": "2025-11-11T14:37:39.168800"
+  },
+  {
+    "construct": "LogicGate_OR_KLF1_MODULE_TAL1_MODULE_10_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 4.78125,
+      "mean": 0.00423874706029892,
+      "std": 0.010703839361667633,
+      "median": 0.002410888671875,
+      "global_max": 4.78125,
+      "global_mean": 0.00423874706029892
+    },
+    "elapsed_seconds": 1.3942713737487793,
+    "timestamp": "2025-11-11T14:37:41.066926"
+  },
+  {
+    "construct": "LogicGate_OR_KLF1_MODULE_TAL1_MODULE_11_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 5.75,
+      "mean": 0.004623001907020807,
+      "std": 0.014469723217189312,
+      "median": 0.0024871826171875,
+      "global_max": 5.75,
+      "global_mean": 0.004623001907020807
+    },
+    "elapsed_seconds": 1.3364644050598145,
+    "timestamp": "2025-11-11T14:37:42.907542"
+  },
+  {
+    "construct": "LogicGate_OR_GATA1_MODULE_KLF1_MODULE_00_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 0.208984375,
+      "mean": 0.0038237455300986767,
+      "std": 0.004892178811132908,
+      "median": 0.00225830078125,
+      "global_max": 0.208984375,
+      "global_mean": 0.0038237455300986767
+    },
+    "elapsed_seconds": 1.3576371669769287,
+    "timestamp": "2025-11-11T14:37:44.770952"
+  },
+  {
+    "construct": "LogicGate_OR_GATA1_MODULE_KLF1_MODULE_01_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 6.5625,
+      "mean": 0.004239541478455067,
+      "std": 0.015324171632528305,
+      "median": 0.0023345947265625,
+      "global_max": 6.5625,
+      "global_mean": 0.004239541478455067
+    },
+    "elapsed_seconds": 1.3685107231140137,
+    "timestamp": "2025-11-11T14:37:46.643676"
+  },
+  {
+    "construct": "LogicGate_OR_GATA1_MODULE_KLF1_MODULE_10_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 1.609375,
+      "mean": 0.0048941378481686115,
+      "std": 0.008870209567248821,
+      "median": 0.002716064453125,
+      "global_max": 1.609375,
+      "global_mean": 0.0048941378481686115
+    },
+    "elapsed_seconds": 1.383652687072754,
+    "timestamp": "2025-11-11T14:37:48.531584"
+  },
+  {
+    "construct": "LogicGate_OR_GATA1_MODULE_KLF1_MODULE_11_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 7.0625,
+      "mean": 0.0049838712438941,
+      "std": 0.017008041962981224,
+      "median": 0.002716064453125,
+      "global_max": 7.0625,
+      "global_mean": 0.0049838712438941
+    },
+    "elapsed_seconds": 1.3421735763549805,
+    "timestamp": "2025-11-11T14:37:50.377900"
+  },
+  {
+    "construct": "LogicGate_OR_HS2_ENHANCER_TAL1_MODULE_00_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 0.208984375,
+      "mean": 0.0038237455300986767,
+      "std": 0.004892178811132908,
+      "median": 0.00225830078125,
+      "global_max": 0.208984375,
+      "global_mean": 0.0038237455300986767
+    },
+    "elapsed_seconds": 1.3796391487121582,
+    "timestamp": "2025-11-11T14:37:52.261433"
+  },
+  {
+    "construct": "LogicGate_OR_HS2_ENHANCER_TAL1_MODULE_01_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 1.1875,
+      "mean": 0.004378550220280886,
+      "std": 0.007806200999766588,
+      "median": 0.0024871826171875,
+      "global_max": 1.1875,
+      "global_mean": 0.004378550220280886
+    },
+    "elapsed_seconds": 1.3447234630584717,
+    "timestamp": "2025-11-11T14:37:54.109951"
+  },
+  {
+    "construct": "LogicGate_OR_HS2_ENHANCER_TAL1_MODULE_10_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 0.28125,
+      "mean": 0.003914985340088606,
+      "std": 0.005053747445344925,
+      "median": 0.00225830078125,
+      "global_max": 0.28125,
+      "global_mean": 0.003914985340088606
+    },
+    "elapsed_seconds": 1.3662707805633545,
+    "timestamp": "2025-11-11T14:37:55.980844"
+  },
+  {
+    "construct": "LogicGate_OR_HS2_ENHANCER_TAL1_MODULE_11_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 0.8828125,
+      "mean": 0.0043717059306800365,
+      "std": 0.007083899341523647,
+      "median": 0.0024871826171875,
+      "global_max": 0.8828125,
+      "global_mean": 0.0043717059306800365
+    },
+    "elapsed_seconds": 1.3423144817352295,
+    "timestamp": "2025-11-11T14:37:57.827834"
+  },
+  {
+    "construct": "LogicGate_XOR_GATA1_MODULE_PU1_00_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 0.208984375,
+      "mean": 0.0038237455300986767,
+      "std": 0.004892178811132908,
+      "median": 0.00225830078125,
+      "global_max": 0.208984375,
+      "global_mean": 0.0038237455300986767
+    },
+    "elapsed_seconds": 1.3477756977081299,
+    "timestamp": "2025-11-11T14:37:59.679368"
+  },
+  {
+    "construct": "LogicGate_XOR_GATA1_MODULE_PU1_01_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 0.208984375,
+      "mean": 0.0038237455300986767,
+      "std": 0.004892178811132908,
+      "median": 0.00225830078125,
+      "global_max": 0.208984375,
+      "global_mean": 0.0038237455300986767
+    },
+    "elapsed_seconds": 1.3449792861938477,
+    "timestamp": "2025-11-11T14:38:01.529027"
+  },
+  {
+    "construct": "LogicGate_XOR_GATA1_MODULE_PU1_10_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 1.609375,
+      "mean": 0.0048941378481686115,
+      "std": 0.008870209567248821,
+      "median": 0.002716064453125,
+      "global_max": 1.609375,
+      "global_mean": 0.0048941378481686115
+    },
+    "elapsed_seconds": 1.3666372299194336,
+    "timestamp": "2025-11-11T14:38:03.399979"
+  },
+  {
+    "construct": "LogicGate_XOR_GATA1_MODULE_PU1_11_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 1.609375,
+      "mean": 0.0048941378481686115,
+      "std": 0.008870209567248821,
+      "median": 0.002716064453125,
+      "global_max": 1.609375,
+      "global_mean": 0.0048941378481686115
+    },
+    "elapsed_seconds": 1.4088449478149414,
+    "timestamp": "2025-11-11T14:38:05.312922"
+  },
+  {
+    "construct": "LogicGate_XOR_GATA1_MODULE_HNF4A_MODULE_00_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 0.208984375,
+      "mean": 0.0038237455300986767,
+      "std": 0.004892178811132908,
+      "median": 0.00225830078125,
+      "global_max": 0.208984375,
+      "global_mean": 0.0038237455300986767
+    },
+    "elapsed_seconds": 1.3546478748321533,
+    "timestamp": "2025-11-11T14:38:07.172091"
+  },
+  {
+    "construct": "LogicGate_XOR_GATA1_MODULE_HNF4A_MODULE_01_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 0.68359375,
+      "mean": 0.004378479905426502,
+      "std": 0.006055825389921665,
+      "median": 0.0025634765625,
+      "global_max": 0.68359375,
+      "global_mean": 0.004378479905426502
+    },
+    "elapsed_seconds": 1.3641316890716553,
+    "timestamp": "2025-11-11T14:38:09.040285"
+  },
+  {
+    "construct": "LogicGate_XOR_GATA1_MODULE_HNF4A_MODULE_10_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 1.609375,
+      "mean": 0.0048941378481686115,
+      "std": 0.008870209567248821,
+      "median": 0.002716064453125,
+      "global_max": 1.609375,
+      "global_mean": 0.0048941378481686115
+    },
+    "elapsed_seconds": 1.3802752494812012,
+    "timestamp": "2025-11-11T14:38:10.924624"
+  },
+  {
+    "construct": "LogicGate_XOR_GATA1_MODULE_HNF4A_MODULE_11_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 1.6640625,
+      "mean": 0.005019905511289835,
+      "std": 0.00937855988740921,
+      "median": 0.0028076171875,
+      "global_max": 1.6640625,
+      "global_mean": 0.005019905511289835
+    },
+    "elapsed_seconds": 1.3528668880462646,
+    "timestamp": "2025-11-11T14:38:12.781286"
+  },
+  {
+    "construct": "LogicGate_XOR_GATA1_MODULE_HNF4A_MODULE_00_HepG2",
+    "cell_type": "HepG2",
+    "success": true,
+    "stats": {
+      "max": 0.232421875,
+      "mean": 0.010919112712144852,
+      "std": 0.009348664432764053,
+      "median": 0.008056640625,
+      "global_max": 0.232421875,
+      "global_mean": 0.010919112712144852
+    },
+    "elapsed_seconds": 1.416679859161377,
+    "timestamp": "2025-11-11T14:38:14.702089"
+  },
+  {
+    "construct": "LogicGate_XOR_GATA1_MODULE_HNF4A_MODULE_01_HepG2",
+    "cell_type": "HepG2",
+    "success": true,
+    "stats": {
+      "max": 0.3203125,
+      "mean": 0.011066500097513199,
+      "std": 0.009549569338560104,
+      "median": 0.00830078125,
+      "global_max": 0.3203125,
+      "global_mean": 0.011066500097513199
+    },
+    "elapsed_seconds": 1.6267240047454834,
+    "timestamp": "2025-11-11T14:38:16.833222"
+  },
+  {
+    "construct": "LogicGate_XOR_GATA1_MODULE_HNF4A_MODULE_10_HepG2",
+    "cell_type": "HepG2",
+    "success": true,
+    "stats": {
+      "max": 0.375,
+      "mean": 0.011000415310263634,
+      "std": 0.009544170461595058,
+      "median": 0.008056640625,
+      "global_max": 0.375,
+      "global_mean": 0.011000415310263634
+    },
+    "elapsed_seconds": 1.4076025485992432,
+    "timestamp": "2025-11-11T14:38:18.745029"
+  },
+  {
+    "construct": "LogicGate_XOR_GATA1_MODULE_HNF4A_MODULE_11_HepG2",
+    "cell_type": "HepG2",
+    "success": true,
+    "stats": {
+      "max": 0.376953125,
+      "mean": 0.011069678701460361,
+      "std": 0.009641433134675026,
+      "median": 0.00830078125,
+      "global_max": 0.376953125,
+      "global_mean": 0.011069678701460361
+    },
+    "elapsed_seconds": 1.3271679878234863,
+    "timestamp": "2025-11-11T14:38:20.576121"
+  },
+  {
+    "construct": "LogicGate_XOR_TAL1_MODULE_HNF4A_MODULE_00_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 0.208984375,
+      "mean": 0.0038237455300986767,
+      "std": 0.004892178811132908,
+      "median": 0.00225830078125,
+      "global_max": 0.208984375,
+      "global_mean": 0.0038237455300986767
+    },
+    "elapsed_seconds": 1.4168963432312012,
+    "timestamp": "2025-11-11T14:38:22.497288"
+  },
+  {
+    "construct": "LogicGate_XOR_TAL1_MODULE_HNF4A_MODULE_01_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 0.68359375,
+      "mean": 0.004378479905426502,
+      "std": 0.006055825389921665,
+      "median": 0.0025634765625,
+      "global_max": 0.68359375,
+      "global_mean": 0.004378479905426502
+    },
+    "elapsed_seconds": 1.3748295307159424,
+    "timestamp": "2025-11-11T14:38:24.376479"
+  },
+  {
+    "construct": "LogicGate_XOR_TAL1_MODULE_HNF4A_MODULE_10_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 0.97265625,
+      "mean": 0.004357632249593735,
+      "std": 0.007277127355337143,
+      "median": 0.0024871826171875,
+      "global_max": 0.97265625,
+      "global_mean": 0.004357632249593735
+    },
+    "elapsed_seconds": 1.348893404006958,
+    "timestamp": "2025-11-11T14:38:26.229517"
+  },
+  {
+    "construct": "LogicGate_XOR_TAL1_MODULE_HNF4A_MODULE_11_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 0.984375,
+      "mean": 0.0045213857665658,
+      "std": 0.007772835902869701,
+      "median": 0.0025634765625,
+      "global_max": 0.984375,
+      "global_mean": 0.0045213857665658
+    },
+    "elapsed_seconds": 1.3588881492614746,
+    "timestamp": "2025-11-11T14:38:28.092283"
+  },
+  {
+    "construct": "LogicGate_XOR_TAL1_MODULE_HNF4A_MODULE_00_HepG2",
+    "cell_type": "HepG2",
+    "success": true,
+    "stats": {
+      "max": 0.232421875,
+      "mean": 0.010919112712144852,
+      "std": 0.009348664432764053,
+      "median": 0.008056640625,
+      "global_max": 0.232421875,
+      "global_mean": 0.010919112712144852
+    },
+    "elapsed_seconds": 1.3815727233886719,
+    "timestamp": "2025-11-11T14:38:29.978433"
+  },
+  {
+    "construct": "LogicGate_XOR_TAL1_MODULE_HNF4A_MODULE_01_HepG2",
+    "cell_type": "HepG2",
+    "success": true,
+    "stats": {
+      "max": 0.3203125,
+      "mean": 0.011066500097513199,
+      "std": 0.009549569338560104,
+      "median": 0.00830078125,
+      "global_max": 0.3203125,
+      "global_mean": 0.011066500097513199
+    },
+    "elapsed_seconds": 1.3052356243133545,
+    "timestamp": "2025-11-11T14:38:31.787937"
+  },
+  {
+    "construct": "LogicGate_XOR_TAL1_MODULE_HNF4A_MODULE_10_HepG2",
+    "cell_type": "HepG2",
+    "success": true,
+    "stats": {
+      "max": 0.2490234375,
+      "mean": 0.010884813964366913,
+      "std": 0.009424177929759026,
+      "median": 0.008056640625,
+      "global_max": 0.2490234375,
+      "global_mean": 0.010884813964366913
+    },
+    "elapsed_seconds": 1.3673694133758545,
+    "timestamp": "2025-11-11T14:38:33.659805"
+  },
+  {
+    "construct": "LogicGate_XOR_TAL1_MODULE_HNF4A_MODULE_11_HepG2",
+    "cell_type": "HepG2",
+    "success": true,
+    "stats": {
+      "max": 0.287109375,
+      "mean": 0.010977963916957378,
+      "std": 0.009542801417410374,
+      "median": 0.008056640625,
+      "global_max": 0.287109375,
+      "global_mean": 0.010977963916957378
+    },
+    "elapsed_seconds": 1.3195278644561768,
+    "timestamp": "2025-11-11T14:38:35.483541"
+  },
+  {
+    "construct": "LogicGate_XOR_HS2_ENHANCER_HNF4A_MODULE_00_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 0.208984375,
+      "mean": 0.0038237455300986767,
+      "std": 0.004892178811132908,
+      "median": 0.00225830078125,
+      "global_max": 0.208984375,
+      "global_mean": 0.0038237455300986767
+    },
+    "elapsed_seconds": 1.3477897644042969,
+    "timestamp": "2025-11-11T14:38:37.334958"
+  },
+  {
+    "construct": "LogicGate_XOR_HS2_ENHANCER_HNF4A_MODULE_01_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 0.68359375,
+      "mean": 0.004378479905426502,
+      "std": 0.006055825389921665,
+      "median": 0.0025634765625,
+      "global_max": 0.68359375,
+      "global_mean": 0.004378479905426502
+    },
+    "elapsed_seconds": 1.3419413566589355,
+    "timestamp": "2025-11-11T14:38:39.180979"
+  },
+  {
+    "construct": "LogicGate_XOR_HS2_ENHANCER_HNF4A_MODULE_10_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 0.28125,
+      "mean": 0.003914985340088606,
+      "std": 0.005053747445344925,
+      "median": 0.00225830078125,
+      "global_max": 0.28125,
+      "global_mean": 0.003914985340088606
+    },
+    "elapsed_seconds": 1.3759291172027588,
+    "timestamp": "2025-11-11T14:38:41.061444"
+  },
+  {
+    "construct": "LogicGate_XOR_HS2_ENHANCER_HNF4A_MODULE_11_K562",
+    "cell_type": "K562",
+    "success": true,
+    "stats": {
+      "max": 0.55078125,
+      "mean": 0.004316224716603756,
+      "std": 0.0058343117125332355,
+      "median": 0.0024871826171875,
+      "global_max": 0.55078125,
+      "global_mean": 0.004316224716603756
+    },
+    "elapsed_seconds": 1.3102853298187256,
+    "timestamp": "2025-11-11T14:38:42.876367"
+  },
+  {
+    "construct": "LogicGate_XOR_HS2_ENHANCER_HNF4A_MODULE_00_HepG2",
+    "cell_type": "HepG2",
+    "success": true,
+    "stats": {
+      "max": 0.232421875,
+      "mean": 0.010919112712144852,
+      "std": 0.009348664432764053,
+      "median": 0.008056640625,
+      "global_max": 0.232421875,
+      "global_mean": 0.010919112712144852
+    },
+    "elapsed_seconds": 1.3830759525299072,
+    "timestamp": "2025-11-11T14:38:44.763645"
+  },
+  {
+    "construct": "LogicGate_XOR_HS2_ENHANCER_HNF4A_MODULE_01_HepG2",
+    "cell_type": "HepG2",
+    "success": true,
+    "stats": {
+      "max": 0.3203125,
+      "mean": 0.011066500097513199,
+      "std": 0.009549569338560104,
+      "median": 0.00830078125,
+      "global_max": 0.3203125,
+      "global_mean": 0.011066500097513199
+    },
+    "elapsed_seconds": 1.342991828918457,
+    "timestamp": "2025-11-11T14:38:46.611486"
+  },
+  {
+    "construct": "LogicGate_XOR_HS2_ENHANCER_HNF4A_MODULE_10_HepG2",
+    "cell_type": "HepG2",
+    "success": true,
+    "stats": {
+      "max": 0.232421875,
+      "mean": 0.010990425944328308,
+      "std": 0.009428094141185284,
+      "median": 0.008056640625,
+      "global_max": 0.232421875,
+      "global_mean": 0.010990425944328308
+    },
+    "elapsed_seconds": 1.323805570602417,
+    "timestamp": "2025-11-11T14:38:48.439041"
+  },
+  {
+    "construct": "LogicGate_XOR_HS2_ENHANCER_HNF4A_MODULE_11_HepG2",
+    "cell_type": "HepG2",
+    "success": true,
+    "stats": {
+      "max": 0.29296875,
+      "mean": 0.01120503805577755,
+      "std": 0.009664259850978851,
+      "median": 0.00830078125,
+      "global_max": 0.29296875,
+      "global_mean": 0.01120503805577755
+    },
+    "elapsed_seconds": 1.3368678092956543,
+    "timestamp": "2025-11-11T14:38:50.280193"
+  }
+]

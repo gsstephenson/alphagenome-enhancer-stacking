@@ -204,9 +204,21 @@ This repository contains a comprehensive experimental analysis of AlphaGenome's 
 
    - 320× vs 160×: +1% max DNase, +1% AUC
 
-[📄 Full Documentation](experiments/REGULATORY_GRAMMAR.md)   - Diminishing returns beyond 10×
+[📄 Full Documentation](experiments/REGULATORY_GRAMMAR.md)
 
+---
 
+### 5. Regulatory Logic Gates ⭐ NEW
+**Tests:** 64 constructs testing AND/OR/XOR Boolean logic gates across 13 TF pairs
+
+**Key Results:**
+- **NO Boolean logic detected** - Classification accuracy: 3/14 = 21.4%
+- **Universal interference:** 92.9% of pairs show sub-additivity (avg 0.65× expected)
+- **Oct4+Sox2 FAILS:** Canonical synergistic pair shows 0.50× (flat response)
+- **GATA1+PU.1 XOR miss:** No mutual inhibition between antagonistic TFs
+- **Cell-type specificity weak:** K562 vs HepG2 show minimal logic switching
+
+[📄 Full Documentation](experiments/logic_gates/README.md)
 
 ---3. **Position Dependence**
 

@@ -1,0 +1,576 @@
+[
+  {
+    "tf_a": "OCT4",
+    "tf_b": "SOX2",
+    "cell_type": "K562",
+    "expected_gate": "AND",
+    "signals_raw": {
+      "00": 0.208984375,
+      "01": 0.208984375,
+      "10": 0.208984375,
+      "11": 0.208984375
+    },
+    "signals_array": [
+      0.208984375,
+      0.208984375,
+      0.208984375,
+      0.208984375
+    ],
+    "signals_normalized": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "logic_scores": {
+      "AND": 0.0,
+      "OR": 0.0,
+      "NOT": 0.0,
+      "XOR": 0.0
+    },
+    "best_gate": "AND",
+    "best_score": 0.0,
+    "confidence": 0.0,
+    "correct_classification": true,
+    "synergy_metrics": {
+      "additivity_ratio": 0.5,
+      "excess_over_max": 0.0,
+      "bliss_excess": 0.0,
+      "synergy_class": "interference"
+    },
+    "biological_rationale": "Oct4+Sox2 are THE canonical cooperative pair for pluripotency"
+  },
+  {
+    "tf_a": "GATA1_MODULE",
+    "tf_b": "TAL1_MODULE",
+    "cell_type": "K562",
+    "expected_gate": "AND",
+    "signals_raw": {
+      "00": 0.208984375,
+      "01": 1.1875,
+      "10": 1.609375,
+      "11": 1.6640625
+    },
+    "signals_array": [
+      0.208984375,
+      1.1875,
+      1.609375,
+      1.6640625
+    ],
+    "signals_normalized": [
+      0.0,
+      0.6724832214765101,
+      0.9624161073825503,
+      1.0
+    ],
+    "logic_scores": {
+      "AND": 0.0,
+      "OR": 0.8309287915066383,
+      "NOT": 0.0,
+      "XOR": 0.0
+    },
+    "best_gate": "OR",
+    "best_score": 0.8309287915066383,
+    "confidence": 0.8309287915066383,
+    "correct_classification": false,
+    "synergy_metrics": {
+      "additivity_ratio": 0.5949720670391061,
+      "excess_over_max": 0.0546875,
+      "bliss_excess": -7.480797313084112,
+      "synergy_class": "interference"
+    },
+    "biological_rationale": "Erythroid master regulators, expected cooperativity"
+  },
+  {
+    "tf_a": "HS2_ENHANCER",
+    "tf_b": "GATA1_MODULE",
+    "cell_type": "K562",
+    "expected_gate": "AND",
+    "signals_raw": {
+      "00": 0.208984375,
+      "01": 1.921875,
+      "10": 0.28125,
+      "11": 1.5625
+    },
+    "signals_array": [
+      0.208984375,
+      1.921875,
+      0.28125,
+      1.5625
+    ],
+    "signals_normalized": [
+      0.0,
+      1.0,
+      0.04218928164196123,
+      0.790193842645382
+    ],
+    "logic_scores": {
+      "AND": 0.0,
+      "OR": 0.0,
+      "NOT": 0.0,
+      "XOR": 0.0
+    },
+    "best_gate": "AND",
+    "best_score": 0.0,
+    "confidence": 0.0,
+    "correct_classification": true,
+    "synergy_metrics": {
+      "additivity_ratio": 0.7092198581560284,
+      "excess_over_max": -0.359375,
+      "bliss_excess": -1.0239485981308412,
+      "synergy_class": "interference"
+    },
+    "biological_rationale": "Your surprising finding: showed interference (0.89x) - test if construct matters"
+  },
+  {
+    "tf_a": "HS2_ENHANCER",
+    "tf_b": "KLF1_MODULE",
+    "cell_type": "K562",
+    "expected_gate": "AND",
+    "signals_raw": {
+      "00": 0.208984375,
+      "01": 6.5625,
+      "10": 0.28125,
+      "11": 5.21875
+    },
+    "signals_array": [
+      0.208984375,
+      6.5625,
+      0.28125,
+      5.21875
+    ],
+    "signals_normalized": [
+      0.0,
+      1.0,
+      0.011374116200430372,
+      0.7885029203811866
+    ],
+    "logic_scores": {
+      "AND": 0.0,
+      "OR": 0.0,
+      "NOT": 0.0,
+      "XOR": 0.0
+    },
+    "best_gate": "AND",
+    "best_score": 0.0,
+    "confidence": 0.0,
+    "correct_classification": true,
+    "synergy_metrics": {
+      "additivity_ratio": 0.7625570776255708,
+      "excess_over_max": -1.34375,
+      "bliss_excess": -3.61302570093458,
+      "synergy_class": "interference"
+    },
+    "biological_rationale": "Your finding: showed 1.12x synergy - validate AND-like behavior"
+  },
+  {
+    "tf_a": "GATA1_MODULE",
+    "tf_b": "GATA2",
+    "cell_type": "K562",
+    "expected_gate": "OR",
+    "signals_raw": {
+      "00": 0.208984375,
+      "01": 0.208984375,
+      "10": 1.609375,
+      "11": 1.609375
+    },
+    "signals_array": [
+      0.208984375,
+      0.208984375,
+      1.609375,
+      1.609375
+    ],
+    "signals_normalized": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "logic_scores": {
+      "AND": 0.0,
+      "OR": 0.0,
+      "NOT": 0.0,
+      "XOR": 0.0
+    },
+    "best_gate": "AND",
+    "best_score": 0.0,
+    "confidence": 0.0,
+    "correct_classification": false,
+    "synergy_metrics": {
+      "additivity_ratio": 0.8850698174006445,
+      "excess_over_max": 0.0,
+      "bliss_excess": 0.0,
+      "synergy_class": "interference"
+    },
+    "biological_rationale": "GATA1/2 are redundant in erythroid specification"
+  },
+  {
+    "tf_a": "KLF1_MODULE",
+    "tf_b": "TAL1_MODULE",
+    "cell_type": "K562",
+    "expected_gate": "OR",
+    "signals_raw": {
+      "00": 0.208984375,
+      "01": 1.1875,
+      "10": 4.78125,
+      "11": 5.75
+    },
+    "signals_array": [
+      0.208984375,
+      1.1875,
+      4.78125,
+      5.75
+    ],
+    "signals_normalized": [
+      0.0,
+      0.17659499471272472,
+      0.8251674303842087,
+      1.0
+    ],
+    "logic_scores": {
+      "AND": 0.0,
+      "OR": 0.00248006383316568,
+      "NOT": 0.0,
+      "XOR": 0.0
+    },
+    "best_gate": "OR",
+    "best_score": 0.00248006383316568,
+    "confidence": 0.00248006383316568,
+    "correct_classification": true,
+    "synergy_metrics": {
+      "additivity_ratio": 0.9633507853403142,
+      "excess_over_max": 0.96875,
+      "bliss_excess": -21.41822429906542,
+      "synergy_class": "additive"
+    },
+    "biological_rationale": "Both activate erythroid genes - test redundancy"
+  },
+  {
+    "tf_a": "HS2_ENHANCER",
+    "tf_b": "TAL1_MODULE",
+    "cell_type": "K562",
+    "expected_gate": "OR",
+    "signals_raw": {
+      "00": 0.208984375,
+      "01": 1.1875,
+      "10": 0.28125,
+      "11": 0.8828125
+    },
+    "signals_array": [
+      0.208984375,
+      1.1875,
+      0.28125,
+      0.8828125
+    ],
+    "signals_normalized": [
+      0.0,
+      1.0,
+      0.07385229540918163,
+      0.688622754491018
+    ],
+    "logic_scores": {
+      "AND": 0.0,
+      "OR": 0.0,
+      "NOT": 0.0,
+      "XOR": 0.0
+    },
+    "best_gate": "AND",
+    "best_score": 0.0,
+    "confidence": 0.0,
+    "correct_classification": false,
+    "synergy_metrics": {
+      "additivity_ratio": 0.601063829787234,
+      "excess_over_max": -0.3046875,
+      "bliss_excess": -0.7153183411214954,
+      "synergy_class": "interference"
+    },
+    "biological_rationale": "Your finding: 0.96x (independent) - should show OR-like saturation"
+  },
+  {
+    "tf_a": "GATA1_MODULE",
+    "tf_b": "PU1",
+    "cell_type": "K562",
+    "expected_gate": "XOR",
+    "signals_raw": {
+      "00": 0.208984375,
+      "01": 0.208984375,
+      "10": 1.609375,
+      "11": 1.609375
+    },
+    "signals_array": [
+      0.208984375,
+      0.208984375,
+      1.609375,
+      1.609375
+    ],
+    "signals_normalized": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "logic_scores": {
+      "AND": 0.0,
+      "OR": 0.0,
+      "NOT": 0.0,
+      "XOR": 0.0
+    },
+    "best_gate": "AND",
+    "best_score": 0.0,
+    "confidence": 0.0,
+    "correct_classification": false,
+    "synergy_metrics": {
+      "additivity_ratio": 0.8850698174006445,
+      "excess_over_max": 0.0,
+      "bliss_excess": 0.0,
+      "synergy_class": "interference"
+    },
+    "biological_rationale": "THE canonical mutually exclusive pair (erythroid vs myeloid)"
+  },
+  {
+    "tf_a": "GATA1_MODULE",
+    "tf_b": "HNF4A_MODULE",
+    "cell_type": "K562",
+    "expected_gate": "XOR",
+    "signals_raw": {
+      "00": 0.208984375,
+      "01": 0.68359375,
+      "10": 1.609375,
+      "11": 1.6640625
+    },
+    "signals_array": [
+      0.208984375,
+      0.68359375,
+      1.609375,
+      1.6640625
+    ],
+    "signals_normalized": [
+      0.0,
+      0.3261744966442953,
+      0.9624161073825503,
+      1.0
+    ],
+    "logic_scores": {
+      "AND": 0.0,
+      "OR": 0.3702447704230185,
+      "NOT": 0.0,
+      "XOR": 0.0
+    },
+    "best_gate": "OR",
+    "best_score": 0.3702447704230185,
+    "confidence": 0.3702447704230185,
+    "correct_classification": false,
+    "synergy_metrics": {
+      "additivity_ratio": 0.7257240204429302,
+      "excess_over_max": 0.0546875,
+      "bliss_excess": -3.6002482476635516,
+      "synergy_class": "interference"
+    },
+    "biological_rationale": "Your finding: 0.76x interference - test XOR hypothesis"
+  },
+  {
+    "tf_a": "GATA1_MODULE",
+    "tf_b": "HNF4A_MODULE",
+    "cell_type": "HepG2",
+    "expected_gate": "XOR",
+    "signals_raw": {
+      "00": 0.232421875,
+      "01": 0.3203125,
+      "10": 0.375,
+      "11": 0.376953125
+    },
+    "signals_array": [
+      0.232421875,
+      0.3203125,
+      0.375,
+      0.376953125
+    ],
+    "signals_normalized": [
+      0.0,
+      0.6081081081081081,
+      0.9864864864864865,
+      1.0
+    ],
+    "logic_scores": {
+      "AND": 0.0,
+      "OR": 0.7670171555063641,
+      "NOT": 0.0,
+      "XOR": 0.0
+    },
+    "best_gate": "OR",
+    "best_score": 0.7670171555063641,
+    "confidence": 0.7670171555063641,
+    "correct_classification": false,
+    "synergy_metrics": {
+      "additivity_ratio": 0.5421348314606742,
+      "excess_over_max": 0.001953125,
+      "bliss_excess": -0.13985359768907568,
+      "synergy_class": "interference"
+    },
+    "biological_rationale": "Your finding: 0.76x interference - test XOR hypothesis"
+  },
+  {
+    "tf_a": "TAL1_MODULE",
+    "tf_b": "HNF4A_MODULE",
+    "cell_type": "K562",
+    "expected_gate": "XOR",
+    "signals_raw": {
+      "00": 0.208984375,
+      "01": 0.68359375,
+      "10": 0.97265625,
+      "11": 0.984375
+    },
+    "signals_array": [
+      0.208984375,
+      0.68359375,
+      0.97265625,
+      0.984375
+    ],
+    "signals_normalized": [
+      0.0,
+      0.6120906801007556,
+      0.9848866498740554,
+      1.0
+    ],
+    "logic_scores": {
+      "AND": 0.0,
+      "OR": 0.771172581558063,
+      "NOT": 0.0,
+      "XOR": 0.0
+    },
+    "best_gate": "OR",
+    "best_score": 0.771172581558063,
+    "confidence": 0.771172581558063,
+    "correct_classification": false,
+    "synergy_metrics": {
+      "additivity_ratio": 0.5943396226415094,
+      "excess_over_max": 0.01171875,
+      "bliss_excess": -2.197210864485981,
+      "synergy_class": "interference"
+    },
+    "biological_rationale": "Your finding: 0.66x (strongest interference) - prime XOR candidate"
+  },
+  {
+    "tf_a": "TAL1_MODULE",
+    "tf_b": "HNF4A_MODULE",
+    "cell_type": "HepG2",
+    "expected_gate": "XOR",
+    "signals_raw": {
+      "00": 0.232421875,
+      "01": 0.3203125,
+      "10": 0.2490234375,
+      "11": 0.287109375
+    },
+    "signals_array": [
+      0.232421875,
+      0.3203125,
+      0.2490234375,
+      0.287109375
+    ],
+    "signals_normalized": [
+      0.0,
+      1.0,
+      0.18888888888888888,
+      0.6222222222222222
+    ],
+    "logic_scores": {
+      "AND": 0.0,
+      "OR": 0.0,
+      "NOT": 0.0,
+      "XOR": 0.0
+    },
+    "best_gate": "AND",
+    "best_score": 0.0,
+    "confidence": 0.0,
+    "correct_classification": false,
+    "synergy_metrics": {
+      "additivity_ratio": 0.5042881646655232,
+      "excess_over_max": -0.033203125,
+      "bliss_excess": -0.0560825892857143,
+      "synergy_class": "interference"
+    },
+    "biological_rationale": "Your finding: 0.66x (strongest interference) - prime XOR candidate"
+  },
+  {
+    "tf_a": "HS2_ENHANCER",
+    "tf_b": "HNF4A_MODULE",
+    "cell_type": "K562",
+    "expected_gate": "XOR",
+    "signals_raw": {
+      "00": 0.208984375,
+      "01": 0.68359375,
+      "10": 0.28125,
+      "11": 0.55078125
+    },
+    "signals_array": [
+      0.208984375,
+      0.68359375,
+      0.28125,
+      0.55078125
+    ],
+    "signals_normalized": [
+      0.0,
+      1.0,
+      0.1522633744855967,
+      0.720164609053498
+    ],
+    "logic_scores": {
+      "AND": 0.0,
+      "OR": 0.0,
+      "NOT": 0.0,
+      "XOR": 0.0
+    },
+    "best_gate": "AND",
+    "best_score": 0.0,
+    "confidence": 0.0,
+    "correct_classification": false,
+    "synergy_metrics": {
+      "additivity_ratio": 0.5708502024291497,
+      "excess_over_max": -0.1328125,
+      "bliss_excess": -0.36919538551401865,
+      "synergy_class": "interference"
+    },
+    "biological_rationale": "Cross-lineage antagonism (erythroid vs hepatic)"
+  },
+  {
+    "tf_a": "HS2_ENHANCER",
+    "tf_b": "HNF4A_MODULE",
+    "cell_type": "HepG2",
+    "expected_gate": "XOR",
+    "signals_raw": {
+      "00": 0.232421875,
+      "01": 0.3203125,
+      "10": 0.232421875,
+      "11": 0.29296875
+    },
+    "signals_array": [
+      0.232421875,
+      0.3203125,
+      0.232421875,
+      0.29296875
+    ],
+    "signals_normalized": [
+      0.0,
+      1.0,
+      0.0,
+      0.6888888888888889
+    ],
+    "logic_scores": {
+      "AND": 0.0,
+      "OR": 0.0,
+      "NOT": 0.0,
+      "XOR": 0.0
+    },
+    "best_gate": "AND",
+    "best_score": 0.0,
+    "confidence": 0.0,
+    "correct_classification": false,
+    "synergy_metrics": {
+      "additivity_ratio": 0.5300353356890459,
+      "excess_over_max": -0.02734375,
+      "bliss_excess": -0.02734375,
+      "synergy_class": "interference"
+    },
+    "biological_rationale": "Cross-lineage antagonism (erythroid vs hepatic)"
+  }
+]

@@ -187,3 +187,6 @@ poetry.lock
 # -----------------------------------------------------------------------------
 *.orig
 *.rej
+
+# Logic gates sequences (too large for GitHub)
+experiments/logic_gates/sequences/*.fasta
