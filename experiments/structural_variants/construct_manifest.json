@@ -1,0 +1,191 @@
+[
+  {
+    "construct": "LoopIntact_10x",
+    "description": "10\u00d7 HS2 array with convergent CTCF anchors at 350/450 kb; promoter at 500 kb.",
+    "length": 1048576,
+    "fasta": "sequences/LoopIntact_10x_construct.fa",
+    "features": [
+      {
+        "label": "ctcf_anchor",
+        "start": 350000,
+        "end": 350018,
+        "anchor": "left",
+        "orientation": "forward"
+      },
+      {
+        "label": "hs2_block",
+        "start": 400000,
+        "end": 410010,
+        "copies": 10,
+        "unit_length": 1001
+      },
+      {
+        "label": "ctcf_anchor",
+        "start": 450000,
+        "end": 450018,
+        "anchor": "right",
+        "orientation": "reverse"
+      },
+      {
+        "label": "loop_spacer",
+        "start": 450018,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "length": 301
+      }
+    ],
+    "events": [
+      {
+        "event": "spacer_retained",
+        "position": 450018,
+        "length": 49982
+      }
+    ]
+  },
+  {
+    "construct": "LoopInverted_10x",
+    "description": "Right CTCF anchor flipped to disrupt loop polarity while keeping enhancer position constant.",
+    "length": 1048576,
+    "fasta": "sequences/LoopInverted_10x_construct.fa",
+    "features": [
+      {
+        "label": "ctcf_anchor",
+        "start": 350000,
+        "end": 350018,
+        "anchor": "left",
+        "orientation": "forward"
+      },
+      {
+        "label": "hs2_block",
+        "start": 400000,
+        "end": 410010,
+        "copies": 10,
+        "unit_length": 1001
+      },
+      {
+        "label": "ctcf_anchor",
+        "start": 450000,
+        "end": 450018,
+        "anchor": "right",
+        "orientation": "forward"
+      },
+      {
+        "label": "loop_spacer",
+        "start": 450018,
+        "end": 500000
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "length": 301
+      }
+    ],
+    "events": [
+      {
+        "event": "spacer_retained",
+        "position": 450018,
+        "length": 49982
+      },
+      {
+        "event": "anchor_inverted",
+        "position": 500301,
+        "anchor": "right"
+      }
+    ]
+  },
+  {
+    "construct": "LoopDeleted_10x",
+    "description": "Spacer between right anchor and promoter removed so promoter abuts the looped enhancer block.",
+    "length": 1048576,
+    "fasta": "sequences/LoopDeleted_10x_construct.fa",
+    "features": [
+      {
+        "label": "ctcf_anchor",
+        "start": 350000,
+        "end": 350018,
+        "anchor": "left",
+        "orientation": "forward"
+      },
+      {
+        "label": "hs2_block",
+        "start": 400000,
+        "end": 410010,
+        "copies": 10,
+        "unit_length": 1001
+      },
+      {
+        "label": "ctcf_anchor",
+        "start": 450000,
+        "end": 450018,
+        "anchor": "right",
+        "orientation": "reverse"
+      },
+      {
+        "label": "promoter",
+        "start": 450018,
+        "end": 450319,
+        "length": 301
+      }
+    ],
+    "events": [
+      {
+        "event": "spacer_deleted",
+        "position": 450018,
+        "length": 49982
+      }
+    ]
+  },
+  {
+    "construct": "LoopRelocated_10x",
+    "description": "Enhancer block moved to 800 kb; anchors remain around an empty loop near the promoter.",
+    "length": 1048576,
+    "fasta": "sequences/LoopRelocated_10x_construct.fa",
+    "features": [
+      {
+        "label": "ctcf_anchor",
+        "start": 350000,
+        "end": 350018,
+        "anchor": "left",
+        "orientation": "forward"
+      },
+      {
+        "label": "ctcf_anchor",
+        "start": 450000,
+        "end": 450018,
+        "anchor": "right",
+        "orientation": "reverse"
+      },
+      {
+        "label": "promoter",
+        "start": 500000,
+        "end": 500301,
+        "length": 301
+      },
+      {
+        "label": "hs2_block",
+        "start": 800000,
+        "end": 810010,
+        "copies": 10,
+        "unit_length": 1001
+      }
+    ],
+    "events": [
+      {
+        "event": "enhancer_removed_from_loop",
+        "position": 400000,
+        "copies": 10
+      },
+      {
+        "event": "enhancer_relocated",
+        "position": 810010,
+        "to": 800000,
+        "copies": 10
+      }
+    ]
+  }
+]

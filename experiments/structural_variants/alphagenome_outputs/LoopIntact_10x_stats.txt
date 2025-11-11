@@ -1,0 +1,7 @@
+Construct: LoopIntact_10x
+Timestamp: 2025-11-10T19:05:55.520790
+Array shape: (1048576, 1)
+Min: 0.000071
+Max: 0.253906
+Mean: 0.004374
+Std: 0.005827

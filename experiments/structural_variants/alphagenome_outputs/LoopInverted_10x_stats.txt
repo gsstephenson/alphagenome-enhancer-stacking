@@ -1,0 +1,7 @@
+Construct: LoopInverted_10x
+Timestamp: 2025-11-10T19:05:57.636304
+Array shape: (1048576, 1)
+Min: 0.000071
+Max: 0.253906
+Mean: 0.004373
+Std: 0.005819

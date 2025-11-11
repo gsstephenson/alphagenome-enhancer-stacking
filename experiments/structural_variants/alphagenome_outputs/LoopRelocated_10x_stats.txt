@@ -1,0 +1,7 @@
+Construct: LoopRelocated_10x
+Timestamp: 2025-11-10T19:06:01.504244
+Array shape: (1048576, 1)
+Min: 0.000066
+Max: 0.269531
+Mean: 0.004420
+Std: 0.005883

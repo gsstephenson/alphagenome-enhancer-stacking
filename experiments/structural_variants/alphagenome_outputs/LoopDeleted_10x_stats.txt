@@ -1,0 +1,7 @@
+Construct: LoopDeleted_10x
+Timestamp: 2025-11-10T19:05:59.728942
+Array shape: (1048576, 1)
+Min: 0.000071
+Max: 0.265625
+Mean: 0.004368
+Std: 0.005809
