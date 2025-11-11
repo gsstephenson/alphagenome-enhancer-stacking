@@ -81,24 +81,32 @@ filler/*.txt
 
 # Construct FASTAs (large synthetic sequences)
 sequences/constructs/*.fa
+sequences/constructs/
 !sequences/constructs/.gitkeep
 
 # AlphaGenome prediction outputs (binary files are large)
+alphagenome/outputs/*.npy
+alphagenome/outputs/*.txt
+alphagenome/outputs/*_dnase_mean.npy
+alphagenome/outputs/*.npz
 **/alphagenome_outputs/*.npy
 **/alphagenome_outputs/*_dnase.txt
 **/alphagenome_outputs/*_dnase_mean.npy
 **/alphagenome_outputs/*.npz
 
 # Keep stats files (small and informative)
+!alphagenome/outputs/*_stats.txt
 !**/alphagenome_outputs/*_stats.txt
 
 # Keep structure directories
+!alphagenome/outputs/.gitkeep
 !**/alphagenome_outputs/.gitkeep
 
 # Experiment outputs
 experiments/*/alphagenome_outputs/*.npy
 experiments/*/alphagenome_outputs/*.txt
 experiments/*/sequences/*.fa
+experiments/distance_decay/clean_sequences/
 !experiments/*/sequences/.gitkeep
 
 # -----------------------------------------------------------------------------
